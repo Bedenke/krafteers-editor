@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="1.8" />
+	<level>3</level>
+	<density>100</density>
+	<maxHealth>100</maxHealth>
+	<group>Wood Structure Home</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>1 LeafShelter 2 WoodLog</recipe>
+	<split range="1">2 WoodLog 2 Stick</split>
+	<modify>Carnivore</modify>
+	<modifyStamina>-3</modifyStamina>
+	<actions>Label Craft Drag Enter</actions>
+	<forwardTime>360</forwardTime>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<price>25</price>
+</dna>

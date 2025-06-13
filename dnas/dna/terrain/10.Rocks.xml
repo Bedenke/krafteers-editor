@@ -1,0 +1,12 @@
+<dna>
+	<terrainColor>#b3a68aFF</terrainColor>
+	<terrainLevel>4</terrainLevel>
+	<fx>Rocks</fx>
+	<surface>Land</surface>
+	<height>0.15</height>
+	<bounds>60</bounds>
+	<generate>Stone IronMine Boulder Boulder Spider Flint</generate>
+	<range>0</range>
+	<temperature>25</temperature>
+	<modifyStamina>-1</modifyStamina>
+</dna>

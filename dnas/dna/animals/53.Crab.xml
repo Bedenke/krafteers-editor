@@ -1,0 +1,22 @@
+<dna>
+	<sprite scale="0.5" />
+	<populationRatio>10</populationRatio>
+	<mobility>Sea Sand</mobility>
+	
+	<speed>4</speed>
+	<range>10</range>
+	
+	<maxHealth>5</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<group>Fish</group>
+	<evade>Carnivore</evade>
+	<chase>Flesh</chase>
+	<consume>Vegetable Meat</consume>
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+
+	<spawn interval="10" range="0">BabyCrab</spawn>
+	<split range="0">1 DeadCrab</split>
+	<editor category="Animals" />
+</dna>

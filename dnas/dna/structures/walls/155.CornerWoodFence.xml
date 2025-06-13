@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="1.15" />
+	<fx>WoodStructure</fx>
+	<density>100</density>
+	<maxHealth>50</maxHealth>/
+	<modify>Carnivore</modify>
+	<modifyStamina>-1</modifyStamina>
+	<group>Wood Structure</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<switch>WoodFence</switch>
+	<actions>Switch Drag Craft</actions>
+	<resistCold>100</resistCold>
+	<split range="1">1 Stick</split>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<collectible>false</collectible>
+</dna>

@@ -1,0 +1,6 @@
+<dna>
+	<sprite scale="0.6" frameRate="0.2">UndeadHand</sprite>
+	<populationRatio>20</populationRatio>
+	<maxHealth>30</maxHealth>
+	<morph delay="10">PlacedUndead</morph>
+</dna>

@@ -1,0 +1,12 @@
+<dna>
+	<terrainColor>#7bbf7eFF</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<fx>Grass</fx>
+	<surface>Field</surface>
+	<height>0.25</height>
+	<bounds>75</bounds>
+	<range>0</range>
+	<temperature>20</temperature>
+	<modifyStamina>-1</modifyStamina>
+	<generate>Stick Flint Vine Flower</generate>
+</dna>

@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="0.5" />
+	<populationRatio>7</populationRatio>
+	<mobility>Land</mobility>
+	<starve>true</starve>
+	<range>5</range>
+	<speed>3</speed>
+
+	<maxHealth>4</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<group>Herbivore Flesh</group>
+	<chase>Vegetation Trap</chase>
+	<consume>Vegetable</consume>
+	<evade>Carnivore</evade>
+
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+
+	<spawn interval="40" range="0">BabyRabbit</spawn>
+	<drop chance="30">Fur</drop>
+	<split range="0">1 DeadRabbit 1 BloodSplatter</split>
+
+	<editor category="Animals" />
+	<finalWave>true</finalWave>
+</dna>

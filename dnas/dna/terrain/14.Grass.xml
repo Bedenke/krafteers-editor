@@ -1,0 +1,13 @@
+<dna>
+	<terrainColor>#4DAC51FF</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<fx>Grass</fx>
+	<surface>Land</surface>
+	<height>0.2</height>
+	<bounds>70</bounds>
+	<generate>AppleTree AppleSeed Straw Shrub Bush Flower AppleTreeSapling VineTreeSeed BambooTree Rabbit BabyRabbit WaterSpring Flint</generate>
+	<range>0</range>
+	<temperature>25</temperature>
+	<humidity>5</humidity>
+	<modifyStamina>-1</modifyStamina>
+</dna>

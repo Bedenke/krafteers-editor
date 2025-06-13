@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="1.2" layer="Ground"/>
+	<level>3</level>
+	<maxHealth>200</maxHealth>
+	<surface>Occupied</surface>
+	<group>Wood</group>
+	<split range="0.2">1 Foliage</split>
+	<actions>Craft</actions>
+</dna>

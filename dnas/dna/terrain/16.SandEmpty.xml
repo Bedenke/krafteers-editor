@@ -1,0 +1,9 @@
+<dna>
+	<terrainColor>#f8d878ff</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<surface>Sand</surface>
+	<density>10</density>
+	<height>0.1</height>
+	<bounds>40</bounds>
+	<range>0</range>
+</dna>

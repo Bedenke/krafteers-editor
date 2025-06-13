@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="0.9" />
+	<populationRatio>2</populationRatio>
+	<mobility>Land Field</mobility>
+	<maxHealth>100</maxHealth>
+	<maxStamina>100</maxStamina>
+	<speed>8</speed>
+	<range>30</range>
+	<group>Enemy Carnivore Flesh Spawn</group>
+	<evade>Power</evade>
+	<chase excludeDnas="BabyPuma DeadPuma">Player Herbivore Flesh</chase>
+	<consume>Meat</consume>
+	<modifyHealth>-3</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<expire>10</expire>
+	<!-- <spawn interval="20" range="1">BabyPuma</spawn> -->
+	<split range="0">1 DeadPuma 1 BloodSplatter</split>
+	<editor category="Animals" />
+</dna>

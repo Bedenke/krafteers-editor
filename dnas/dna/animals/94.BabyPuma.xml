@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="0.5">Puma</sprite>
+	<populationRatio>6</populationRatio>
+	<mobility>Land</mobility>
+
+	<maxHealth>10</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>4</speed>
+	<range>3</range>
+
+	<group>Carnivore</group>
+	<chase>Herbivore</chase>
+	<consume>Meat</consume>
+	<evade>Carnivore</evade>
+
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<follow includeDnas="Puma"></follow>
+
+	<morph delay="5">Puma</morph>
+	<split range="0">1 BloodSplatter</split>
+	<collectible>false</collectible>
+</dna>

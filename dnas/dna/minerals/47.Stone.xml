@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="0.6" />
+	<fx>StoneItem</fx>
+	<group>Rock</group>
+	<populationRatio>10</populationRatio>
+	<maxHealth>50</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<split range="0.4">3 Flint</split>
+	<actions>Pick</actions>
+	<stack>6</stack>
+	<resistCold>100</resistCold>
+	<editor category="Minerals" />
+</dna>

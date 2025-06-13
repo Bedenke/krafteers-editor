@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="1" />
+	<populationRatio>25</populationRatio>
+	<mobility>Sea</mobility>
+
+	<maxHealth>300</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>7</speed>
+	<range>10</range>
+
+	<group>Fish</group>
+	<chase excludeDnas="DeadShark BabyShark">Player Target Enemy Flesh</chase>
+	<consume>Meat</consume>
+	<rate>2</rate>
+	<modifyHealth>-30</modifyHealth>
+	<modifyStamina>-2</modifyStamina>
+	<modifyBack>false</modifyBack>
+	<resistCold>100</resistCold>
+
+	<spawn interval="20" range="1">BabyShark</spawn>
+	<split range="0">1 DeadShark 1 BloodSplatter</split>
+	<editor category="Animals" />
+</dna>

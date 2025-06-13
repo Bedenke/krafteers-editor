@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="0.5">DesertTree</sprite>
+	<fx>TreeSapling</fx>
+	<populationRatio>14</populationRatio>
+	<mobility>Land</mobility>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Wood</group>
+	<split range="0">1 Straw</split>
+	<morph delay="50">DesertTree</morph>
+	<actions>Modify</actions>
+	<collectible>false</collectible>
+</dna>

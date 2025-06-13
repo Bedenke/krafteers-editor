@@ -1,0 +1,25 @@
+<dna>	
+	<sprite scale="1.4">Krafteer</sprite>
+	<fx>HumanMale</fx>
+	<resistCold>20</resistCold>
+	<healHealth>1</healHealth>
+	<healInfection>1</healInfection>
+	<visibility>Always</visibility>
+	<mobility>Sand Land Field Ground</mobility>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<rate>1</rate>
+	<speed>4</speed>
+	<range>7</range>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<counterMode>Rank</counterMode>
+	<group>Team Target</group>
+	<chase>Enemy</chase>
+	<follow>Home</follow>
+	<modify>Enemy Carnivore Herbivore</modify>
+	<modifyHealth>-4</modifyHealth>
+	<split range="0">1 BloodSplatter</split>
+	<container>1</container>
+	<collectible>false</collectible>
+</dna>

@@ -1,0 +1,13 @@
+<dna>
+	<terrainColor>#53b6e2FF</terrainColor>
+	<terrainLevel>-1</terrainLevel>
+	<fx>Lake</fx>
+	<surface>Water</surface>
+	<density>50</density>
+	<height>-0.3</height>
+	<bounds>30</bounds>
+	<generate>Fish</generate>
+	<range>0</range>
+	<temperature>10</temperature>
+	<modifyStamina>-2</modifyStamina>
+</dna>

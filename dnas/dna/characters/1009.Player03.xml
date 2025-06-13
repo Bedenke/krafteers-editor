@@ -1,0 +1,7 @@
+<dna extends="./1006.PlayerFemale.xml">
+	<sprite scale="1" offsetZ="0">Player3</sprite>
+	<price>100</price>
+	<maxStamina>500</maxStamina>
+	<speed>5</speed>
+	<recipePriority>4</recipePriority>
+</dna>

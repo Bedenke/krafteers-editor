@@ -1,0 +1,27 @@
+<dna>
+	<sprite scale="0.5">Hog</sprite>
+	<starve>true</starve>
+	<populationRatio>7</populationRatio>
+	<mobility>Land Sand Field</mobility>
+
+	<maxHealth>30</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>2</speed>
+	<range>3</range>
+
+	<group>Herbivore</group>
+	<chase>Vegetation</chase>
+	<consume>Vegetable</consume>
+	<evade>Power</evade>
+	<modifyHealth>-2</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<follow includeDnas="Hog"></follow>
+
+	<morph delay="30">Hog</morph>
+	<split range="0">1 BloodSplatter</split>
+
+	<actions>Craft Pick</actions>
+	<editor category="Animals" />
+	<collectible>false</collectible>
+</dna>

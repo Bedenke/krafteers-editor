@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="1.2" />
+	<fx>HumanHealer</fx>
+	<maxHealth>1000</maxHealth>
+	<maxStamina>500</maxStamina>
+	<healHealth>1</healHealth>
+	<healInfection>1</healInfection>
+	<speed>4</speed>
+	<range>20</range>
+	<actionRange>1</actionRange>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Closest</pathfindMode>
+	<group>Team Target</group>
+	<consume>Meat Vegetable Mineral</consume>
+	<modifyHealth>5</modifyHealth>
+	<rate>5</rate>
+	<chase>Structure</chase>
+	<modify>Structure</modify>
+	<counterMode>Rank</counterMode>
+	<split range="0">1 BloodSplatter</split>
+	<actions>Craft Link Guard Label</actions>
+	<createWith>IronHammer</createWith>
+	<savable>true</savable>
+	<editor category="Characters" />
+</dna>

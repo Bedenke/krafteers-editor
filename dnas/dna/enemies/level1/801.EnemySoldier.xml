@@ -1,0 +1,22 @@
+<dna>
+	<sprite scale="1.15" />
+	<level>1</level>
+	<visibility>Always</visibility>
+	<maxHealth>100</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>4</speed>
+	<range>10</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<rate>2</rate>
+	<group>Enemy Wave</group>
+	<chase>Player Target</chase>
+	<modify>Player Structure Target</modify>
+	<modifyHealth>-2</modifyHealth>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>1</modifyCounter>
+	<drop chance="10" range="0.5">Token</drop>
+	<split range="0">1 DeadEnemySoldier 1 BloodSplatter</split>
+	<editor category="Enemies" />
+</dna>

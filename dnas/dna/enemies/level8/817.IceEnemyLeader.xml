@@ -1,0 +1,30 @@
+<dna>
+	<sprite scale="1.8" />
+	<level>8</level>
+	<populationRatio>1</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>1200</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>4</speed>
+	<range>30</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+
+	<group>Leader Enemy Wave</group>
+	<modify>Player Structure Target</modify>
+	<modifyHealth>-4</modifyHealth>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>3</modifyCounter>
+	<actionRange>6</actionRange>
+	<resistCold>100</resistCold>
+
+	<chase excludeDnas="PitTrap LandMine">Player Target</chase>
+	<drop chance="10">IceGem</drop>
+	<split range="0">1 DeadEnemyLeader 1 BloodSplatter 1 IceGem</split>
+	<light range="2" r="0" g="0.3" b="1"/>
+	<cast speed="15" spawn="true">Iceball</cast>
+	<rate>5</rate>
+	<editor category="Enemies" />
+
+</dna>

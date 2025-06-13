@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="1.2" layer="Ground" />
+	<skus>None</skus>
+	<maxHealth>200</maxHealth>
+	<mobility>Land Field</mobility>
+	<surface>Occupied</surface>
+	<group>Wood</group>
+	<recipe>0 IronPick</recipe>
+	<recipePriority>5</recipePriority>
+	<actions>Craft Drag</actions>
+	<editor category="Vegetation" />
+	<snap>true</snap>
+</dna>

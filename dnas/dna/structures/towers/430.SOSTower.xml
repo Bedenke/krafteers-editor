@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="3" />
+	<fx>IronStructure</fx>
+	<density>100</density>
+	<group>Metal</group>
+	<maxHealth>500</maxHealth>
+	<mobility>Land Sand Field Ground</mobility>
+	<split range="1">3 Plank 2 Stick 2 IronIngot 1 Pipe</split>
+	<modifyStamina>-3</modifyStamina>
+	<light range="2" r="1" g="0.4" b="0"/>
+	<editor category="Structures" />
+	<snap>true</snap>
+</dna>

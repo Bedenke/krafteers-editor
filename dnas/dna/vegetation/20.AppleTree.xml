@@ -1,0 +1,22 @@
+<dna>
+	<sprite scale="1.8" />
+	<fx>Tree</fx>
+	<density>100</density>
+	<mobility>Land</mobility>
+	<populationRatio>20</populationRatio>
+	<group>Wood</group>
+	<maxHealth>100</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<spawn interval="30" range="2">AppleSeed AppleSeed Bird</spawn>
+	<morph delay="213">DeadTree</morph>
+	<drop chance="75">WoodLog</drop>
+	<drop>WoodLog</drop>
+	<drop chance="70">Foliage</drop>
+	<split range="0">1 TreeStump</split>
+	<generate interval="15">Apple</generate>
+	<container>3</container>
+	<actions>View</actions>
+	<editor category="Vegetation" />
+	<sensor range="4" spawn="Kreep" chance="5" interval="10" activePeriod="0 4" include="Player" />
+	<finalWave>true</finalWave>
+</dna>

@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="1" />
+	<level>12</level>
+	<populationRatio>2</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>75</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>3</speed>
+	<range>30</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Closest</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase>Wave</chase>
+	<follow>Wave</follow>
+	<group>Enemy Wave</group>
+	<modify>Wave</modify>
+	<modifyHealth>3</modifyHealth>
+	<rate>2</rate>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>0</modifyCounter>
+	<morph delay="10">DeadEnemyHealer</morph>
+	<drop chance="10" range="0.5">Token</drop>
+	<split range="0">1 DeadEnemyHealer 1 BloodSplatter</split>
+	<editor category="Enemies" />
+</dna>

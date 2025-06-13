@@ -1,0 +1,11 @@
+<dna>
+	<sprite scale="0.6" />
+	<populationRatio>15</populationRatio>
+	<group>Mineral</group>
+	<maxHealth>3</maxHealth>
+	<expire>15</expire>
+	<modifyStamina>8</modifyStamina>
+	<stack>10</stack>
+	<actions>Pick</actions>
+	<editor category="Items" />
+</dna>

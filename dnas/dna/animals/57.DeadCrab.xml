@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="0.5">Crab</sprite>
+	<maxHealth>2</maxHealth>
+	<group>Meat</group>
+	<modifyStamina>5</modifyStamina>
+	<expire>20</expire>
+	<actions>Pick Consume</actions>
+	<collectible>false</collectible>
+</dna>

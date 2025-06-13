@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.35" drawAsEquip="false" />
+	<maxHealth>10</maxHealth>
+	<group>Wood</group>
+	<equip>Hand</equip>
+	<actions>Pick View</actions>
+	<extract from="Lake">Water</extract>
+	<container stash="true" dnas="Water">1</container>
+	<editor category="Items" />
+</dna>

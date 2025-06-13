@@ -1,0 +1,23 @@
+<dna>
+	<sprite frameRate="0.1" scale="0.6" />
+	<density>100</density>
+	<group>Wood Fire</group>
+	<maxHealth>50</maxHealth>
+
+	<modify>Meat</modify>
+	<modifyHealth>-5</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<morph delay="40">Ember</morph>
+	<split range="0">1 Charcoal</split>
+	<range>7</range>
+
+	<recipe>0 Flint 1 Straw 1 WoodLog</recipe>
+	<recipe>1 Ember 1 WoodLog</recipe>
+	<recipePriority>4</recipePriority>
+	<actions>Craft Drag</actions>
+	<resistCold>100</resistCold>
+
+	<light range="9" r="1" g="0.5" b="0.1"/>
+	<editor category="Tools" />
+	<snap>true</snap>
+</dna>

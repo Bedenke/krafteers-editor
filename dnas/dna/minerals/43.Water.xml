@@ -1,0 +1,11 @@
+<dna>
+	<sprite scale="0.5" />
+	<group>Mineral Food</group>
+	<modify>Player Team Carnivore Herbivore</modify>
+	<modifyStamina>15</modifyStamina>
+	<maxHealth>1</maxHealth>
+	<actions>Pick Consume</actions>
+	<splash>WaterSplash</splash>
+	<stack>5</stack>
+	<editor category="Minerals" />
+</dna>

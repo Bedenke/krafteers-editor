@@ -1,0 +1,23 @@
+<dna>
+	<sprite scale="0.8" />
+	<populationRatio>1</populationRatio>
+	<mobility>Land Sand</mobility>
+
+	<maxHealth>5</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>1</speed>
+	<range>5</range>
+	<fly>10</fly>
+	
+	<chase>Flesh</chase>
+	<follow includeDnas="Flower"></follow>
+
+	<modify>Carnivore Herbivore</modify>
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+
+	<expire>15</expire>
+	<editor category="Animals" />
+
+</dna>

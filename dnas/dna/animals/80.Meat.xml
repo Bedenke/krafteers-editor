@@ -1,0 +1,11 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>Item</fx>
+	<maxHealth>1</maxHealth>
+	<group>Meat</group>
+	<modifyStamina>10</modifyStamina>
+	<expire>40</expire>
+	<stack>3</stack>
+	<actions>Pick</actions>
+	<editor category="Items" />
+</dna>

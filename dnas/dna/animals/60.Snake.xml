@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="0.7" />
+	<starve>true</starve>
+	<populationRatio>2</populationRatio>
+	<mobility>Land Sand Field</mobility>
+
+	<maxHealth>40</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>2</speed>
+	<range>4</range>
+	<rate>2</rate>
+
+	<group>Carnivore Flesh</group>
+	<evade>Power</evade>
+	<chase excludeDnas="BabySnake DeadSnake">Herbivore Flesh</chase>
+	<consume>Meat</consume>
+	<modifyHealth>-2</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<modifyInfection>10</modifyInfection>
+
+	<spawn interval="60" range="0">SnakeEgg</spawn>
+	<split range="0">1 DeadSnake 1 BloodSplatter</split>
+	<editor category="Animals" />
+</dna>

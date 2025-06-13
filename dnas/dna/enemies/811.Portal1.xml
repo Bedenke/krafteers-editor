@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="1.8" layer="Ground">Portal</sprite>
+	<maxHealth>500</maxHealth>
+	<light range="6" r="0.1" g="0.5" b="0.6"/>
+	<split range="2">4 Stone</split>
+	<spawn interval="20" range="2">MonolithHand</spawn>
+	<actions>Craft</actions>
+	<editor category="Enemies" />
+	<gameState>Normal</gameState>
+</dna>

@@ -1,0 +1,6 @@
+<dna>
+	<sprite scale="1.5">EnemyHeavy</sprite>
+	<expire>1</expire>
+	<selectable>false</selectable>
+	<collectible>false</collectible>
+</dna>

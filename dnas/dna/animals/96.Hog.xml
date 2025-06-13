@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="1" />
+	<starve>true</starve>
+	<populationRatio>4</populationRatio>
+	<mobility>Land Field</mobility>
+
+	<maxHealth>60</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>2</speed>
+	<range>3</range>
+
+	<group>Carnivore Herbivore</group>
+	<chase excludeDnas="BabyHog DeadHog">Herbivore Carnivore Vegetation Flesh</chase>
+	<consume>Meat Vegetable</consume>
+	<evade>Power</evade>
+	<modifyHealth>-6</modifyHealth>
+	<modifyStamina>-2</modifyStamina>
+
+	<spawn interval="30" range="1">BabyHog</spawn>
+	<morph delay="120">DeadHog</morph>
+	<split range="0">1 DeadHog 1 BloodSplatter</split>
+
+	<editor category="Animals" />
+	<finalWave>true</finalWave>
+</dna>

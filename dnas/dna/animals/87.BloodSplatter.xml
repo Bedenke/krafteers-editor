@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.7" layer="Ground"/>
+	<morph delay="2"></morph>
+	<editor category="Items" />
+	<height>-0.3</height>
+	<selectable>false</selectable>
+</dna>

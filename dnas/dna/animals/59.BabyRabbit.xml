@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="0.3">Rabbit</sprite>
+	<starve>true</starve>
+	<populationRatio>6</populationRatio>
+	<mobility>Land</mobility>
+
+	<maxHealth>1</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<range>4</range>
+	<speed>4</speed>
+
+	<group>Herbivore</group>
+	<consume>Vegetable</consume>
+	<evade>Carnivore</evade>
+	<follow includeDnas="Rabbit"></follow>
+	
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<actions>Pick</actions>
+
+	<morph delay="20">Rabbit</morph>
+	<split range="0">1 BloodSplatter</split>
+	<editor category="Animals" />
+	<collectible>false</collectible>
+</dna>

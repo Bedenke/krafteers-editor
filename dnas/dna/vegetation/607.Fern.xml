@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="1.4" />
+	<populationRatio>6</populationRatio>
+	<group>Vegetation</group>
+	<mobility>Land Rocks</mobility>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<spawn interval="58" range="2">Fern Shrub</spawn>
+	<split range="0.5">1 PalmLeaf 1 Foliage</split>
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+</dna>

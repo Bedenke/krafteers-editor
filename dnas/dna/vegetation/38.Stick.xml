@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5" layer="Ground"/>
+	<fx>WoodItem</fx>
+	<populationRatio>5</populationRatio>
+	<stack>10</stack>
+	<actions>Pick</actions>
+	<expire>20</expire>
+	<resistCold>100</resistCold>
+	<editor category="Vegetation" />
+</dna>

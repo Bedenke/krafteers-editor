@@ -1,0 +1,6 @@
+<dna>
+	<fx>Decoration</fx>
+	<sprite scale="0.5" />
+	<populationRatio>3</populationRatio>
+	<editor category="Items" />
+</dna>

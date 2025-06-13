@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.5" />
+	<maxHealth>20</maxHealth>
+	<group>Wood</group>
+	<recipe>0 WoodTable 1 Flint 1 Bamboo</recipe>
+	<modify>Enemy Carnivore Herbivore Bird</modify>
+	<modifyHealth>-30</modifyHealth>
+	<actionRange>1</actionRange>
+	<actions>Pick</actions>
+	<stack>20</stack>
+	<editor category="Tools" />
+</dna>

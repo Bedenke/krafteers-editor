@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="1.15" />
+	<populationRatio>2</populationRatio>
+	<maxHealth>80</maxHealth>
+	<maxStamina>100</maxStamina>
+	<speed>2</speed>
+	<range>8</range>
+	<actionRange>1</actionRange>
+	<group>Enemy</group>
+	<chase>Player Team</chase>
+	<modify>Player Team Structure</modify>
+	<modifyHealth>-4</modifyHealth>
+	<modifyBack>false</modifyBack>
+	<resistCold>100</resistCold>
+	<morph delay="30">UndeadHand</morph>
+	<drop chance="75">Bones</drop>
+	<split range="0">1 DeadEnemySoldier 1 BloodSplatter</split>
+	<editor category="Enemies" />
+</dna>

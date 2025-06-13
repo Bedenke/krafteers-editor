@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="1.15" />
+	<fx>WoodStructure</fx>
+	<density>100</density>
+	<maxHealth>70</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<group>Wood Structure</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<switch>CornerWoodWall</switch>
+	<recipe>1 WoodFence 1 Plank</recipe>
+	<split range="1">1 Stick</split>
+	<drop chance="50">Plank</drop>
+	<actions>Switch Rotate Drag Craft</actions>
+	<resistCold>100</resistCold>
+	<editor category="Structures" />
+	<snap>true</snap>
+</dna>

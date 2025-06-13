@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="0.6" drawAsEquip="false" />
+	<maxHealth>30</maxHealth>
+	<recipe>0 WoodTable 2 Fur 1 Vine</recipe>
+	<container stash="true">4</container>
+	<equip>Hand</equip>
+	<actions>View Pick</actions>
+	<editor category="Tools" />
+</dna>

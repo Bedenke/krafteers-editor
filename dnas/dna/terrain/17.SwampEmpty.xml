@@ -1,0 +1,8 @@
+<dna>
+	<terrainColor>#008888FF</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<surface>Land</surface>
+	<height>0.1</height>
+	<bounds>15</bounds>
+	<generate>Fern Bush DeadTree Bones Spider UndeadHand Skull</generate>
+</dna>

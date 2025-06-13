@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="1.2" layer="Ground"/>
+	<populationRatio>20</populationRatio>
+	<maxHealth>5</maxHealth>
+	<modifyStamina>5</modifyStamina>
+	<group>Vegetable</group>
+	<actions>Pick</actions>
+	<stack>3</stack>
+	<editor category="Vegetation" />
+</dna>

@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="1.8" />
+	<fx>DeadTree</fx>
+	<populationRatio>8</populationRatio>
+	<density>100</density>
+	<maxHealth>40</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+
+	<group>Wood</group>
+	<spawn interval="52" range="0">Spider</spawn>
+	<drop chance="75">WoodLog</drop>
+	<drop chance="25" always="true">Straw</drop>
+	<drop>WoodLog</drop>
+	<split range="0">1 PalmTreeStump</split>
+	<editor category="Vegetation" />
+</dna>

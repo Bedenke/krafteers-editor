@@ -1,0 +1,14 @@
+<dna>
+	<terrainColor>#F7D492ff</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<fx>Sand</fx>
+	<surface>Land</surface>
+	<density>10</density>
+	<height>0.15</height>
+	<bounds>45</bounds>
+	<generate>Snake SnakeEgg DesertTree DesertTreeSeed DeadTree Cactus UndeadHand</generate>
+	<range>0</range>
+	<temperature>40</temperature>
+	<humidity>-10</humidity>
+	<modifyStamina>-2</modifyStamina>
+</dna>

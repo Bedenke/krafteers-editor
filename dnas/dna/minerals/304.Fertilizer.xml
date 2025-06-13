@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>Item</fx>
+	<populationRatio>10</populationRatio>
+	<actions>Pick</actions>
+	<expire>30</expire>
+	<stack>10</stack>
+	<maxHealth>1</maxHealth>
+	<editor category="Minerals" />
+</dna>

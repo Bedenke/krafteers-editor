@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="1" />
+	<maxHealth>200</maxHealth>
+	<surface>Occupied</surface>
+	<group>Wood</group>
+	<recipe>1 Plantation 1 Bamboo 1 Water</recipe>
+	<morph delay="20">BambooPlant</morph>
+	<modify>Carnivore Herbivore</modify>
+	<modifyStamina>-1</modifyStamina>
+	<actions>Craft</actions>
+	<snap>true</snap>
+	<editor category="Vegetation" />
+</dna>

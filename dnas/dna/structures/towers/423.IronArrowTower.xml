@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="2" />
+	<fx>IronStructure ArrowTower</fx>
+	<level>4</level>
+	<density>100</density>
+	<group>Metal Structure Target</group>
+	<rate>2</rate>
+	<maxHealth>600</maxHealth>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>1 StoneArrowTower 3 IronIngot</recipe>
+	<split range="1">3 Stone 2 IronOre</split>
+	<drop chance="30">PowerGem</drop>
+	<modify>Carnivore</modify>
+	<modifyStamina>-3</modifyStamina>
+	<resistCold>90</resistCold>
+	<resistHeat>50</resistHeat>
+	<chase>Enemy</chase>
+	<actionRange>9</actionRange>
+	<cast speed="45" spawn="true">TowerArrow</cast>
+	<price>500</price>
+	<actions>Drag</actions>
+	<editor category="Structures" />
+	<snap>true</snap>
+</dna>

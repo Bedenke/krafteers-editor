@@ -1,0 +1,16 @@
+<dna>
+	<sprite frameRate="0.1" scale="0.5" />
+	<group>Wood Fire</group>
+	<maxHealth>20</maxHealth>
+	<modify>Carnivore Herbivore Enemy</modify>
+	<modifyHealth>-3</modifyHealth>
+	<split range="0">1 Charcoal</split>
+	<range>6</range>
+	<recipe>0 Campfire 1 Stick 1 Straw</recipe>
+	<recipe>0 Campfire 1 Torch</recipe>
+	<actions>Pick</actions>
+	<equip>Hand</equip>
+	<light range="9" r="1" g="0.6" b="0.0"/>
+	<editor category="Tools" />
+	<price>15</price>
+</dna>

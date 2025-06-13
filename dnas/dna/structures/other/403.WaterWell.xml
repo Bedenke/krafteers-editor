@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="1.2" />
+	<fx>StoneStructure</fx>
+	<density>100</density>
+	<group>Rock Structure</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>1 WaterSpring 2 Stone 1 Bucket</recipe>
+	<split range="0">1 WaterSpring 2 Stone 1 IronOre 1 WaterSplash</split>
+	<modify>Carnivore</modify>
+	<modifyStamina>-2</modifyStamina>
+	<generate interval="1">Water</generate>
+	<container>5</container>
+	<spawn interval="10" range="2">WaterSplash</spawn>
+	<actions>View</actions>
+	<editor category="Structures" />
+</dna>

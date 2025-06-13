@@ -1,0 +1,13 @@
+<dna>
+	<terrainColor>#f7e8c1FF</terrainColor>
+	<terrainLevel>3</terrainLevel>
+	<fx>Sand</fx>
+	<surface>Sand</surface>
+	<density>10</density>
+	<height>0.1</height>
+	<bounds>40</bounds>
+	<generate>Coconut YoungPalmtree Palmtree Boulder Flint BabyCrab Crate</generate>
+	<range>0</range>
+	<temperature>20</temperature>
+	<modifyStamina>-1</modifyStamina>
+</dna>

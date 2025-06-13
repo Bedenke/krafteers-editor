@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="1.3" />
+	<level>25</level>
+	<populationRatio>3</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>500</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>4</speed>
+	<fly>10</fly>
+	<range>10</range>
+	<targeting>Smart</targeting>
+	<group>Enemy Wave</group>
+	<chase>Player</chase>
+	<modify>Player Structure Target</modify>
+	<modifyBack>false</modifyBack>
+	<modifyHealth>-5</modifyHealth>
+	<modifyCounter>2</modifyCounter>
+	<rate>2</rate>
+	<drop chance="10" range="0.5">Token</drop>
+	<drop chance="2">PowerGem</drop>
+	<drop chance="2">FireGem</drop>
+	<drop chance="2">IceGem</drop>
+	<light range="2" r="0" g="0.3" b="0.3"/>
+	<editor category="Enemies" />
+</dna>

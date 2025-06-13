@@ -1,0 +1,27 @@
+<dna>	
+	<sprite scale="1.2" />
+	<fx>HumanMale</fx>
+	<resistCold>20</resistCold>
+	<healHealth>1</healHealth>
+	<healInfection>1</healInfection>
+	<mobility>Sand Land Field Ground</mobility>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<rate>1</rate>
+	<speed>4</speed>
+	<range>10</range>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<counterMode>Rank</counterMode>
+	<group>Team Target</group>
+	<chase>Enemy</chase>
+	<follow>Portal</follow>
+	<modify>Enemy Carnivore Herbivore</modify>
+	<modifyHealth>-4</modifyHealth>
+	<split range="0">1 BloodSplatter</split>
+	<container>1</container>
+	<actions>Craft Link Guard Label</actions>
+	<savable>true</savable>
+	<finalWave>true</finalWave>
+	<editor category="Characters" />
+</dna>

@@ -1,0 +1,44 @@
+<dna>
+	<sprite scale="3" shadow="true"/>
+	<visibility>Always</visibility>
+	<maxHealth>15000</maxHealth>
+	<maxStamina>32000</maxStamina>
+
+	<speed>5</speed>
+	<fly>10</fly>
+	<range>20</range>
+	<actionRange>3</actionRange>
+
+	<pathfindRange>20</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<chase>Player</chase>
+	<group>Leader Enemy</group>
+	
+	<rate>4</rate>
+	<modify>Player Structure Target Wood Carnivore Herbivore</modify>
+	<modifyHealth>-10</modifyHealth>
+	<modifyTemperatue>80</modifyTemperatue>
+	<modifyRange>4</modifyRange>
+	<modifyExplode>false</modifyExplode>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>10</modifyCounter>
+
+	<drop range="1">FireDemon</drop>
+	<drop range="1">IceDemon</drop>
+	<drop range="1">PoisonDemon</drop>
+	<drop range="1">ElectricDemon</drop>
+	<drop range="1">TeamExplosion</drop>
+	<drop range="2">TeamExplosion</drop>
+	<drop range="2">TeamExplosion</drop>
+	<drop range="1">DiamondStar</drop>
+	<split range="0">1 DemonStatue</split>
+	<light range="2" r="1" g="0.1" b="0.1"/>
+
+	<spawn interval="1" range="5">Kreep</spawn>
+
+	<resistHeat>100</resistHeat>
+	<resistCold>100</resistCold>
+	<resistInfection>100</resistInfection>
+
+	<editor category="Enemies" />
+</dna>

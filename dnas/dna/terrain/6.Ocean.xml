@@ -1,0 +1,13 @@
+<dna>
+	<terrainColor>#2856a3FF</terrainColor>
+	<terrainLevel>2</terrainLevel>
+	<fx>Ocean</fx>
+	<surface>Sea</surface>
+	<density>50</density>
+	<height>-0.3</height>
+	<bounds>30</bounds>
+	<generate>Coral Fish Shark</generate>
+	<range>0</range>
+	<temperature>0</temperature>
+	<modifyStamina>-5</modifyStamina>
+</dna>

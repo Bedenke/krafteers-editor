@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="2" />
+	<fx>DiamondStar</fx>
+	<visibility>Always</visibility>
+	<density>100</density>
+	<maxHealth>1000</maxHealth>
+	<editor category="Structures" />
+	<actions>Craft</actions>
+	<light range="1" r="0.5" g="0.5" b="1"/>
+</dna>

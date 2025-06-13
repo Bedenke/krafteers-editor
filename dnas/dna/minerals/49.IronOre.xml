@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>StoneItem</fx>
+	<group>Metal</group>
+	<stack>4</stack>
+	<populationRatio>4</populationRatio>
+	<actions>Pick</actions>
+	<editor category="Minerals" />
+</dna>

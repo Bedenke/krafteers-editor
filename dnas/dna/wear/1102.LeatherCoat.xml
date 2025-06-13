@@ -1,0 +1,12 @@
+<dna>
+	<fx>Item</fx>
+	<sprite tint="#754627ff" />
+	<maxHealth>50</maxHealth>
+	<equip>Torso</equip>
+	<actions>Pick</actions>
+	<recipe>0 SewingTable 4 Fur 1 Vine</recipe>
+	<resistCold>30</resistCold>
+	<resistDamage>5</resistDamage>
+	<editor category="Wearables" />
+	<price>50</price>
+</dna>

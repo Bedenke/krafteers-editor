@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>MetalItem</fx>
+	<group>Metal</group>
+	<recipe>1 IronOre 0 Furnace</recipe>
+	<actions>Pick</actions>
+	<stack>10</stack>
+	<editor category="Minerals" />
+	<price>100</price>
+</dna>

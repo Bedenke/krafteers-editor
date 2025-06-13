@@ -1,0 +1,18 @@
+<dna>
+	<sprite scale="1.4" layer="Ground" />
+	<skus>None</skus>
+	<density>1</density>
+	<surface>Ground</surface>
+	<group>Wood</group>
+	<recipe>1 Plank 1 Stick</recipe>
+	<drop chance="50">Plank</drop>
+	<drop chance="50">Stick</drop>
+	<modify>Carnivore</modify>
+	<modifyStamina>-1</modifyStamina>
+	<mobility>Water Sea Sand</mobility>
+	<height>0.35</height>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<selectable longPress="true">true</selectable>
+	<recipePriority>6</recipePriority>
+</dna>

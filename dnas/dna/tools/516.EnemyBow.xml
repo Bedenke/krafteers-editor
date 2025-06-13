@@ -1,0 +1,14 @@
+<dna>
+	<sprite scale="0.5">Bow</sprite>
+	<fx>Bow WoodItem</fx>
+	<maxHealth>30</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<modify>Enemy Player Target Team Structure</modify>
+	<modifyHealth>-5</modifyHealth>
+	<expire>1</expire>
+	<splash>BloodSplatter</splash>
+	<equip>Hand</equip>
+	<actionRange>7</actionRange>
+	<rate>3</rate>
+	<cast speed="40" spawn="true">EnemyArrow</cast>
+</dna>

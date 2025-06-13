@@ -1,0 +1,31 @@
+<dna>
+	<sprite scale="1.3" />
+	<level>20</level>
+	<populationRatio>5</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>120</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>2</speed>
+	<range>30</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase>Player Target</chase>
+
+	<group>Enemy Wave</group>
+	<modify>Player Target</modify>
+	<modifyHealth>-2</modifyHealth>
+	<actionRange>1</actionRange>
+	<modifyRange>2</modifyRange>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>2</modifyCounter>
+	<rate>6</rate>
+	<resistInfection>100</resistInfection>
+
+	<drop chance="10" range="0.5">Token</drop>
+	<drop range="1">PoisonPuddle</drop>
+	<drop chance="20">Bones</drop>
+	<split range="0">1 PoisonExplosion</split>
+	<light range="3" r="0.2" g="1" b="0.2"/>
+	<editor category="Enemies" />
+</dna>

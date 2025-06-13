@@ -1,0 +1,22 @@
+<dna>
+	<sprite scale="1" />
+	<fx>MetalItem</fx>
+	<skus>None</skus>
+	<group>Metal</group>
+	<maxHealth>100</maxHealth>
+
+	<modify>Flesh Carnivore Herbivore Enemy Wood Stone</modify>
+	<modifyHealth>-2</modifyHealth>
+	<modifyTemperature>100</modifyTemperature>
+	<rate>0.5</rate>
+
+	<light range="5" r="1" g="0.3" b="0.1"/>
+	<recipe>0 Player4 1 Pipe 1 Gas 1 LightedTorch</recipe>
+	<recipe>0 TeamFlag 1 Pipe 1 Gas 1 LightedTorch</recipe>
+
+	<split range="0">1 Stick</split>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<price>0</price>
+	<editor category="Tools" />
+</dna>

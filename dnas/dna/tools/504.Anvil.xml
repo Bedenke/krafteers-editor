@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="0.7" />
+	<fx>IronStructure</fx>
+	<density>100</density>
+	<group>Structure Metal</group>
+	<maxHealth>100</maxHealth>
+	<drop chance="20">IronIngot</drop>
+	<split range="1">1 IronIngot</split>
+	<recipe>4 IronIngot 1 Plank 1 Hammer</recipe>
+	<recipePriority>4</recipePriority>
+	<resistCold>100</resistCold>
+	<actions>Craft Drag</actions>
+	<editor category="Tools" />
+	<snap>true</snap>
+	<price>50</price>
+</dna>

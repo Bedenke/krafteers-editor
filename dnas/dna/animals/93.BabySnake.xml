@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="0.4">Snake</sprite>
+	<populationRatio>2</populationRatio>
+	<mobility>Land Sand Field</mobility>
+
+	<maxHealth>10</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<rate>2</rate>
+	<speed>2</speed>
+	<range>2</range>
+
+	<group>Carnivore</group>
+	<chase>Herbivore</chase>
+	<consume>Meat</consume>
+	<evade>Power</evade>
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<modifyInfection>5</modifyInfection>
+
+	<morph delay="10">Snake</morph>
+	<split range="0">1 BloodSplatter</split>
+	<collectible>false</collectible>
+</dna>

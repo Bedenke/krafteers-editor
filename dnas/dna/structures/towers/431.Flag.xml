@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="2">TeamFlag</sprite>
+	<fx>IronStructure</fx>
+	<visibility>Always</visibility>
+	<density>100</density>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<actions>Craft</actions>
+</dna>

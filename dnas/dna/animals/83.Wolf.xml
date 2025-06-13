@@ -1,0 +1,20 @@
+<dna>
+	<sprite scale="0.85" />
+	<starve>true</starve>
+	<populationRatio>4</populationRatio>
+	<mobility>Land</mobility>
+	<maxHealth>60</maxHealth>
+	<maxStamina>100</maxStamina>
+	<speed>3</speed>
+	<range>5</range>
+	<group>Carnivore Spawn</group>
+	<chase excludeDnas="Wolf BabyWolf">Carnivore Herbivore Flesh</chase>
+	<evade>Power</evade>
+	<consume>Meat Mineral</consume>
+	<modifyHealth>-8</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<resistCold>100</resistCold>
+	<spawn interval="10" range="1">BabyWolf</spawn>
+	<split range="0">1 DeadWolf 1 BloodSplatter</split>
+	<editor category="Animals" />
+</dna>

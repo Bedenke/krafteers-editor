@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5" />
+	<populationRatio>6</populationRatio>
+	<maxHealth>3</maxHealth>
+	<group>Meat</group>
+	<morph delay="10">BabyAlligator</morph>
+	<modifyStamina>5</modifyStamina>
+	<actions>Pick</actions>
+	<editor category="Animals" />
+</dna>

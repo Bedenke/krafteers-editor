@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>Item</fx>
+	<stack>3</stack>
+	<expire>15</expire>
+	<actions>Pick</actions>
+	<editor category="Items" />
+</dna>

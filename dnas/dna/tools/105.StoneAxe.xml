@@ -1,0 +1,20 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>WoodItem</fx>
+	<group>Wood Rock</group>
+	<maxHealth>100</maxHealth>
+	<expire>5</expire>
+	
+	<modify>Wood</modify>
+	<modifyHealth>-20</modifyHealth>
+
+	<split range="0">1 Flint 1 Stick</split>
+	
+	<recipePriority>1</recipePriority>
+	<recipe>0 WoodTable 1 Flint 1 Stick 1 Vine</recipe>
+	<recipe>1 Flint 1 Stick 1 Vine</recipe>
+	
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+</dna>

@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>WoodStructure Poisoned</fx>
+	<maxHealth>30</maxHealth>
+	<group>Wood</group>
+
+	<recipe>0 WoodTable 1 Flint 1 Bamboo 1 DeadSpider</recipe>
+
+	<modify>Enemy Carnivore Herbivore</modify>
+	<modifyHealth>-10</modifyHealth>
+	<modifyInfection>10</modifyInfection>
+	<stack>20</stack>
+
+	<actions>Pick</actions>
+	<editor category="Tools" />
+	<price>25</price>
+</dna>

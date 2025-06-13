@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="1.1" />
+	<populationRatio>10</populationRatio>
+	<mobility>Land</mobility>
+	
+	<group>Vegetation</group>
+	<maxHealth>20</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<spawn interval="73" range="1">Corn</spawn>
+	<morph delay="111">Corn</morph>
+	<split range="0.2">1 Corn 1 Straw</split>
+	
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+</dna>

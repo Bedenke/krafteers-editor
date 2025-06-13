@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.6" layer="Ground" />
+	<fx>Item</fx>
+	<recipe>0 WoodTable 1 Charcoal 1 Fur</recipe>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+</dna>

@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.7" />
+	<maxHealth>10</maxHealth>
+	<populationRatio>10</populationRatio>
+	<expire>20</expire>
+	<actions>Pick</actions>
+	<editor category="Vegetation" />
+</dna>

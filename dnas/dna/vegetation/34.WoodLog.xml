@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="0.6" />
+	<fx>WoodItem</fx>
+	<maxHealth>20</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	
+	<group>Wood</group>
+	<expire>50</expire>
+	<split range="0.5">4 Plank</split>
+	<stack>10</stack>
+	<actions>Pick</actions>
+	<editor category="Items" />
+</dna>

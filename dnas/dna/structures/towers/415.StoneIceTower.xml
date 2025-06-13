@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="2" />
+	<fx>StoneStructure IceTower</fx>
+	<level>25</level>
+	<density>100</density>
+	<group>Rock Structure Target</group>
+	<rate>2</rate>
+	<maxHealth>400</maxHealth>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>1 IceTower 4 Stone 1 IceGem</recipe>
+	<split range="1">4 Stone</split>
+	<drop chance="30">IceGem</drop>
+	<modify>Carnivore</modify>
+	<modifyStamina>-3</modifyStamina>
+	<actionRange>8</actionRange>
+	<chase>Enemy</chase>
+	<light range="3" r="0.2" g="0.2" b="1"/>
+	<cast speed="30" spawn="true">TowerIceball</cast>
+	<actions>Drag Craft</actions>
+	<resistCold>50</resistCold>
+	<resistHeat>25</resistHeat>
+	<price>200</price>
+	<editor category="Structures" />
+	<snap>true</snap>
+</dna>

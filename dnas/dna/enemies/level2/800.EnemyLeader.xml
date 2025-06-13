@@ -1,0 +1,30 @@
+<dna>
+	<sprite scale="1.8" />
+	<level>2</level>
+	<populationRatio>5</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>400</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>4</speed>
+	<range>10</range>
+	<actionRange>3</actionRange>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+
+	<group>Leader Enemy Wave</group>
+	<chase excludeDnas="PitTrap LandMine">Player Target</chase>
+	
+	<modify>Player Target</modify>
+	<modifyHealth>-3</modifyHealth>
+	<modifyRange>4</modifyRange>
+	<modifyExplode>false</modifyExplode>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>2</modifyCounter>
+	<rate>4</rate>
+
+	<drop chance="10">PowerGem</drop>
+	<split range="0">1 DeadEnemyLeader 1 BloodSplatter 1 PowerGem</split>
+	<light range="2" r="0.1" g="0.5" b="0.6"/>
+	<editor category="Enemies" />
+</dna>

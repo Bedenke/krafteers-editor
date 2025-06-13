@@ -1,0 +1,12 @@
+<dna>
+	<sprite frameRate="0.1" scale="1.1" />
+	<maxHealth>100</maxHealth>
+	<modify>Structure Player Target Enemy Carnivore Herbivore Wood Stone Metal</modify>
+	<modifyHealth>-200</modifyHealth>
+	<modifyRange>4</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<modifyTemperature>100</modifyTemperature>	
+	<countdown>2</countdown>
+	<counterMode>Modify</counterMode>
+	<light range="3" r="1" g="0.2" b="0.2"/>
+</dna>

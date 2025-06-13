@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="2">Monolith</sprite>
+	<visibility>Always</visibility>
+	<group>Portal</group>
+	<density>100</density>
+	<maxHealth>10000</maxHealth>
+	<light range="4" r="0.2" g="0.5" b="0.7"/>
+	<morph delay="2">Monolith</morph>
+	<gameState>Normal</gameState>
+	<collectible>false</collectible>
+	<split range="0">1 MonolithRuins</split>
+</dna>

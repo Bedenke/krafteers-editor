@@ -1,0 +1,9 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">Undead</sprite>
+	<fx>Undead</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<speed>3</speed>
+	<price>50</price>
+	<recipePriority>8</recipePriority>
+</dna>

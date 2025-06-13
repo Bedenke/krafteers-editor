@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="0.9">Hog</sprite>
+	<maxHealth>15</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Flesh</group>
+	<expire>20</expire>
+	<split range="0">1 Bones 1 Meat 1 Fur</split>
+	<collectible>false</collectible>
+</dna>

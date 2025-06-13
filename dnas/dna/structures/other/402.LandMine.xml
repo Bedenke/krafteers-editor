@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="0.5" />
+	<level>5</level>
+	<mobility>Land Sand Field Ground</mobility>
+	<maxHealth>1</maxHealth>
+	<group>Structure Target</group>
+	<recipe>0 Anvil 1 IronIngot 1 FireGem</recipe>
+	<modify>Enemy</modify>
+	<modifyHealth>-50</modifyHealth>
+	<modifyTemperature>100</modifyTemperature>
+	<modifyRange>5</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<chase>Enemy</chase>
+	<drop chance="50">FireGem</drop>
+	<actionRange>1.5</actionRange>
+	<actions>Pick Drag</actions>
+	<price>100</price>
+	<editor category="Items" />
+</dna>

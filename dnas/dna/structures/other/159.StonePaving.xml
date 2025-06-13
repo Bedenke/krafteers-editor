@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="1.45" layer="Ground" />
+	<skus>None</skus>
+	<surface>Ground</surface>
+	<mobility>Land Sand Field</mobility>
+	<group>Rock</group>
+	<modifyStamina>-1</modifyStamina>
+	<split range="1">2 Flint</split>
+	<recipe>1 Stone</recipe>
+	<recipePriority>6</recipePriority>
+	<actions>Drag</actions>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<height>0.2</height>
+	<selectable longPress="true">true</selectable>
+</dna>

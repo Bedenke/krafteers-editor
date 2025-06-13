@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.5" />
+	<group>Wood</group>
+	<maxHealth>20</maxHealth>
+	<split range="0">1 Stick 1 Straw</split>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+</dna>

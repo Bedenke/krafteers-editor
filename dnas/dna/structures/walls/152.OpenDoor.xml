@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="1.15" />
+	<fx>WoodStructure</fx>
+	<density>0</density>
+	<mobility>Land Sand Field Ground</mobility>
+	<maxHealth>90</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<group>Wood Ground Structure</group>
+	<switch>ClosedDoor</switch>
+	<drop chance="90">Plank</drop>
+	<actions>Switch Drag Rotate</actions>
+	<snap>true</snap>
+</dna>

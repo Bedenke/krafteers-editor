@@ -1,0 +1,20 @@
+<dna>
+	<sprite scale="0.5"/>
+	<fx>MetalItem</fx>
+	<group>Metal</group>
+	<maxHealth>30</maxHealth>
+	<modify>Enemy Carnivore Herbivore Bird</modify>
+	<modifyHealth>-5</modifyHealth>
+	<recipePriority>5</recipePriority>
+	<split range="0">1 Stick</split>
+	<recipe>0 Shaman 1 Bow 1 PowerGem</recipe>
+	<recipe>0 TeamFlag 1 Bow 1 PowerGem</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<actionRange>8</actionRange>
+	<rate>1</rate>
+	<cast speed="20" spawn="true">PowerShot</cast>
+	<editor category="Tools" />
+	<price>200</price>
+	<light range="2" r="0.2" g="0.1" b="1"/>
+</dna>

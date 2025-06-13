@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="2" tint="#a2f2aaff">StoneArrowTower</sprite>
+	<fx>StoneStructure PoisonTower</fx>
+	<level>10</level>
+	<density>100</density>
+	<group>Rock Structure Target</group>
+	<rate>2</rate>
+	<maxHealth>400</maxHealth>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>1 PoisonArrowTower 4 Stone</recipe>
+	<split range="1">4 Stone</split>
+	<drop chance="30">PowerGem</drop>
+	<modify>Carnivore</modify>
+	<modifyStamina>-3</modifyStamina>
+	<resistCold>50</resistCold>
+	<resistHeat>25</resistHeat>
+	<resistInfection>100</resistInfection>
+	<actionRange>8</actionRange>
+	<chase>Enemy</chase>
+	<cast speed="45" spawn="true">TowerPoisonArrow</cast>
+	<light range="2" r="0.2" g="1" b="0"/>
+	<actions>Drag Craft</actions>
+	<price>100</price>
+	<editor category="Structures" />
+	<snap>true</snap>
+</dna>

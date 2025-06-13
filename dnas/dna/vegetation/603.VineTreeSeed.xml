@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.4">Seed</sprite>
+	<fx>Seed</fx>
+	<populationRatio>12</populationRatio>
+	<morph delay="9">VineTreeSapling</morph>
+	<mobility>Land</mobility>
+	<actions>Pick</actions>
+</dna>

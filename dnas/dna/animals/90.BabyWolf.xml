@@ -1,0 +1,22 @@
+<dna>
+	<sprite scale="0.5">Wolf</sprite>
+	<populationRatio>6</populationRatio>
+	<mobility>Land</mobility>
+	<maxHealth>10</maxHealth>
+	<maxStamina>100</maxStamina>
+	<speed>2</speed>
+	<range>5</range>
+	<group>Spawn</group>
+	<chase exclude="Player">Herbivore</chase>
+	<consume>Meat</consume>
+	<evade>Power</evade>
+	<follow includeDnas="Wolf"></follow>
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<resistCold>100</resistCold>
+	<morph delay="30">Wolf</morph>
+	<split range="0">1 BloodSplatter</split>
+	<actions>Craft Pick</actions>
+	<editor category="Animals" />
+	<collectible>false</collectible>
+</dna>

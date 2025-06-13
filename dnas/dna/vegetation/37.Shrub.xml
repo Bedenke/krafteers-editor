@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="1" />
+	<populationRatio>4</populationRatio>
+	<group>Vegetation</group>
+	<mobility>Land Sand</mobility>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<spawn interval="48" range="1">Shrub</spawn>
+	<morph delay="220">Straw</morph>
+	<split range="0.1">1 Foliage 1 Stick</split>
+	<editor category="Vegetation" />
+</dna>

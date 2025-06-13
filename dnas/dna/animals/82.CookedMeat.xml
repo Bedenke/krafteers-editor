@@ -1,0 +1,11 @@
+<dna>
+	<sprite scale="0.5" />
+	<maxHealth>1</maxHealth>
+	<group>Meat</group>
+	<modify>Herbivore Carnivore Player Team</modify>
+	<modifyStamina>50</modifyStamina>
+	<expire>120</expire>
+	<actions>Pick Consume</actions>
+	<recipe>1 Meat 0 Campfire</recipe>
+	<stack>10</stack>
+</dna>

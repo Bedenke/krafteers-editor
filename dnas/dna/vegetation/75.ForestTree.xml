@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="1.8" />
+	<fx>Tree</fx>
+	<density>100</density>
+	<mobility>Land</mobility>
+	<populationRatio>60</populationRatio>
+	<group>Wood</group>
+	<maxHealth>150</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<spawn interval="20" range="2">ForestTreeSeed Bird</spawn>
+	<morph delay="275">DeadTree</morph>	
+	<drop chance="20">WoodLog</drop>
+	<split range="0.5">2 WoodLog 1 TreeStump</split>
+	<editor category="Vegetation" />
+	<sensor range="5" spawn="Kreep" chance="5" interval="10" activePeriod="0 4" include="Player" />
+	<finalWave>true</finalWave>
+</dna>

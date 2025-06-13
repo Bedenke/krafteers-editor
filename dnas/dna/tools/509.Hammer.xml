@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.5" />
+	<group>Wood Rock</group>
+	<maxHealth>100</maxHealth>
+
+	<modify>Structure</modify>
+	<modifyHealth>5</modifyHealth>
+
+	<split range="0">2 Flint 1 Stick</split>
+	<recipe>0 WoodTable 1 Stone 1 Stick 1 Vine</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+	<price>25</price>
+</dna>

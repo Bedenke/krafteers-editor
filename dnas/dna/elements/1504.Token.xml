@@ -1,0 +1,6 @@
+<dna>
+    <sprite scale="0.25" />
+    <fx>Item</fx>
+    <price>1</price>
+    <actions>Claim</actions>
+</dna>

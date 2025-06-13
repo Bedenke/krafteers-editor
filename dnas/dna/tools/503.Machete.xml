@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>MetalItem</fx>
+	<skus>None</skus>
+	<group>Metal</group>
+	<maxHealth>200</maxHealth>
+
+	<modify>Flesh Carnivore Herbivore Enemy</modify>
+	<modifyHealth>-40</modifyHealth>
+
+	<split range="0">1 Stick</split>
+	<recipe>0 Anvil 1 IronIngot 1 Stick</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+	<price>75</price>
+</dna>

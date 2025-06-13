@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.5">Fish</sprite>
+	<maxHealth>5</maxHealth>
+	<expire>20</expire>
+	<stack>5</stack>
+	<actions>Pick</actions>
+</dna>

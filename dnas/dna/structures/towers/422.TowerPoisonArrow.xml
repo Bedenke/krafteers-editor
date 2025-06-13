@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5">PoisonArrow</sprite>
+	<maxHealth>30</maxHealth>
+	<group>Wood Structure Target</group>
+	<modify>Enemy</modify>
+	<modifyHealth>-2</modifyHealth>
+	<modifyInfection>10</modifyInfection>
+	<selectable>false</selectable>
+	<collectible>false</collectible>
+</dna>

@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.8" />
+	<mobility>Water Sea</mobility>
+	<maxHealth>10</maxHealth>
+	<actionRange>1.5</actionRange>
+	<group>Trap</group>
+	<modifyHealth>-5</modifyHealth>
+	<recipe>0 WoodTable 2 Coconut 2 Flint 1 Vine</recipe>
+	<actions>Pick Drag</actions>
+	<editor category="Tools" />
+	<height>0.35</height>
+</dna>

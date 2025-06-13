@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.8" layer="Ground"/>
+	<fx>Item</fx>
+	<populationRatio>4</populationRatio>
+	<actions>Pick</actions>
+	<stack>4</stack>
+	<editor category="Items" />
+</dna>

@@ -1,0 +1,14 @@
+<dna>
+	<sprite scale="0.5">Bow</sprite>
+	<fx>Bow WoodItem</fx>
+	<maxHealth>30</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<modify>Enemy Player Structure Carnivore Herbivore</modify>
+	<modifyHealth>-5</modifyHealth>
+	<expire>1</expire>
+	<splash>BloodSplatter</splash>
+	<equip>Hand</equip>
+	<rate>3</rate>
+	<cast speed="30" spawn="true" range="5">TowerArrow</cast>
+	<collectible>false</collectible>
+</dna>

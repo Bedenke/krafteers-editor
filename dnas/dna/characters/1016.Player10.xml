@@ -1,0 +1,15 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">FireGolem</sprite>
+	<fx>FireGolem</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<resistHeat>100</resistHeat>
+	<modifyTemperature>25</modifyTemperature>
+	<modifyHealth>-10</modifyHealth>
+	<modifyRange>3</modifyRange>
+	<modifyExplode>false</modifyExplode>
+	<rate>2</rate>
+	<light range="2" r="1" g="0.8" b="0"/>
+	<price>500</price>
+	<recipePriority>11</recipePriority>
+</dna>

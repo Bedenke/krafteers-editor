@@ -1,0 +1,12 @@
+<dna>
+	<terrainColor>#5a945bFF</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<fx>Swamp</fx>
+	<surface>Land</surface>
+	<height>0.1</height>
+	<bounds>15</bounds>
+	<generate>Alligator BabyAlligator Spider VineTreeSeed VineTreeSapling VineTree UndeadHand</generate>
+	<temperature>25</temperature>
+	<humidity>20</humidity>
+	<modifyStamina>-2</modifyStamina>
+</dna>

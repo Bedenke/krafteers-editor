@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="1.7" />
+	<density>100</density>
+	<mobility>Land Sand</mobility>
+	<populationRatio>10</populationRatio>
+	<maxHealth>60</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+
+	<group>Wood</group>
+	<spawn interval="30" range="2">BambooTree</spawn>
+	<drop chance="50">Bamboo</drop>
+	<split range="0.5">3 Bamboo</split>
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+</dna>

@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>MetalItem</fx>
+	<group>Food</group>
+	<maxHealth>3</maxHealth>
+	<modify>Player Team</modify>
+	<modifyHealth>250</modifyHealth>
+	<recipe price="50">0 WoodTable</recipe>
+	<recipe price="25">0 TeamFlag</recipe>
+	<actions>Pick Consume Apply</actions>
+	<stack>3</stack>
+	<recipePriority>1</recipePriority>
+</dna>

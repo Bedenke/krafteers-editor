@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.8" />
+	<populationRatio>35</populationRatio>
+	<mobility>Sea</mobility>
+	<spawn interval="20" range="3">Fish BabyShark Foliage</spawn>
+	<editor category="Animals" />
+</dna>

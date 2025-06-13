@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="2" />
+	<fx>WoodStructure FireTower</fx>
+	<level>14</level>
+	<density>100</density>
+	<group>Wood Structure Target</group>
+	<rate>3</rate>
+	<maxHealth>200</maxHealth>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>2 Plank 1 FireGem</recipe>
+	<split range="1">2 Stick 2 WoodLog</split>
+	<drop chance="30">FireGem</drop>
+	<modify>Carnivore</modify>
+	<modifyStamina>-2</modifyStamina>
+	<actionRange>7</actionRange>
+	<chase>Enemy</chase>
+	<actions>Craft Drag</actions>
+	<light range="2" r="1" g="0.4" b="0"/>
+	<resistHeat>100</resistHeat>
+	<cast speed="30" spawn="true">TowerFireball</cast>
+	<price>0</price>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<recipePriority>3</recipePriority>
+</dna>

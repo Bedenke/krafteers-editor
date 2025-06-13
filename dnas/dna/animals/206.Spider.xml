@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="0.5" />
+	<starve>true</starve>
+	<populationRatio>4</populationRatio>
+	<mobility>Land Sand Field</mobility>
+
+	<maxHealth>10</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>2</speed>
+	<range>5</range>
+	<rate>3</rate>
+
+	<group>Carnivore</group>
+	<chase>Player Flesh</chase>
+	<consume>Meat</consume>
+	<evade>Power</evade>
+
+	<modifyHealth>-4</modifyHealth>
+	<modifyStamina>-2</modifyStamina>
+	<modifyInfection>8</modifyInfection>
+
+	<split range="0">1 DeadSpider</split>
+	<editor category="Animals" />
+</dna>

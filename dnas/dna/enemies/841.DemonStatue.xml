@@ -1,0 +1,33 @@
+<dna>
+	<sprite scale="3"/>
+	<fx>StoneStructure</fx>
+	<visibility>Always</visibility>
+	<maxHealth>32000</maxHealth>
+	<group>Rock</group>
+	
+	<drop range="1">Stone</drop>
+	<drop range="1">Stone</drop>
+	<drop range="1">Flint</drop>
+	<drop range="1">BloodSplatter</drop>
+	<drop range="1">BloodSplatter</drop>
+	<drop range="1">BloodSplatter</drop>
+	<drop range="1">Bones</drop>
+	<drop range="1">Bones</drop>
+	<drop range="1">Bones</drop>
+	<drop range="1">Skull</drop>
+	<drop range="1">TeamExplosion</drop>
+	<drop range="2">TeamExplosion</drop>
+	<drop range="2">TeamExplosion</drop>
+	<split range="0">1 TeamExplosion</split>
+	<light range="2" r="1" g="0.1" b="0.1"/>
+
+	<countdown>60</countdown>
+	<counterMode>Morph</counterMode>
+	<morph>Demon</morph>
+
+	<resistHeat>100</resistHeat>
+	<resistCold>100</resistCold>
+	<resistInfection>100</resistInfection>
+
+	<editor category="Enemies" />
+</dna>

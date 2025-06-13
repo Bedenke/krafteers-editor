@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.8" />
+	<density>100</density>
+	<group>Structure Wood</group>
+	<maxHealth>120</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<split range="0.5">4 Stick</split>
+	<recipe>2 Plank 1 IronIngot 1 Fur</recipe>
+	<recipePriority>3</recipePriority>
+	<actions>Craft Drag</actions>
+	<resistCold>100</resistCold>
+	<editor category="Tools" />
+	<snap>true</snap>
+	<price>100</price>
+</dna>

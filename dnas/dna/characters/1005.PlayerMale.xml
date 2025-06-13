@@ -1,0 +1,29 @@
+<dna>
+	<fx>HumanMale</fx>
+	<starve>true</starve>
+	<sprite scale="1.4" offsetZ="0" skinned="true">Human</sprite>
+	<icon>HumanMaleIcon</icon>
+	<maxHealth>250</maxHealth>
+	<maxStamina>200</maxStamina>
+	<healHealth>1</healHealth>
+	<healInfection>1</healInfection>
+	<speed>4</speed>
+	<range>20</range>
+	<modifyHealth>-6</modifyHealth>
+	<actionRange>1</actionRange>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Closest</pathfindMode>
+	<group>Player Carnivore Herbivore</group>
+	<consume>Meat Vegetable Mineral</consume>
+	<modify>Enemy Carnivore Herbivore Vegetation Wood</modify>
+	<counterMode>Rank</counterMode>
+	<split range="0">1 BloodSplatter</split>
+	<actions>View Craft</actions>
+	<container stash="true">20</container>
+	<respawn>LeafShelter WoodTent StoneHouse</respawn>
+	<light range="2" r="0.5" g="0.5" b="0.5" />
+	<visibility>Always</visibility>
+	<savable>true</savable>
+	<recipePriority>0</recipePriority>
+	<collectible>false</collectible>
+</dna>

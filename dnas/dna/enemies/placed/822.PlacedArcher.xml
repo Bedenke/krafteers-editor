@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="1.15">Undead</sprite>
+	<populationRatio>20</populationRatio>
+	<mobility>Land Sand Ground</mobility>
+	<maxHealth>150</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>4</speed>
+	<range>10</range>
+	<pathfindRange>20</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<group>Enemy</group>
+	<chase excludeDnas="PitTrap LandMine">Player Target Team</chase>
+	<modify>Player Structure Target Team</modify>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>1</modifyCounter>
+	<rate>4</rate>
+	<modifyHealth>-4</modifyHealth>
+	<resistCold>100</resistCold>
+	<createWith>EnemyBow</createWith>
+	<split range="0" dropItemsChance="0">1 DeadEnemySoldier 1 BloodSplatter</split>
+	<light range="1" r="0.8" g="0.2" b="0.2"/>
+	<editor category="Enemies" />
+	<collectible>false</collectible>
+</dna>

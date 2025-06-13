@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.5" />
+	<group>Wood</group>
+	<maxHealth>30</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<modify>Carnivore Herbivore Enemy</modify>
+	<modifyHealth>-10</modifyHealth>
+	<expire>5</expire>
+
+	<split range="0">2 Stick</split>
+	<recipe>0 WoodTable 1 WoodLog</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+</dna>

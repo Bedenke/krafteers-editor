@@ -1,0 +1,5928 @@
+
+DefaultSprites.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+AssetRangeMark
+  rotate: false
+  xy: 600, 939
+  size: 194, 124
+  orig: 200, 200
+  offset: 3, 48
+  index: -1
+AssetSelection
+  rotate: false
+  xy: 204, 8
+  size: 197, 148
+  orig: 200, 200
+  offset: 1, 1
+  index: -1
+AssetTargetMark
+  rotate: false
+  xy: 796, 915
+  size: 184, 152
+  orig: 200, 200
+  offset: 5, 17
+  index: -1
+Blob_N
+  rotate: false
+  xy: 1683, 483
+  size: 78, 121
+  orig: 128, 128
+  offset: 31, 2
+  index: 3
+DemonStatue
+  rotate: false
+  xy: 1331, 1122
+  size: 138, 134
+  orig: 200, 200
+  offset: 37, 32
+  index: -1
+Demon_N
+  rotate: false
+  xy: 982, 912
+  size: 192, 146
+  orig: 200, 200
+  offset: 8, 26
+  index: 0
+Demon_N
+  rotate: false
+  xy: 1063, 181
+  size: 148, 163
+  orig: 200, 200
+  offset: 29, 26
+  index: 3
+Demon_N
+  rotate: false
+  xy: 863, 16
+  size: 140, 167
+  orig: 200, 200
+  offset: 3, 26
+  index: 1
+Demon_N
+  rotate: false
+  xy: 1005, 23
+  size: 137, 156
+  orig: 200, 200
+  offset: 32, 26
+  index: 2
+Demon_S
+  rotate: false
+  xy: 764, 392
+  size: 178, 165
+  orig: 200, 200
+  offset: 21, 32
+  index: 0
+Demon_S
+  rotate: false
+  xy: 902, 185
+  size: 159, 166
+  orig: 200, 200
+  offset: 37, 32
+  index: 1
+Demon_S
+  rotate: false
+  xy: 1360, 17
+  size: 130, 145
+  orig: 200, 200
+  offset: 37, 32
+  index: 3
+Demon_S
+  rotate: false
+  xy: 1550, 1120
+  size: 138, 134
+  orig: 200, 200
+  offset: 37, 32
+  index: 2
+EnemyArcher_N
+  rotate: false
+  xy: 1763, 996
+  size: 79, 128
+  orig: 128, 128
+  offset: 27, 0
+  index: 0
+EnemySoldierEquipped_N
+  rotate: false
+  xy: 1763, 996
+  size: 79, 128
+  orig: 128, 128
+  offset: 27, 0
+  index: 0
+EnemySoldier_N
+  rotate: false
+  xy: 1763, 996
+  size: 79, 128
+  orig: 128, 128
+  offset: 27, 0
+  index: 0
+Undead_N
+  rotate: false
+  xy: 1763, 996
+  size: 79, 128
+  orig: 128, 128
+  offset: 27, 0
+  index: 0
+EnemyArcher_N
+  rotate: false
+  xy: 1717, 733
+  size: 79, 127
+  orig: 128, 128
+  offset: 20, 1
+  index: 1
+EnemySoldierEquipped_N
+  rotate: false
+  xy: 1717, 733
+  size: 79, 127
+  orig: 128, 128
+  offset: 20, 1
+  index: 1
+EnemySoldier_N
+  rotate: false
+  xy: 1717, 733
+  size: 79, 127
+  orig: 128, 128
+  offset: 20, 1
+  index: 1
+Undead_N
+  rotate: false
+  xy: 1717, 733
+  size: 79, 127
+  orig: 128, 128
+  offset: 20, 1
+  index: 1
+EnemyArcher_N
+  rotate: false
+  xy: 1798, 733
+  size: 95, 127
+  orig: 128, 128
+  offset: 17, 1
+  index: 2
+EnemySoldierEquipped_N
+  rotate: false
+  xy: 1798, 733
+  size: 95, 127
+  orig: 128, 128
+  offset: 17, 1
+  index: 2
+EnemySoldier_N
+  rotate: false
+  xy: 1798, 733
+  size: 95, 127
+  orig: 128, 128
+  offset: 17, 1
+  index: 2
+Undead_N
+  rotate: false
+  xy: 1798, 733
+  size: 95, 127
+  orig: 128, 128
+  offset: 17, 1
+  index: 2
+EnemyArcher_N
+  rotate: false
+  xy: 1843, 606
+  size: 98, 125
+  orig: 128, 128
+  offset: 9, 1
+  index: 3
+EnemySoldierEquipped_N
+  rotate: false
+  xy: 1843, 606
+  size: 98, 125
+  orig: 128, 128
+  offset: 9, 1
+  index: 3
+EnemySoldier_N
+  rotate: false
+  xy: 1843, 606
+  size: 98, 125
+  orig: 128, 128
+  offset: 9, 1
+  index: 3
+Undead_N
+  rotate: false
+  xy: 1843, 606
+  size: 98, 125
+  orig: 128, 128
+  offset: 9, 1
+  index: 3
+EnemyArcher_S
+  rotate: false
+  xy: 1971, 1717
+  size: 75, 127
+  orig: 128, 128
+  offset: 30, 1
+  index: 1
+EnemySoldierEquipped_S
+  rotate: false
+  xy: 1971, 1717
+  size: 75, 127
+  orig: 128, 128
+  offset: 30, 1
+  index: 1
+EnemySoldier_S
+  rotate: false
+  xy: 1971, 1717
+  size: 75, 127
+  orig: 128, 128
+  offset: 30, 1
+  index: 1
+Undead_S
+  rotate: false
+  xy: 1971, 1717
+  size: 75, 127
+  orig: 128, 128
+  offset: 30, 1
+  index: 1
+EnemyArcher_S
+  rotate: false
+  xy: 1677, 990
+  size: 84, 128
+  orig: 128, 128
+  offset: 29, 0
+  index: 0
+EnemySoldierEquipped_S
+  rotate: false
+  xy: 1677, 990
+  size: 84, 128
+  orig: 128, 128
+  offset: 29, 0
+  index: 0
+EnemySoldier_S
+  rotate: false
+  xy: 1677, 990
+  size: 84, 128
+  orig: 128, 128
+  offset: 29, 0
+  index: 0
+Undead_S
+  rotate: false
+  xy: 1677, 990
+  size: 84, 128
+  orig: 128, 128
+  offset: 29, 0
+  index: 0
+EnemyArcher_S
+  rotate: false
+  xy: 1895, 750
+  size: 100, 128
+  orig: 128, 128
+  offset: 5, 0
+  index: 3
+EnemySoldierEquipped_S
+  rotate: false
+  xy: 1895, 750
+  size: 100, 128
+  orig: 128, 128
+  offset: 5, 0
+  index: 3
+EnemySoldier_S
+  rotate: false
+  xy: 1895, 750
+  size: 100, 128
+  orig: 128, 128
+  offset: 5, 0
+  index: 3
+Undead_S
+  rotate: false
+  xy: 1895, 750
+  size: 100, 128
+  orig: 128, 128
+  offset: 5, 0
+  index: 3
+EnemyArcher_S
+  rotate: false
+  xy: 1534, 353
+  size: 96, 127
+  orig: 128, 128
+  offset: 23, 1
+  index: 2
+EnemySoldierEquipped_S
+  rotate: false
+  xy: 1534, 353
+  size: 96, 127
+  orig: 128, 128
+  offset: 23, 1
+  index: 2
+EnemySoldier_S
+  rotate: false
+  xy: 1534, 353
+  size: 96, 127
+  orig: 128, 128
+  offset: 23, 1
+  index: 2
+Undead_S
+  rotate: false
+  xy: 1534, 353
+  size: 96, 127
+  orig: 128, 128
+  offset: 23, 1
+  index: 2
+EnemyBoss_N
+  rotate: false
+  xy: 1176, 930
+  size: 114, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 2
+EnemyHeavy_N
+  rotate: false
+  xy: 1176, 930
+  size: 114, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 2
+EnemyBoss_N
+  rotate: false
+  xy: 1943, 433
+  size: 102, 127
+  orig: 128, 128
+  offset: 5, 1
+  index: 0
+EnemyHeavy_N
+  rotate: false
+  xy: 1943, 433
+  size: 102, 127
+  orig: 128, 128
+  offset: 5, 1
+  index: 0
+EnemyBoss_N
+  rotate: false
+  xy: 1488, 224
+  size: 117, 127
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+EnemyHeavy_N
+  rotate: false
+  xy: 1488, 224
+  size: 117, 127
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+EnemyBoss_S
+  rotate: false
+  xy: 1911, 1205
+  size: 127, 127
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+EnemyHeavy_S
+  rotate: false
+  xy: 1911, 1205
+  size: 127, 127
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+EnemyBoss_S
+  rotate: false
+  xy: 1421, 992
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 1
+EnemyHeavy_S
+  rotate: false
+  xy: 1421, 992
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 1
+EnemyBoss_S
+  rotate: false
+  xy: 1549, 990
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 2
+EnemyHeavy_S
+  rotate: false
+  xy: 1549, 990
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 2
+EnemyBoss_S
+  rotate: false
+  xy: 1607, 224
+  size: 116, 127
+  orig: 128, 128
+  offset: 11, 1
+  index: 0
+EnemyHeavy_S
+  rotate: false
+  xy: 1607, 224
+  size: 116, 127
+  orig: 128, 128
+  offset: 11, 1
+  index: 0
+EnemyHealer_N
+  rotate: false
+  xy: 1525, 862
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 2
+  index: 2
+EnemyHealer_N
+  rotate: false
+  xy: 1653, 862
+  size: 104, 126
+  orig: 128, 128
+  offset: 3, 2
+  index: 0
+EnemyHealer_N
+  rotate: false
+  xy: 1759, 862
+  size: 96, 126
+  orig: 128, 128
+  offset: 11, 2
+  index: 1
+EnemyHealer_S
+  rotate: false
+  xy: 1464, 735
+  size: 126, 125
+  orig: 128, 128
+  offset: 1, 2
+  index: 3
+EnemyHealer_S
+  rotate: false
+  xy: 1592, 606
+  size: 124, 125
+  orig: 128, 128
+  offset: 1, 2
+  index: 1
+EnemyHealer_S
+  rotate: false
+  xy: 1725, 93
+  size: 114, 125
+  orig: 128, 128
+  offset: 13, 2
+  index: 0
+EnemyLeader_N
+  rotate: false
+  xy: 1911, 1334
+  size: 127, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+EnemyLeader_N
+  rotate: false
+  xy: 1336, 738
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 0
+EnemyLeader_N
+  rotate: false
+  xy: 1492, 94
+  size: 114, 128
+  orig: 128, 128
+  offset: 13, 0
+  index: 1
+EnemyLeader_S
+  rotate: false
+  xy: 1943, 620
+  size: 96, 128
+  orig: 128, 128
+  offset: 19, 0
+  index: 0
+EnemyLeader_S
+  rotate: false
+  xy: 1608, 94
+  size: 115, 128
+  orig: 128, 128
+  offset: 12, 0
+  index: 3
+EnemyLeader_S
+  rotate: false
+  xy: 1841, 189
+  size: 98, 128
+  orig: 128, 128
+  offset: 11, 0
+  index: 1
+FireEnemyLeader_N
+  rotate: false
+  xy: 1690, 1126
+  size: 127, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+FireEnemyLeader_N
+  rotate: false
+  xy: 1857, 880
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 0
+FireEnemyLeader_N
+  rotate: false
+  xy: 1725, 220
+  size: 114, 128
+  orig: 128, 128
+  offset: 13, 0
+  index: 1
+FireGolem_N
+  rotate: false
+  xy: 1144, 2
+  size: 120, 119
+  orig: 128, 128
+  offset: 3, 2
+  index: 0
+FireGolem_N
+  rotate: false
+  xy: 1718, 607
+  size: 123, 124
+  orig: 128, 128
+  offset: 5, 1
+  index: 3
+FireGolem_N
+  rotate: false
+  xy: 1559, 483
+  size: 122, 121
+  orig: 128, 128
+  offset: 5, 3
+  index: 1
+FireGolem_S
+  rotate: false
+  xy: 1911, 1082
+  size: 127, 121
+  orig: 128, 128
+  offset: 0, 3
+  index: 1
+FireGolem_S
+  rotate: false
+  xy: 1410, 356
+  size: 122, 124
+  orig: 128, 128
+  offset: 5, 3
+  index: 3
+IceEnemyLeader_N
+  rotate: false
+  xy: 1292, 992
+  size: 127, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+IceEnemyLeader_N
+  rotate: false
+  xy: 1336, 608
+  size: 126, 128
+  orig: 128, 128
+  offset: 1, 0
+  index: 0
+Kreep_N
+  rotate: false
+  xy: 1973, 1926
+  size: 73, 120
+  orig: 128, 128
+  offset: 27, 4
+  index: 2
+Kreep_S
+  rotate: false
+  xy: 1763, 480
+  size: 76, 125
+  orig: 128, 128
+  offset: 26, 0
+  index: 0
+Player1_S
+  rotate: false
+  xy: 1819, 1129
+  size: 90, 125
+  orig: 128, 128
+  offset: 29, 3
+  index: 2
+Player1_S
+  rotate: false
+  xy: 1433, 482
+  size: 124, 123
+  orig: 128, 128
+  offset: 3, 5
+  index: 3
+Player2_N
+  rotate: false
+  xy: 1753, 350
+  size: 86, 128
+  orig: 128, 128
+  offset: 15, 0
+  index: 0
+Player2_S
+  rotate: false
+  xy: 1632, 355
+  size: 119, 126
+  orig: 128, 128
+  offset: 7, 2
+  index: 3
+Player3_N
+  rotate: false
+  xy: 1971, 1590
+  size: 71, 125
+  orig: 128, 128
+  offset: 23, 3
+  index: 1
+Player4_S
+  rotate: false
+  xy: 1464, 607
+  size: 126, 126
+  orig: 128, 128
+  offset: 1, 1
+  index: 3
+Spectre_S
+  rotate: false
+  xy: 1266, 2
+  size: 92, 119
+  orig: 128, 128
+  offset: 8, 9
+  index: 2
+Hammer
+  rotate: false
+  xy: 1492, 2
+  size: 100, 90
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LightedTorch_N
+  rotate: false
+  xy: 1844, 1034
+  size: 65, 93
+  orig: 128, 128
+  offset: 63, 32
+  index: -1
+LightedTorch_S
+  rotate: false
+  xy: 1973, 1846
+  size: 69, 78
+  orig: 128, 128
+  offset: 0, 49
+  index: -1
+AlligatorEgg
+  rotate: false
+  xy: 1841, 421
+  size: 100, 75
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SnakeEgg
+  rotate: false
+  xy: 1841, 421
+  size: 100, 75
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Alligator_N
+  rotate: false
+  xy: 1841, 319
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Alligator_N
+  rotate: false
+  xy: 1943, 96
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Bird_S
+  rotate: false
+  xy: 1696, 2
+  size: 100, 89
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Crab_S
+  rotate: false
+  xy: 1900, 2
+  size: 100, 89
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Puma
+  rotate: false
+  xy: 1594, 2
+  size: 100, 90
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+AppleTree
+  rotate: false
+  xy: 204, 1370
+  size: 197, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+AppleTree
+  rotate: false
+  xy: 204, 764
+  size: 196, 200
+  orig: 200, 200
+  offset: 1, 0
+  index: 1
+Bamboo
+  rotate: false
+  xy: 1331, 508
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+BambooCup
+  rotate: false
+  xy: 1841, 93
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 1
+  index: 1
+BambooPlant
+  rotate: false
+  xy: 1592, 733
+  size: 123, 127
+  orig: 128, 128
+  offset: 5, 0
+  index: -1
+BambooTree
+  rotate: false
+  xy: 1369, 1645
+  size: 199, 199
+  orig: 200, 200
+  offset: 1, 1
+  index: -1
+BeeHive
+  rotate: false
+  xy: 792, 717
+  size: 180, 196
+  orig: 200, 200
+  offset: 20, 0
+  index: -1
+Cactus
+  rotate: false
+  xy: 965, 1847
+  size: 200, 199
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+DeadPalmTree
+  rotate: false
+  xy: 204, 562
+  size: 196, 200
+  orig: 200, 200
+  offset: 4, 0
+  index: -1
+DeadPineTree
+  rotate: false
+  xy: 403, 1400
+  size: 193, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+DeadTree
+  rotate: false
+  xy: 800, 1668
+  size: 163, 196
+  orig: 200, 200
+  offset: 19, 0
+  index: -1
+DesertTree
+  rotate: false
+  xy: 2, 764
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ForestTree
+  rotate: false
+  xy: 204, 1168
+  size: 197, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Palmtree
+  rotate: false
+  xy: 1167, 1646
+  size: 200, 198
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+YoungPalmtree
+  rotate: false
+  xy: 1167, 1646
+  size: 200, 198
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+PineTree
+  rotate: false
+  xy: 403, 1198
+  size: 193, 200
+  orig: 200, 200
+  offset: 2, 0
+  index: -1
+VineTree
+  rotate: false
+  xy: 1570, 1644
+  size: 199, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ButtonBackpack
+  rotate: false
+  xy: 944, 353
+  size: 159, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+ButtonCircleDown
+  rotate: false
+  xy: 2, 1370
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ButtonCircleUp
+  rotate: false
+  xy: 598, 1664
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ButtonCraft
+  rotate: false
+  xy: 740, 230
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+ButtonHand
+  rotate: false
+  xy: 1105, 346
+  size: 159, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+ButtonMap
+  rotate: false
+  xy: 2, 1168
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Circle
+  rotate: false
+  xy: 2, 1572
+  size: 292, 292
+  orig: 300, 300
+  offset: 4, 4
+  index: -1
+Cursor
+  rotate: false
+  xy: 1205, 157
+  size: 6, 22
+  split: 0, 0, 0, 0
+  orig: 6, 22
+  offset: 0, 0
+  index: -1
+Dot
+  rotate: false
+  xy: 944, 515
+  size: 12, 11
+  orig: 12, 12
+  offset: 0, 1
+  index: -1
+IconClose
+  rotate: false
+  xy: 1240, 320
+  size: 24, 24
+  orig: 50, 50
+  offset: 9, 9
+  index: -1
+IconStorePremium
+  rotate: false
+  xy: 974, 717
+  size: 180, 193
+  orig: 200, 200
+  offset: 13, 2
+  index: -1
+IconTokenBag
+  rotate: false
+  xy: 1943, 314
+  size: 102, 117
+  orig: 200, 200
+  offset: 51, 43
+  index: -1
+IconTokenBarrel
+  rotate: false
+  xy: 1357, 164
+  size: 129, 153
+  orig: 200, 200
+  offset: 38, 16
+  index: -1
+IconTokenChest
+  rotate: false
+  xy: 588, 591
+  size: 181, 177
+  orig: 200, 200
+  offset: 11, 7
+  index: -1
+IconTokenPile
+  rotate: false
+  xy: 1171, 1150
+  size: 158, 106
+  orig: 200, 200
+  offset: 22, 40
+  index: -1
+Logo
+  rotate: false
+  xy: 2, 1866
+  size: 961, 180
+  orig: 1000, 200
+  offset: 19, 20
+  index: -1
+ScrollBar
+  rotate: false
+  xy: 1213, 319
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+ScrollBarSmall
+  rotate: false
+  xy: 303, 1572
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+ScrollKnob
+  rotate: false
+  xy: 902, 365
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+ScrollKnobSmall
+  rotate: false
+  xy: 1331, 699
+  size: 3, 9
+  orig: 3, 9
+  offset: 0, 0
+  index: -1
+SkinPaper
+  rotate: false
+  xy: 2, 158
+  size: 200, 200
+  split: 46, 34, 35, 19
+  pad: 19, 22, 16, 18
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+White
+  rotate: false
+  xy: 1699, 1120
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+ActivePortal
+  rotate: false
+  xy: 1571, 1846
+  size: 199, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 1
+ActivePortal
+  rotate: false
+  xy: 1772, 1846
+  size: 199, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 2
+ActivePortal
+  rotate: false
+  xy: 598, 1466
+  size: 199, 196
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+ArrowTower
+  rotate: false
+  xy: 990, 1257
+  size: 179, 200
+  orig: 200, 200
+  offset: 21, 0
+  index: -1
+PoisonArrowTower
+  rotate: false
+  xy: 990, 1257
+  size: 179, 200
+  orig: 200, 200
+  offset: 21, 0
+  index: -1
+Bones
+  rotate: false
+  xy: 1798, 2
+  size: 100, 89
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Boulder
+  rotate: false
+  xy: 799, 1463
+  size: 196, 196
+  orig: 200, 200
+  offset: 4, 0
+  index: -1
+ClosedDoor
+  rotate: false
+  xy: 1171, 1258
+  size: 188, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 1
+ClosedDoor
+  rotate: false
+  xy: 1739, 1256
+  size: 170, 200
+  orig: 200, 200
+  offset: 27, 0
+  index: 0
+CornCrops
+  rotate: false
+  xy: 1292, 912
+  size: 100, 78
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+FertilizedCornCrops
+  rotate: false
+  xy: 1292, 912
+  size: 100, 78
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+CornerIronWall
+  rotate: false
+  xy: 973, 515
+  size: 178, 200
+  orig: 200, 200
+  offset: 17, 0
+  index: -1
+CornerStoneWall
+  rotate: false
+  xy: 1156, 710
+  size: 178, 200
+  orig: 200, 200
+  offset: 17, 0
+  index: -1
+CornerWoodFence
+  rotate: false
+  xy: 795, 1069
+  size: 186, 195
+  orig: 200, 200
+  offset: 0, 4
+  index: -1
+CornerWoodWall
+  rotate: false
+  xy: 2, 966
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Deck
+  rotate: false
+  xy: 1771, 1644
+  size: 198, 200
+  orig: 200, 200
+  offset: 2, 0
+  index: -1
+Fern
+  rotate: false
+  xy: 2, 562
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+FireTower
+  rotate: false
+  xy: 204, 360
+  size: 195, 200
+  orig: 200, 200
+  offset: 5, 0
+  index: -1
+Furnace
+  rotate: false
+  xy: 1770, 1466
+  size: 199, 176
+  orig: 200, 200
+  offset: 0, 10
+  index: -1
+Gravel
+  rotate: false
+  xy: 1166, 1460
+  size: 199, 184
+  orig: 200, 200
+  offset: 1, 15
+  index: -1
+IceTower
+  rotate: false
+  xy: 204, 158
+  size: 195, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+IronArrowTower
+  rotate: false
+  xy: 1153, 508
+  size: 176, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+IronFireTower
+  rotate: false
+  xy: 579, 240
+  size: 159, 200
+  orig: 200, 200
+  offset: 26, 0
+  index: -1
+IronIceTower
+  rotate: false
+  xy: 1266, 319
+  size: 142, 187
+  orig: 200, 200
+  offset: 33, 10
+  index: -1
+IronMine
+  rotate: false
+  xy: 965, 1661
+  size: 200, 184
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+IronWall
+  rotate: false
+  xy: 2, 360
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+IronWall
+  rotate: false
+  xy: 404, 794
+  size: 184, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 1
+LeafShelter
+  rotate: false
+  xy: 590, 770
+  size: 200, 167
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+Monolith
+  rotate: false
+  xy: 598, 1267
+  size: 197, 197
+  orig: 200, 200
+  offset: 1, 0
+  index: -1
+MonolithRuins
+  rotate: false
+  xy: 1394, 868
+  size: 129, 122
+  orig: 200, 200
+  offset: 34, 3
+  index: -1
+OpenDoor
+  rotate: false
+  xy: 997, 1459
+  size: 167, 200
+  orig: 200, 200
+  offset: 33, 0
+  index: 1
+OpenDoor
+  rotate: false
+  xy: 1551, 1256
+  size: 186, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+PlaneWreckage
+  rotate: false
+  xy: 296, 1602
+  size: 300, 262
+  orig: 300, 300
+  offset: 0, 20
+  index: -1
+Portal
+  rotate: false
+  xy: 1569, 1458
+  size: 199, 184
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PowerBall
+  rotate: false
+  xy: 1336, 868
+  size: 44, 42
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+Raft_N
+  rotate: false
+  xy: 402, 443
+  size: 179, 147
+  orig: 200, 200
+  offset: 10, 4
+  index: -1
+Raft_S
+  rotate: false
+  xy: 583, 442
+  size: 179, 147
+  orig: 200, 200
+  offset: 10, 4
+  index: -1
+SOSTower
+  rotate: false
+  xy: 718, 28
+  size: 143, 200
+  orig: 200, 200
+  offset: 50, 0
+  index: -1
+StoneArrowTower
+  rotate: false
+  xy: 401, 241
+  size: 176, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+StoneFireTower
+  rotate: false
+  xy: 403, 41
+  size: 159, 198
+  orig: 200, 200
+  offset: 26, 2
+  index: -1
+StoneHouse
+  rotate: false
+  xy: 204, 966
+  size: 198, 200
+  orig: 200, 200
+  offset: 2, 0
+  index: -1
+StoneIceTower
+  rotate: false
+  xy: 564, 39
+  size: 152, 199
+  orig: 200, 200
+  offset: 33, 1
+  index: -1
+StonePaving
+  rotate: false
+  xy: 771, 559
+  size: 200, 156
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+StoneWall
+  rotate: false
+  xy: 1167, 1846
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 0
+StoneWall
+  rotate: false
+  xy: 402, 592
+  size: 184, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 1
+TeamFlag
+  rotate: false
+  xy: 1213, 123
+  size: 142, 194
+  orig: 200, 200
+  offset: 29, 3
+  index: -1
+Water
+  rotate: false
+  xy: 1985, 921
+  size: 61, 87
+  orig: 100, 100
+  offset: 18, 4
+  index: -1
+WaterSpring
+  rotate: false
+  xy: 1367, 1460
+  size: 200, 183
+  orig: 200, 200
+  offset: 0, 1
+  index: -1
+WaterWell
+  rotate: false
+  xy: 1361, 1258
+  size: 188, 200
+  orig: 200, 200
+  offset: 1, 0
+  index: -1
+WoodFence
+  rotate: false
+  xy: 797, 1266
+  size: 191, 195
+  orig: 200, 200
+  offset: 0, 4
+  index: 0
+WoodFence
+  rotate: false
+  xy: 983, 1060
+  size: 185, 195
+  orig: 200, 200
+  offset: 15, 4
+  index: 1
+WoodFloor
+  rotate: false
+  xy: 2, 9
+  size: 200, 147
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+WoodTent
+  rotate: false
+  xy: 1369, 1846
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+WoodWall
+  rotate: false
+  xy: 404, 996
+  size: 194, 200
+  orig: 200, 200
+  offset: 5, 0
+  index: 0
+WoodWall
+  rotate: false
+  xy: 600, 1065
+  size: 193, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: 1
+Bleed
+  rotate: false
+  xy: 863, 189
+  size: 37, 39
+  orig: 48, 48
+  offset: 4, 4
+  index: -1
+Frozen
+  rotate: false
+  xy: 2002, 50
+  size: 44, 44
+  orig: 50, 50
+  offset: 3, 4
+  index: 0
+Help
+  rotate: false
+  xy: 1410, 321
+  size: 50, 33
+  orig: 50, 50
+  offset: 0, 9
+  index: -1
+PoisonHit
+  rotate: false
+  xy: 2002, 2
+  size: 43, 46
+  orig: 48, 48
+  offset: 4, 2
+  index: -1
+EyePatch_R
+  rotate: false
+  xy: 944, 528
+  size: 25, 29
+  orig: 200, 200
+  offset: 152, 24
+  index: -1
+EyePatch_S
+  rotate: false
+  xy: 1287, 1130
+  size: 31, 18
+  orig: 200, 200
+  offset: 90, 146
+  index: -1
+Eyebrows_R
+  rotate: false
+  xy: 1474, 862
+  size: 4, 4
+  orig: 200, 200
+  offset: 174, 46
+  index: -1
+Eyebrows_S
+  rotate: false
+  xy: 1690, 1120
+  size: 7, 4
+  orig: 200, 200
+  offset: 91, 147
+  index: -1
+Eyeglasses_R
+  rotate: false
+  xy: 902, 353
+  size: 18, 10
+  orig: 200, 200
+  offset: 160, 44
+  index: -1
+Eyeglasses_S
+  rotate: false
+  xy: 1176, 914
+  size: 25, 14
+  orig: 200, 200
+  offset: 90, 145
+  index: -1
+Face_Beard_R
+  rotate: false
+  xy: 1005, 2
+  size: 24, 19
+  orig: 200, 200
+  offset: 148, 51
+  index: -1
+Face_Beard_S
+  rotate: false
+  xy: 497, 22
+  size: 24, 17
+  orig: 200, 200
+  offset: 91, 135
+  index: -1
+Face_Lips_R
+  rotate: false
+  xy: 1331, 694
+  size: 3, 3
+  orig: 200, 200
+  offset: 166, 61
+  index: -1
+Face_Lips_S
+  rotate: false
+  xy: 296, 1572
+  size: 5, 3
+  orig: 200, 200
+  offset: 95, 140
+  index: -1
+Face_LongBeard_R
+  rotate: false
+  xy: 1844, 1011
+  size: 24, 21
+  orig: 200, 200
+  offset: 148, 51
+  index: -1
+Face_LongBeard_S
+  rotate: false
+  xy: 1462, 331
+  size: 24, 23
+  orig: 200, 200
+  offset: 91, 129
+  index: -1
+Face_Mustache_R
+  rotate: false
+  xy: 1763, 990
+  size: 7, 4
+  orig: 200, 200
+  offset: 167, 58
+  index: -1
+Face_Mustache_S
+  rotate: false
+  xy: 1464, 862
+  size: 8, 4
+  orig: 200, 200
+  offset: 92, 141
+  index: -1
+Sunglasses_R
+  rotate: false
+  xy: 1462, 319
+  size: 17, 10
+  orig: 200, 200
+  offset: 161, 44
+  index: -1
+Sunglasses_S
+  rotate: false
+  xy: 1360, 2
+  size: 23, 13
+  orig: 200, 200
+  offset: 90, 145
+  index: -1
+HairPony_S
+  rotate: false
+  xy: 403, 5
+  size: 45, 34
+  orig: 200, 200
+  offset: 85, 151
+  index: -1
+HairPunk_R
+  rotate: false
+  xy: 450, 7
+  size: 45, 32
+  orig: 200, 200
+  offset: 140, 18
+  index: -1
+HairPunk_S
+  rotate: false
+  xy: 296, 1577
+  size: 30, 23
+  orig: 200, 200
+  offset: 91, 162
+  index: -1
+HumanMaleIcon
+  rotate: false
+  xy: 1997, 750
+  size: 48, 94
+  orig: 100, 100
+  offset: 26, 3
+  index: -1
+Human_Legs_N
+  rotate: false
+  xy: 1941, 198
+  size: 105, 114
+  orig: 200, 200
+  offset: 33, 5
+  index: 2
+Human_Legs_R
+  rotate: false
+  xy: 1841, 498
+  size: 100, 106
+  orig: 200, 200
+  offset: 20, 64
+  index: -1
+Human_Legs_S
+  rotate: false
+  xy: 1971, 1464
+  size: 71, 124
+  orig: 200, 200
+  offset: 80, 13
+  index: 1
+Human_Legs_S
+  rotate: false
+  xy: 1471, 1122
+  size: 77, 134
+  orig: 200, 200
+  offset: 79, 3
+  index: 0
+Human_Torso_N
+  rotate: false
+  xy: 1911, 1010
+  size: 127, 70
+  orig: 200, 200
+  offset: 36, 93
+  index: 1
+Human_Torso_R
+  rotate: false
+  xy: 1170, 1060
+  size: 115, 88
+  orig: 200, 200
+  offset: 44, 29
+  index: -1
+LeatherBoots_N
+  rotate: false
+  xy: 1943, 562
+  size: 103, 56
+  orig: 200, 200
+  offset: 34, 21
+  index: 2
+Shorts_N
+  rotate: false
+  xy: 1144, 126
+  size: 59, 53
+  orig: 200, 200
+  offset: 54, 66
+  index: 2
+Shorts_S
+  rotate: false
+  xy: 1997, 846
+  size: 49, 73
+  orig: 200, 200
+  offset: 95, 64
+  index: 0
+
+DefaultSprites2.png
+size: 2048, 2048
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+AssetBlood
+  rotate: false
+  xy: 654, 1229
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BloodSplatter
+  rotate: false
+  xy: 654, 1229
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+AssetDrag
+  rotate: false
+  xy: 770, 1715
+  size: 90, 74
+  orig: 100, 100
+  offset: 5, 5
+  index: -1
+AssetRipple
+  rotate: false
+  xy: 1302, 79
+  size: 84, 68
+  orig: 100, 100
+  offset: 8, 11
+  index: 0
+AssetRipple
+  rotate: false
+  xy: 1388, 79
+  size: 84, 67
+  orig: 100, 100
+  offset: 8, 11
+  index: 1
+AssetRipple
+  rotate: false
+  xy: 1474, 80
+  size: 84, 66
+  orig: 100, 100
+  offset: 8, 11
+  index: 3
+AssetRipple
+  rotate: false
+  xy: 1560, 66
+  size: 84, 65
+  orig: 100, 100
+  offset: 8, 12
+  index: 2
+AssetShadow
+  rotate: false
+  xy: 1972, 1220
+  size: 74, 62
+  orig: 100, 100
+  offset: 12, 20
+  index: -1
+AssetTargetArrow
+  rotate: false
+  xy: 391, 913
+  size: 90, 98
+  orig: 100, 100
+  offset: 5, 0
+  index: -1
+BlobIcon
+  rotate: false
+  xy: 289, 1129
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Blob_N
+  rotate: false
+  xy: 190, 3
+  size: 97, 116
+  orig: 128, 128
+  offset: 12, 2
+  index: 0
+Blob_N
+  rotate: false
+  xy: 391, 1013
+  size: 77, 110
+  orig: 128, 128
+  offset: 28, 11
+  index: 1
+Blob_N
+  rotate: false
+  xy: 444, 803
+  size: 70, 108
+  orig: 128, 128
+  offset: 29, 10
+  index: 2
+Blob_S
+  rotate: false
+  xy: 202, 1677
+  size: 98, 116
+  orig: 128, 128
+  offset: 25, 4
+  index: 0
+Blob_S
+  rotate: false
+  xy: 215, 1433
+  size: 84, 121
+  orig: 128, 128
+  offset: 20, 4
+  index: 3
+Blob_S
+  rotate: false
+  xy: 371, 1577
+  size: 77, 116
+  orig: 128, 128
+  offset: 25, 7
+  index: 1
+Blob_S
+  rotate: false
+  xy: 391, 1125
+  size: 71, 104
+  orig: 128, 128
+  offset: 31, 17
+  index: 2
+DemonIcon
+  rotate: false
+  xy: 342, 811
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyArcherIcon
+  rotate: false
+  xy: 587, 846
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemySoldierEquippedIcon
+  rotate: false
+  xy: 587, 846
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemySoldierIcon
+  rotate: false
+  xy: 587, 846
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UndeadIcon
+  rotate: false
+  xy: 587, 846
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyBossIcon
+  rotate: false
+  xy: 689, 846
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyHeavyIcon
+  rotate: false
+  xy: 689, 846
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyBoss_N
+  rotate: false
+  xy: 2, 503
+  size: 104, 128
+  orig: 128, 128
+  offset: 7, 0
+  index: 1
+EnemyHeavy_N
+  rotate: false
+  xy: 2, 503
+  size: 104, 128
+  orig: 128, 128
+  offset: 7, 0
+  index: 1
+EnemyHealer
+  rotate: false
+  xy: 1062, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyHealerIcon
+  rotate: false
+  xy: 517, 712
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyHealer_N
+  rotate: false
+  xy: 2, 762
+  size: 107, 126
+  orig: 128, 128
+  offset: 0, 1
+  index: 3
+EnemyHealer_S
+  rotate: false
+  xy: 593, 1921
+  size: 114, 125
+  orig: 128, 128
+  offset: 13, 3
+  index: 2
+EnemyHeavy
+  rotate: false
+  xy: 1124, 1511
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 3
+  index: -1
+EnemyLeader
+  rotate: false
+  xy: 1327, 403
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+EnemyLeaderIcon
+  rotate: false
+  xy: 619, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EnemyLeader_N
+  rotate: false
+  xy: 2, 248
+  size: 108, 125
+  orig: 128, 128
+  offset: 19, 0
+  index: 2
+EnemyLeader_S
+  rotate: false
+  xy: 689, 1791
+  size: 101, 128
+  orig: 128, 128
+  offset: 10, 0
+  index: 2
+EnemySoldier
+  rotate: false
+  xy: 1328, 1511
+  size: 100, 78
+  orig: 100, 100
+  offset: 0, 11
+  index: -1
+FireEnemyLeaderIcon
+  rotate: false
+  xy: 721, 744
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+FireEnemyLeader_N
+  rotate: false
+  xy: 2, 121
+  size: 108, 125
+  orig: 128, 128
+  offset: 19, 0
+  index: 2
+FireEnemyLeader_S
+  rotate: false
+  xy: 124, 1918
+  size: 115, 128
+  orig: 128, 128
+  offset: 12, 0
+  index: 3
+FireEnemyLeader_S
+  rotate: false
+  xy: 792, 1793
+  size: 101, 128
+  orig: 128, 128
+  offset: 10, 0
+  index: 2
+FireEnemyLeader_S
+  rotate: false
+  xy: 1496, 1791
+  size: 96, 128
+  orig: 128, 128
+  offset: 19, 0
+  index: 0
+FireEnemyLeader_S
+  rotate: false
+  xy: 1594, 1792
+  size: 98, 128
+  orig: 128, 128
+  offset: 11, 0
+  index: 1
+FireGolemIcon
+  rotate: false
+  xy: 207, 533
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+FireGolem_N
+  rotate: false
+  xy: 124, 1798
+  size: 118, 118
+  orig: 128, 128
+  offset: 5, 3
+  index: 2
+FireGolem_S
+  rotate: false
+  xy: 1634, 1926
+  size: 115, 120
+  orig: 128, 128
+  offset: 13, 1
+  index: 0
+FireGolem_S
+  rotate: false
+  xy: 1751, 1929
+  size: 118, 117
+  orig: 128, 128
+  offset: 9, 3
+  index: 2
+IceEnemyLeaderIcon
+  rotate: false
+  xy: 757, 1050
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IceEnemyLeader_N
+  rotate: false
+  xy: 241, 1918
+  size: 114, 128
+  orig: 128, 128
+  offset: 13, 0
+  index: 1
+IceEnemyLeader_N
+  rotate: false
+  xy: 359, 1794
+  size: 108, 125
+  orig: 128, 128
+  offset: 19, 0
+  index: 2
+IceEnemyLeader_S
+  rotate: false
+  xy: 2, 1666
+  size: 115, 128
+  orig: 128, 128
+  offset: 12, 0
+  index: 3
+IceEnemyLeader_S
+  rotate: false
+  xy: 1290, 1791
+  size: 101, 128
+  orig: 128, 128
+  offset: 10, 0
+  index: 2
+IceEnemyLeader_S
+  rotate: false
+  xy: 1694, 1796
+  size: 96, 128
+  orig: 128, 128
+  offset: 19, 0
+  index: 0
+IceEnemyLeader_S
+  rotate: false
+  xy: 115, 1409
+  size: 98, 128
+  orig: 128, 128
+  offset: 11, 0
+  index: 1
+Krafteer
+  rotate: false
+  xy: 895, 1795
+  size: 104, 125
+  orig: 128, 128
+  offset: 17, 3
+  index: -1
+Krafteer_S
+  rotate: false
+  xy: 895, 1795
+  size: 104, 125
+  orig: 128, 128
+  offset: 17, 3
+  index: 1
+KrafteerIcon
+  rotate: false
+  xy: 960, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Krafteer_N
+  rotate: false
+  xy: 2, 1922
+  size: 120, 124
+  orig: 128, 128
+  offset: 3, 4
+  index: 2
+Krafteer_N
+  rotate: false
+  xy: 357, 1921
+  size: 116, 125
+  orig: 128, 128
+  offset: 5, 3
+  index: 0
+Krafteer_N
+  rotate: false
+  xy: 1292, 1921
+  size: 112, 125
+  orig: 128, 128
+  offset: 7, 3
+  index: 1
+Krafteer_N
+  rotate: false
+  xy: 469, 1794
+  size: 108, 125
+  orig: 128, 128
+  offset: 1, 3
+  index: 3
+Krafteer_R
+  rotate: false
+  xy: 1601, 905
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Krafteer_S
+  rotate: false
+  xy: 709, 1923
+  size: 116, 123
+  orig: 128, 128
+  offset: 11, 5
+  index: 2
+Krafteer_S
+  rotate: false
+  xy: 945, 1922
+  size: 114, 124
+  orig: 128, 128
+  offset: 11, 4
+  index: 0
+Krafteer_S
+  rotate: false
+  xy: 1871, 1925
+  size: 113, 121
+  orig: 128, 128
+  offset: 0, 5
+  index: 3
+KreepBomb
+  rotate: false
+  xy: 271, 775
+  size: 69, 119
+  orig: 128, 128
+  offset: 32, 4
+  index: 1
+Kreep_S
+  rotate: false
+  xy: 271, 775
+  size: 69, 119
+  orig: 128, 128
+  offset: 32, 4
+  index: 3
+KreepBomb
+  rotate: false
+  xy: 394, 1343
+  size: 68, 115
+  orig: 128, 128
+  offset: 30, 9
+  index: 0
+Kreep_S
+  rotate: false
+  xy: 394, 1343
+  size: 68, 115
+  orig: 128, 128
+  offset: 30, 9
+  index: 1
+KreepBombIcon
+  rotate: false
+  xy: 1049, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+KreepIcon
+  rotate: false
+  xy: 1049, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+KreepSpawnIcon
+  rotate: false
+  xy: 1049, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+KreepSpawn
+  rotate: false
+  xy: 219, 1312
+  size: 86, 119
+  orig: 128, 128
+  offset: 16, 9
+  index: 0
+KreepSpawn
+  rotate: false
+  xy: 300, 1556
+  size: 69, 119
+  orig: 128, 128
+  offset: 32, 9
+  index: 1
+Kreep_N
+  rotate: false
+  xy: 1977, 1800
+  size: 69, 123
+  orig: 128, 128
+  offset: 25, 0
+  index: 0
+Kreep_N
+  rotate: false
+  xy: 201, 381
+  size: 87, 123
+  orig: 128, 128
+  offset: 19, 2
+  index: 1
+Kreep_N
+  rotate: false
+  xy: 201, 766
+  size: 68, 122
+  orig: 128, 128
+  offset: 30, 2
+  index: 3
+Kreep_S
+  rotate: false
+  xy: 301, 1435
+  size: 86, 119
+  orig: 128, 128
+  offset: 16, 5
+  index: 2
+Player1
+  rotate: false
+  xy: 924, 746
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player1_R
+  rotate: false
+  xy: 924, 746
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player1Icon
+  rotate: false
+  xy: 987, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player1_N
+  rotate: false
+  xy: 2, 1409
+  size: 111, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+Player1_N
+  rotate: false
+  xy: 2, 633
+  size: 106, 127
+  orig: 128, 128
+  offset: 12, 1
+  index: 2
+Player1_N
+  rotate: false
+  xy: 111, 1020
+  size: 91, 128
+  orig: 128, 128
+  offset: 13, 0
+  index: 0
+Player1_N
+  rotate: false
+  xy: 208, 1150
+  size: 79, 128
+  orig: 128, 128
+  offset: 22, 0
+  index: 1
+Player1_S
+  rotate: false
+  xy: 2, 1020
+  size: 107, 128
+  orig: 128, 128
+  offset: 14, 0
+  index: 1
+Player1_S
+  rotate: false
+  xy: 114, 1150
+  size: 92, 128
+  orig: 128, 128
+  offset: 35, 0
+  index: 0
+Player2
+  rotate: false
+  xy: 937, 644
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player2_R
+  rotate: false
+  xy: 937, 644
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player2Icon
+  rotate: false
+  xy: 1089, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player2_N
+  rotate: false
+  xy: 1177, 1922
+  size: 113, 124
+  orig: 128, 128
+  offset: 0, 0
+  index: 3
+Player2_N
+  rotate: false
+  xy: 1393, 1791
+  size: 101, 128
+  orig: 128, 128
+  offset: 4, 0
+  index: 1
+Player2_N
+  rotate: false
+  xy: 204, 1022
+  size: 83, 126
+  orig: 128, 128
+  offset: 18, 1
+  index: 2
+Player2_S
+  rotate: false
+  xy: 111, 890
+  size: 91, 128
+  orig: 128, 128
+  offset: 34, 0
+  index: 0
+Player2_S
+  rotate: false
+  xy: 112, 251
+  size: 84, 128
+  orig: 128, 128
+  offset: 35, 0
+  index: 1
+Player2_S
+  rotate: false
+  xy: 204, 896
+  size: 86, 124
+  orig: 128, 128
+  offset: 31, 4
+  index: 2
+Player3
+  rotate: false
+  xy: 961, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player3_R
+  rotate: false
+  xy: 961, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player3Icon
+  rotate: false
+  xy: 989, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player3_N
+  rotate: false
+  xy: 1520, 1922
+  size: 112, 124
+  orig: 128, 128
+  offset: 13, 3
+  index: 3
+Player3_N
+  rotate: false
+  xy: 111, 761
+  size: 88, 127
+  orig: 128, 128
+  offset: 7, 0
+  index: 0
+Player3_N
+  rotate: false
+  xy: 119, 1671
+  size: 81, 123
+  orig: 128, 128
+  offset: 17, 5
+  index: 2
+Player3_S
+  rotate: false
+  xy: 1216, 1801
+  size: 72, 119
+  orig: 128, 128
+  offset: 43, 9
+  index: 1
+Player3_S
+  rotate: false
+  xy: 1871, 1811
+  size: 104, 112
+  orig: 128, 128
+  offset: 5, 7
+  index: 3
+Player3_S
+  rotate: false
+  xy: 119, 1547
+  size: 85, 122
+  orig: 128, 128
+  offset: 39, 6
+  index: 0
+Player3_S
+  rotate: false
+  xy: 307, 1319
+  size: 85, 114
+  orig: 128, 128
+  offset: 36, 12
+  index: 2
+Player4
+  rotate: false
+  xy: 1063, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player4_R
+  rotate: false
+  xy: 1063, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player4Icon
+  rotate: false
+  xy: 1091, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Player4_N
+  rotate: false
+  xy: 2, 1539
+  size: 115, 125
+  orig: 128, 128
+  offset: 5, 0
+  index: 3
+Player4_N
+  rotate: false
+  xy: 2, 1280
+  size: 112, 127
+  orig: 128, 128
+  offset: 15, 0
+  index: 2
+Player4_N
+  rotate: false
+  xy: 110, 631
+  size: 88, 128
+  orig: 128, 128
+  offset: 15, 0
+  index: 0
+Player4_N
+  rotate: false
+  xy: 112, 121
+  size: 84, 128
+  orig: 128, 128
+  offset: 18, 0
+  index: 1
+Player4_S
+  rotate: false
+  xy: 2, 1150
+  size: 110, 128
+  orig: 128, 128
+  offset: 17, 0
+  index: 0
+Player4_S
+  rotate: false
+  xy: 116, 1280
+  size: 101, 127
+  orig: 128, 128
+  offset: 20, 1
+  index: 1
+Player4_S
+  rotate: false
+  xy: 108, 506
+  size: 97, 123
+  orig: 128, 128
+  offset: 27, 5
+  index: 2
+Shaman
+  rotate: false
+  xy: 2, 375
+  size: 104, 126
+  orig: 128, 128
+  offset: 17, 1
+  index: 2
+Shaman
+  rotate: false
+  xy: 1243, 698
+  size: 100, 100
+  orig: 128, 128
+  offset: 14, 14
+  index: -1
+ShamanIcon
+  rotate: false
+  xy: 1247, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Shaman_N
+  rotate: false
+  xy: 2, 1796
+  size: 120, 124
+  orig: 128, 128
+  offset: 3, 4
+  index: 2
+Shaman_N
+  rotate: false
+  xy: 475, 1921
+  size: 116, 125
+  orig: 128, 128
+  offset: 5, 3
+  index: 0
+Shaman_N
+  rotate: false
+  xy: 1406, 1921
+  size: 112, 125
+  orig: 128, 128
+  offset: 7, 3
+  index: 1
+Shaman_N
+  rotate: false
+  xy: 579, 1794
+  size: 108, 125
+  orig: 128, 128
+  offset: 15, 3
+  index: 3
+Shaman_R
+  rotate: false
+  xy: 1568, 1589
+  size: 100, 99
+  orig: 128, 128
+  offset: 14, 14
+  index: -1
+Shaman_S
+  rotate: false
+  xy: 827, 1923
+  size: 116, 123
+  orig: 128, 128
+  offset: 11, 5
+  index: 2
+Shaman_S
+  rotate: false
+  xy: 1061, 1922
+  size: 114, 124
+  orig: 128, 128
+  offset: 11, 4
+  index: 0
+Shaman_S
+  rotate: false
+  xy: 244, 1795
+  size: 113, 121
+  orig: 128, 128
+  offset: 0, 5
+  index: 3
+Shaman_S
+  rotate: false
+  xy: 1001, 1795
+  size: 104, 125
+  orig: 128, 128
+  offset: 17, 3
+  index: 1
+SpectreIcon
+  rotate: false
+  xy: 1447, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Spectre_N
+  rotate: false
+  xy: 2, 890
+  size: 107, 128
+  orig: 128, 128
+  offset: 13, 0
+  index: 3
+Spectre_N
+  rotate: false
+  xy: 108, 381
+  size: 91, 123
+  orig: 128, 128
+  offset: 29, 5
+  index: 1
+Spectre_N
+  rotate: false
+  xy: 198, 256
+  size: 91, 123
+  orig: 128, 128
+  offset: 31, 5
+  index: 2
+Spectre_N
+  rotate: false
+  xy: 198, 133
+  size: 91, 121
+  orig: 128, 128
+  offset: 27, 7
+  index: 0
+Spectre_S
+  rotate: false
+  xy: 2, 2
+  size: 92, 117
+  orig: 128, 128
+  offset: 10, 11
+  index: 0
+Spectre_S
+  rotate: false
+  xy: 96, 2
+  size: 92, 117
+  orig: 128, 128
+  offset: 8, 11
+  index: 1
+Spectre_S
+  rotate: false
+  xy: 206, 1556
+  size: 92, 119
+  orig: 128, 128
+  offset: 10, 9
+  index: 3
+Bow
+  rotate: false
+  xy: 342, 640
+  size: 100, 73
+  orig: 100, 100
+  offset: 0, 11
+  index: -1
+Bow_N
+  rotate: false
+  xy: 1532, 1511
+  size: 70, 75
+  orig: 128, 128
+  offset: 38, 19
+  index: -1
+Bow_S
+  rotate: false
+  xy: 1942, 37
+  size: 79, 70
+  orig: 128, 128
+  offset: 7, 49
+  index: -1
+Club
+  rotate: false
+  xy: 615, 489
+  size: 100, 88
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Club_N
+  rotate: false
+  xy: 516, 814
+  size: 69, 105
+  orig: 128, 128
+  offset: 52, 5
+  index: -1
+Club_S
+  rotate: false
+  xy: 459, 2
+  size: 57, 61
+  orig: 128, 128
+  offset: 0, 57
+  index: -1
+FireBow
+  rotate: false
+  xy: 309, 457
+  size: 100, 79
+  orig: 100, 100
+  offset: 0, 10
+  index: 0
+FireBow
+  rotate: false
+  xy: 411, 448
+  size: 100, 84
+  orig: 100, 100
+  offset: 0, 11
+  index: 1
+FireBow_N
+  rotate: false
+  xy: 1792, 220
+  size: 70, 84
+  orig: 128, 128
+  offset: 38, 19
+  index: -1
+FireBow_S
+  rotate: false
+  xy: 1780, 48
+  size: 79, 77
+  orig: 128, 128
+  offset: 7, 42
+  index: -1
+FireSword
+  rotate: false
+  xy: 309, 538
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+FireSword
+  rotate: false
+  xy: 513, 424
+  size: 100, 88
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+FireSword_N
+  rotate: false
+  xy: 1986, 932
+  size: 57, 90
+  orig: 128, 128
+  offset: 71, 38
+  index: -1
+Flamethrower_N
+  rotate: false
+  xy: 291, 100
+  size: 100, 84
+  orig: 200, 200
+  offset: 94, 74
+  index: -1
+Flamethrower_R
+  rotate: false
+  xy: 1889, 1526
+  size: 70, 97
+  orig: 200, 200
+  offset: 18, 20
+  index: -1
+Flamethrower_S
+  rotate: false
+  xy: 970, 86
+  size: 89, 84
+  orig: 200, 200
+  offset: 1, 64
+  index: -1
+Hammer_N
+  rotate: false
+  xy: 1919, 1465
+  size: 51, 59
+  orig: 128, 128
+  offset: 70, 42
+  index: -1
+IronHammer_N
+  rotate: false
+  xy: 1919, 1465
+  size: 51, 59
+  orig: 128, 128
+  offset: 70, 42
+  index: -1
+IceBow
+  rotate: false
+  xy: 290, 382
+  size: 100, 73
+  orig: 100, 100
+  offset: 0, 11
+  index: -1
+IceBow_N
+  rotate: false
+  xy: 1219, 2
+  size: 70, 75
+  orig: 128, 128
+  offset: 38, 19
+  index: -1
+IronAxe
+  rotate: false
+  xy: 1573, 1107
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+IronAxe_N
+  rotate: false
+  xy: 1422, 3
+  size: 51, 74
+  orig: 128, 128
+  offset: 65, 35
+  index: -1
+StoneAxe_N
+  rotate: false
+  xy: 1422, 3
+  size: 51, 74
+  orig: 128, 128
+  offset: 65, 35
+  index: -1
+IronAxe_S
+  rotate: false
+  xy: 542, 1727
+  size: 120, 65
+  orig: 128, 128
+  offset: 7, 19
+  index: -1
+StoneAxe_S
+  rotate: false
+  xy: 542, 1727
+  size: 120, 65
+  orig: 128, 128
+  offset: 7, 19
+  index: -1
+IronHammer
+  rotate: false
+  xy: 1501, 148
+  size: 98, 77
+  orig: 100, 100
+  offset: 1, 6
+  index: -1
+IronPick
+  rotate: false
+  xy: 999, 255
+  size: 100, 84
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IronPick_S
+  rotate: false
+  xy: 302, 1695
+  size: 116, 97
+  orig: 128, 128
+  offset: 11, 7
+  index: -1
+StonePick_S
+  rotate: false
+  xy: 302, 1695
+  size: 116, 97
+  orig: 128, 128
+  offset: 11, 7
+  index: -1
+LightedTorch
+  rotate: false
+  xy: 859, 1052
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+LightedTorch
+  rotate: false
+  xy: 885, 950
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Machete
+  rotate: false
+  xy: 1604, 1511
+  size: 100, 76
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+MorningStar
+  rotate: false
+  xy: 563, 1530
+  size: 89, 93
+  orig: 100, 100
+  offset: 10, 0
+  index: 0
+MorningStar
+  rotate: false
+  xy: 1756, 604
+  size: 95, 98
+  orig: 100, 100
+  offset: 4, 0
+  index: 1
+MorningStar_N
+  rotate: false
+  xy: 518, 2
+  size: 53, 61
+  orig: 128, 128
+  offset: 70, 43
+  index: -1
+PowerBow
+  rotate: false
+  xy: 1407, 232
+  size: 100, 73
+  orig: 100, 100
+  offset: 0, 11
+  index: -1
+PowerBow_N
+  rotate: false
+  xy: 1291, 2
+  size: 70, 75
+  orig: 128, 128
+  offset: 38, 19
+  index: -1
+StoneAxe
+  rotate: false
+  xy: 1457, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StonePick
+  rotate: false
+  xy: 894, 176
+  size: 100, 87
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StoneSpear
+  rotate: false
+  xy: 1200, 163
+  size: 100, 86
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StoneSpear_N
+  rotate: false
+  xy: 1646, 47
+  size: 50, 84
+  orig: 128, 128
+  offset: 67, 41
+  index: -1
+Alligator
+  rotate: false
+  xy: 444, 621
+  size: 93, 83
+  orig: 100, 100
+  offset: 7, 7
+  index: -1
+Alligator_N
+  rotate: false
+  xy: 450, 1608
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Alligator_N
+  rotate: false
+  xy: 552, 1625
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Alligator_S
+  rotate: false
+  xy: 654, 1614
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Alligator_S
+  rotate: false
+  xy: 654, 1515
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Alligator_S
+  rotate: false
+  xy: 654, 1414
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Alligator_S
+  rotate: false
+  xy: 464, 1303
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+BeeSwarm
+  rotate: false
+  xy: 464, 1201
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Bird
+  rotate: false
+  xy: 1706, 1511
+  size: 80, 77
+  orig: 100, 100
+  offset: 10, 0
+  index: -1
+Bird_N
+  rotate: false
+  xy: 342, 715
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Bird_N
+  rotate: false
+  xy: 539, 615
+  size: 97, 95
+  orig: 100, 100
+  offset: 1, 0
+  index: 0
+Bird_N
+  rotate: false
+  xy: 742, 546
+  size: 98, 94
+  orig: 100, 100
+  offset: 2, 0
+  index: 1
+Bird_N
+  rotate: false
+  xy: 1788, 1502
+  size: 99, 90
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Bird_S
+  rotate: false
+  xy: 566, 1050
+  size: 88, 100
+  orig: 100, 100
+  offset: 5, 0
+  index: 0
+Bird_S
+  rotate: false
+  xy: 1165, 1610
+  size: 95, 86
+  orig: 100, 100
+  offset: 5, 0
+  index: 3
+Bird_S
+  rotate: false
+  xy: 1955, 1635
+  size: 91, 71
+  orig: 100, 100
+  offset: 2, 0
+  index: 1
+Coral
+  rotate: false
+  xy: 1043, 517
+  size: 100, 77
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+Crab
+  rotate: false
+  xy: 923, 1511
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 3
+  index: -1
+Crab_N
+  rotate: false
+  xy: 960, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Crab_N
+  rotate: false
+  xy: 1021, 431
+  size: 100, 84
+  orig: 100, 100
+  offset: 0, 12
+  index: 0
+Crab_N
+  rotate: false
+  xy: 1123, 424
+  size: 100, 82
+  orig: 100, 100
+  offset: 0, 11
+  index: 1
+Crab_N
+  rotate: false
+  xy: 1225, 412
+  size: 100, 85
+  orig: 100, 100
+  offset: 0, 12
+  index: 2
+Crab_S
+  rotate: false
+  xy: 1247, 499
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Crab_S
+  rotate: false
+  xy: 1262, 1596
+  size: 100, 91
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Crab_S
+  rotate: false
+  xy: 1364, 1591
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Fish
+  rotate: false
+  xy: 1429, 403
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 7
+  index: -1
+Fish_N
+  rotate: false
+  xy: 566, 1253
+  size: 86, 87
+  orig: 100, 100
+  offset: 14, 13
+  index: 3
+Fish_N
+  rotate: false
+  xy: 1753, 704
+  size: 92, 98
+  orig: 100, 100
+  offset: 0, 2
+  index: 0
+Fish_N
+  rotate: false
+  xy: 1961, 1546
+  size: 85, 87
+  orig: 100, 100
+  offset: 0, 13
+  index: 2
+Fish_N
+  rotate: false
+  xy: 1698, 129
+  size: 95, 89
+  orig: 100, 100
+  offset: 3, 11
+  index: 1
+Fish_S
+  rotate: false
+  xy: 740, 642
+  size: 94, 100
+  orig: 100, 100
+  offset: 6, 0
+  index: 2
+Fish_S
+  rotate: false
+  xy: 756, 1510
+  size: 63, 100
+  orig: 100, 100
+  offset: 16, 0
+  index: 0
+Fish_S
+  rotate: false
+  xy: 1960, 532
+  size: 82, 91
+  orig: 100, 100
+  offset: 13, 0
+  index: 1
+Fish_S
+  rotate: false
+  xy: 615, 410
+  size: 100, 77
+  orig: 100, 100
+  offset: 0, 23
+  index: 3
+Hog
+  rotate: false
+  xy: 693, 292
+  size: 100, 69
+  orig: 100, 100
+  offset: 0, 3
+  index: -1
+HogIcon
+  rotate: false
+  xy: 638, 642
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TamedHogIcon
+  rotate: false
+  xy: 638, 642
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Hog_N
+  rotate: false
+  xy: 756, 1408
+  size: 87, 100
+  orig: 100, 100
+  offset: 10, 0
+  index: 3
+TamedHog_N
+  rotate: false
+  xy: 756, 1408
+  size: 87, 100
+  orig: 100, 100
+  offset: 10, 0
+  index: 3
+Hog_N
+  rotate: false
+  xy: 1466, 1588
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+TamedHog_N
+  rotate: false
+  xy: 1466, 1588
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Hog_N
+  rotate: false
+  xy: 1349, 499
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+TamedHog_N
+  rotate: false
+  xy: 1349, 499
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Hog_N
+  rotate: false
+  xy: 1633, 305
+  size: 99, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+TamedHog_N
+  rotate: false
+  xy: 1633, 305
+  size: 99, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Hog_S
+  rotate: false
+  xy: 1164, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+TamedHog_S
+  rotate: false
+  xy: 1164, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Hog_S
+  rotate: false
+  xy: 1531, 402
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+TamedHog_S
+  rotate: false
+  xy: 1531, 402
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Hog_S
+  rotate: false
+  xy: 819, 351
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+TamedHog_S
+  rotate: false
+  xy: 819, 351
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Hog_S
+  rotate: false
+  xy: 495, 65
+  size: 92, 75
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+TamedHog_S
+  rotate: false
+  xy: 495, 65
+  size: 92, 75
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+PumaIcon
+  rotate: false
+  xy: 1026, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Puma_N
+  rotate: false
+  xy: 1128, 800
+  size: 97, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Puma_N
+  rotate: false
+  xy: 1368, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Puma_N
+  rotate: false
+  xy: 1470, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Puma_N
+  rotate: false
+  xy: 1847, 711
+  size: 95, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Puma_S
+  rotate: false
+  xy: 1039, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Puma_S
+  rotate: false
+  xy: 1141, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Puma_S
+  rotate: false
+  xy: 1043, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Puma_S
+  rotate: false
+  xy: 1064, 1693
+  size: 94, 100
+  orig: 100, 100
+  offset: 6, 0
+  index: 2
+Rabbit
+  rotate: false
+  xy: 1145, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+RabbitIcon
+  rotate: false
+  xy: 1151, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Rabbit_N
+  rotate: false
+  xy: 1165, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Rabbit_N
+  rotate: false
+  xy: 1191, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Rabbit_N
+  rotate: false
+  xy: 1193, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Rabbit_N
+  rotate: false
+  xy: 1757, 504
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Rabbit_S
+  rotate: false
+  xy: 1655, 501
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 0
+Rabbit_S
+  rotate: false
+  xy: 1625, 1691
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 1
+Rabbit_S
+  rotate: false
+  xy: 1727, 1695
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+Rabbit_S
+  rotate: false
+  xy: 1763, 1402
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 2
+  index: 3
+Shark
+  rotate: false
+  xy: 1670, 1590
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+SharkIcon
+  rotate: false
+  xy: 1160, 1698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Shark_N
+  rotate: false
+  xy: 1262, 1689
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Shark_N
+  rotate: false
+  xy: 1364, 1689
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Shark_N
+  rotate: false
+  xy: 1466, 1689
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Shark_N
+  rotate: false
+  xy: 1772, 1594
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 0
+Shark_S
+  rotate: false
+  xy: 1253, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Shark_S
+  rotate: false
+  xy: 1266, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Shark_S
+  rotate: false
+  xy: 1267, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Shark_S
+  rotate: false
+  xy: 1661, 1410
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+Snake
+  rotate: false
+  xy: 649, 1152
+  size: 100, 75
+  orig: 100, 100
+  offset: 0, 25
+  index: -1
+SnakeIcon
+  rotate: false
+  xy: 1369, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Snake_N
+  rotate: false
+  xy: 1777, 1109
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 2
+  index: 3
+Snake_N
+  rotate: false
+  xy: 291, 186
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+Snake_N
+  rotate: false
+  xy: 1531, 306
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 1
+  index: 0
+Snake_N
+  rotate: false
+  xy: 1734, 306
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 1
+  index: 1
+Snake_S
+  rotate: false
+  xy: 1395, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+Snake_S
+  rotate: false
+  xy: 1397, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Snake_S
+  rotate: false
+  xy: 1426, 800
+  size: 95, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Snake_S
+  rotate: false
+  xy: 393, 103
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 7
+  index: 0
+Spider
+  rotate: false
+  xy: 1780, 1009
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+Spider_N
+  rotate: false
+  xy: 1572, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 3
+  index: 0
+Spider_N
+  rotate: false
+  xy: 289, 2
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 3
+  index: 3
+Spider_N
+  rotate: false
+  xy: 1836, 309
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 5
+  index: 1
+Spider_N
+  rotate: false
+  xy: 489, 329
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 7
+  index: 2
+Spider_S
+  rotate: false
+  xy: 1853, 612
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 3
+  index: 3
+Spider_S
+  rotate: false
+  xy: 589, 137
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 7
+  index: 0
+Spider_S
+  rotate: false
+  xy: 691, 197
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 7
+  index: 1
+Spider_S
+  rotate: false
+  xy: 691, 102
+  size: 100, 93
+  orig: 100, 100
+  offset: 0, 7
+  index: 2
+TamedWolfIcon
+  rotate: false
+  xy: 1470, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+WolfIcon
+  rotate: false
+  xy: 1470, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TamedWolf_N
+  rotate: false
+  xy: 1471, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Wolf_N
+  rotate: false
+  xy: 1471, 1106
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+TamedWolf_N
+  rotate: false
+  xy: 1497, 1004
+  size: 99, 100
+  orig: 100, 100
+  offset: 1, 0
+  index: 1
+Wolf_N
+  rotate: false
+  xy: 1497, 1004
+  size: 99, 100
+  orig: 100, 100
+  offset: 1, 0
+  index: 1
+TamedWolf_N
+  rotate: false
+  xy: 1499, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Wolf_N
+  rotate: false
+  xy: 1499, 902
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+TamedWolf_N
+  rotate: false
+  xy: 1678, 1006
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+Wolf_N
+  rotate: false
+  xy: 1678, 1006
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+TamedWolf_S
+  rotate: false
+  xy: 1523, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Wolf_S
+  rotate: false
+  xy: 1523, 800
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+TamedWolf_S
+  rotate: false
+  xy: 1703, 905
+  size: 97, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 1
+Wolf_S
+  rotate: false
+  xy: 1703, 905
+  size: 97, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: 1
+TamedWolf_S
+  rotate: false
+  xy: 1938, 319
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Wolf_S
+  rotate: false
+  xy: 1938, 319
+  size: 100, 95
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+TamedWolf_S
+  rotate: false
+  xy: 793, 175
+  size: 99, 90
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+Wolf_S
+  rotate: false
+  xy: 793, 175
+  size: 99, 90
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+Wolf
+  rotate: false
+  xy: 1549, 698
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Apple
+  rotate: false
+  xy: 307, 1231
+  size: 85, 86
+  orig: 100, 100
+  offset: 9, 9
+  index: -1
+BambooCup
+  rotate: false
+  xy: 292, 925
+  size: 97, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+BambooCupCraftIcon
+  rotate: false
+  xy: 470, 1023
+  size: 94, 100
+  orig: 100, 100
+  offset: 6, 0
+  index: -1
+CornSeedlingsCraftIcon
+  rotate: false
+  xy: 470, 1023
+  size: 94, 100
+  orig: 100, 100
+  offset: 6, 0
+  index: -1
+PlantationCraftIcon
+  rotate: false
+  xy: 470, 1023
+  size: 94, 100
+  orig: 100, 100
+  offset: 6, 0
+  index: -1
+Bush
+  rotate: false
+  xy: 289, 1027
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Flower
+  rotate: false
+  xy: 1948, 183
+  size: 98, 67
+  orig: 100, 100
+  offset: 1, 1
+  index: -1
+Foliage
+  rotate: false
+  xy: 464, 1125
+  size: 100, 74
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+PalmLeaf
+  rotate: false
+  xy: 1651, 703
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+PalmTreeStump
+  rotate: false
+  xy: 890, 2
+  size: 89, 77
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Seed
+  rotate: false
+  xy: 751, 1152
+  size: 100, 71
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Shrub
+  rotate: false
+  xy: 1429, 307
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 3
+  index: -1
+TreeStump
+  rotate: false
+  xy: 1802, 909
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+Vine
+  rotate: false
+  xy: 1938, 252
+  size: 100, 65
+  orig: 100, 100
+  offset: 0, 3
+  index: -1
+WoodLog
+  rotate: false
+  xy: 1553, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EquipFeet
+  rotate: false
+  xy: 1865, 1309
+  size: 80, 92
+  orig: 100, 100
+  offset: 13, 4
+  index: -1
+EquipHand
+  rotate: false
+  xy: 1864, 219
+  size: 72, 88
+  orig: 100, 100
+  offset: 14, 6
+  index: -1
+EquipLegs
+  rotate: false
+  xy: 1795, 127
+  size: 66, 91
+  orig: 100, 100
+  offset: 17, 5
+  index: -1
+EquipTorso
+  rotate: false
+  xy: 566, 1152
+  size: 81, 99
+  orig: 100, 100
+  offset: 9, 0
+  index: -1
+IconAchievements
+  rotate: false
+  xy: 1879, 1113
+  size: 92, 96
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+IconChat
+  rotate: false
+  xy: 783, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconCheckOff
+  rotate: false
+  xy: 1829, 1714
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+IconCheckmark
+  rotate: false
+  xy: 1021, 341
+  size: 100, 88
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconCraftAction
+  rotate: false
+  xy: 1451, 498
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ShamanCraftIcon
+  rotate: false
+  xy: 1451, 498
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TeamFlagCraftIcon
+  rotate: false
+  xy: 1451, 498
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconCreate
+  rotate: false
+  xy: 791, 846
+  size: 97, 100
+  orig: 100, 100
+  offset: 3, 0
+  index: -1
+IconCredits
+  rotate: false
+  xy: 393, 294
+  size: 94, 94
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+IconDiscord
+  rotate: false
+  xy: 862, 1715
+  size: 98, 76
+  orig: 100, 100
+  offset: 2, 12
+  index: -1
+IconDragAction
+  rotate: false
+  xy: 392, 390
+  size: 78, 56
+  orig: 100, 100
+  offset: 11, 22
+  index: -1
+IconEnter
+  rotate: false
+  xy: 823, 744
+  size: 99, 100
+  orig: 100, 100
+  offset: 1, 0
+  index: -1
+IconEquipAction
+  rotate: false
+  xy: 1553, 498
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconExit
+  rotate: false
+  xy: 836, 642
+  size: 99, 100
+  orig: 100, 100
+  offset: 1, 0
+  index: -1
+IconGear
+  rotate: false
+  xy: 1882, 1015
+  size: 98, 96
+  orig: 100, 100
+  offset: 1, 2
+  index: -1
+IconGuard
+  rotate: false
+  xy: 1266, 1208
+  size: 100, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconHandPoint
+  rotate: false
+  xy: 1904, 917
+  size: 80, 96
+  orig: 100, 100
+  offset: 10, 2
+  index: -1
+IconLink
+  rotate: false
+  xy: 1123, 330
+  size: 100, 92
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconLoadingConnecting
+  rotate: false
+  xy: 1067, 8
+  size: 82, 82
+  orig: 100, 100
+  offset: 6, 10
+  index: -1
+IconLoadingTerrain
+  rotate: false
+  xy: 1927, 819
+  size: 98, 96
+  orig: 100, 100
+  offset: 0, 4
+  index: -1
+IconLocked
+  rotate: false
+  xy: 1151, 2
+  size: 66, 83
+  orig: 100, 100
+  offset: 17, 8
+  index: -1
+IconLogbook
+  rotate: false
+  xy: 495, 142
+  size: 92, 89
+  orig: 100, 100
+  offset: 3, 5
+  index: -1
+IconModifyAction
+  rotate: false
+  xy: 808, 1613
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconMove
+  rotate: false
+  xy: 821, 1511
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconMultiplayer
+  rotate: false
+  xy: 853, 1154
+  size: 96, 62
+  orig: 100, 100
+  offset: 2, 19
+  index: -1
+IconMusicOff
+  rotate: false
+  xy: 1986, 1927
+  size: 59, 71
+  orig: 100, 100
+  offset: 21, 19
+  index: -1
+IconNetwork
+  rotate: false
+  xy: 1225, 325
+  size: 100, 85
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconObjective
+  rotate: false
+  xy: 1327, 307
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 6
+  index: -1
+IconPickAction
+  rotate: false
+  xy: 1944, 721
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconPlay
+  rotate: false
+  xy: 1244, 79
+  size: 56, 82
+  orig: 100, 100
+  offset: 28, 9
+  index: -1
+IconPremium
+  rotate: false
+  xy: 1947, 1366
+  size: 99, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconRate
+  rotate: false
+  xy: 1871, 1715
+  size: 82, 94
+  orig: 100, 100
+  offset: 9, 1
+  index: -1
+IconRenameAction
+  rotate: false
+  xy: 394, 1241
+  size: 68, 100
+  orig: 100, 100
+  offset: 23, 0
+  index: -1
+IconRotateAction
+  rotate: false
+  xy: 591, 322
+  size: 100, 86
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+IconSleepAction
+  rotate: false
+  xy: 1728, 403
+  size: 97, 96
+  orig: 100, 100
+  offset: 1, 0
+  index: -1
+IconSwitch
+  rotate: false
+  xy: 1863, 127
+  size: 83, 90
+  orig: 100, 100
+  offset: 10, 8
+  index: -1
+IconTarget
+  rotate: false
+  xy: 845, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconToken
+  rotate: false
+  xy: 1829, 810
+  size: 96, 97
+  orig: 100, 100
+  offset: 3, 1
+  index: -1
+IconTrashCan
+  rotate: false
+  xy: 888, 81
+  size: 80, 92
+  orig: 100, 100
+  offset: 10, 4
+  index: -1
+IconUnlink
+  rotate: false
+  xy: 589, 232
+  size: 100, 88
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconUserBanned
+  rotate: false
+  xy: 1827, 406
+  size: 96, 96
+  orig: 100, 100
+  offset: 2, 2
+  index: -1
+IconVideoTicket
+  rotate: false
+  xy: 858, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconViewAction
+  rotate: false
+  xy: 1925, 416
+  size: 95, 96
+  orig: 100, 100
+  offset: 5, 0
+  index: -1
+IconWaveCounter
+  rotate: false
+  xy: 947, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconYouTube
+  rotate: false
+  xy: 1948, 109
+  size: 96, 72
+  orig: 100, 100
+  offset: 2, 14
+  index: -1
+IconsRank
+  rotate: false
+  xy: 1226, 1511
+  size: 100, 83
+  orig: 100, 100
+  offset: 0, 0
+  index: 4
+IconsRank
+  rotate: false
+  xy: 589, 53
+  size: 100, 82
+  orig: 100, 100
+  offset: 0, 1
+  index: 0
+IconsRank
+  rotate: false
+  xy: 691, 18
+  size: 100, 82
+  orig: 100, 100
+  offset: 0, 1
+  index: 1
+IconsRank
+  rotate: false
+  xy: 795, 267
+  size: 100, 82
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+IconsRank
+  rotate: false
+  xy: 897, 265
+  size: 100, 82
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+SkinButtonCheck
+  rotate: false
+  xy: 1293, 1004
+  size: 100, 100
+  split: 15, 15, 15, 15
+  pad: 11, 10, 9, 10
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SkinButtonDown
+  rotate: false
+  xy: 1295, 902
+  size: 100, 100
+  split: 15, 15, 15, 15
+  pad: 11, 10, 9, 10
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SkinButtonUp
+  rotate: false
+  xy: 1324, 800
+  size: 100, 100
+  split: 15, 15, 15, 15
+  pad: 11, 10, 9, 10
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SkinDialog
+  rotate: false
+  xy: 1345, 698
+  size: 100, 100
+  split: 19, 16, 17, 15
+  pad: 16, 15, 12, 12
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SkinRoundedSquare
+  rotate: false
+  xy: 1349, 596
+  size: 100, 100
+  split: 11, 12, 12, 13
+  pad: 10, 10, 10, 10
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SkinTextInput
+  rotate: false
+  xy: 1355, 1409
+  size: 100, 100
+  split: 15, 15, 15, 15
+  pad: 15, 15, 10, 10
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SkinWindow
+  rotate: false
+  xy: 1368, 1307
+  size: 100, 100
+  split: 19, 16, 46, 15
+  pad: 15, 15, 15, 11
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Antidote
+  rotate: false
+  xy: 444, 706
+  size: 71, 95
+  orig: 100, 100
+  offset: 18, 0
+  index: -1
+IconAntidote
+  rotate: false
+  xy: 444, 706
+  size: 71, 95
+  orig: 100, 100
+  offset: 18, 0
+  index: -1
+Anvil
+  rotate: false
+  xy: 461, 1506
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Arrow
+  rotate: false
+  xy: 654, 1331
+  size: 100, 81
+  orig: 100, 100
+  offset: 0, 15
+  index: -1
+TowerArrow
+  rotate: false
+  xy: 654, 1331
+  size: 100, 81
+  orig: 100, 100
+  offset: 0, 15
+  index: -1
+TowerPoisonArrow
+  rotate: false
+  xy: 654, 1331
+  size: 100, 81
+  orig: 100, 100
+  offset: 0, 15
+  index: -1
+ArrowTowerCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+FireTowerCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IceTowerCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PoisonArrowTowerCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StoneCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+StoneHouseCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+WoodTentCraftIcon
+  rotate: false
+  xy: 464, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Bucket
+  rotate: false
+  xy: 656, 1050
+  size: 99, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Bucket
+  rotate: false
+  xy: 483, 921
+  size: 95, 100
+  orig: 100, 100
+  offset: 2, 0
+  index: 1
+BuildingMark
+  rotate: false
+  xy: 411, 534
+  size: 100, 85
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingMarkCraftIcon
+  rotate: false
+  xy: 513, 514
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+LeafShelterCraftIcon
+  rotate: false
+  xy: 513, 514
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+PlankCraftIcon
+  rotate: false
+  xy: 513, 514
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+StickCraftIcon
+  rotate: false
+  xy: 513, 514
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+Campfire
+  rotate: false
+  xy: 819, 446
+  size: 98, 98
+  orig: 100, 100
+  offset: 0, 0
+  index: 0
+Campfire
+  rotate: false
+  xy: 842, 546
+  size: 98, 94
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+Campfire
+  rotate: false
+  xy: 1025, 1511
+  size: 97, 97
+  orig: 100, 100
+  offset: 0, 0
+  index: 3
+Campfire
+  rotate: false
+  xy: 942, 546
+  size: 99, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+CampfireCraftIcon
+  rotate: false
+  xy: 580, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+LightedTorchCraftIcon
+  rotate: false
+  xy: 580, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IconLoadingAssets
+  rotate: false
+  xy: 580, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+EmberCraftIcon
+  rotate: false
+  xy: 580, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+FurnaceCraftIcon
+  rotate: false
+  xy: 580, 948
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Charcoal
+  rotate: false
+  xy: 682, 948
+  size: 99, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Coconut
+  rotate: false
+  xy: 717, 450
+  size: 100, 94
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CookedFish
+  rotate: false
+  xy: 756, 1225
+  size: 100, 79
+  orig: 100, 100
+  offset: 0, 12
+  index: -1
+CookedMeat
+  rotate: false
+  xy: 1061, 92
+  size: 90, 74
+  orig: 100, 100
+  offset: 5, 3
+  index: -1
+Corn
+  rotate: false
+  xy: 793, 80
+  size: 93, 93
+  orig: 100, 100
+  offset: 6, 6
+  index: -1
+CornBread
+  rotate: false
+  xy: 1601, 133
+  size: 95, 90
+  orig: 100, 100
+  offset: 0, 8
+  index: -1
+CornCrops
+  rotate: false
+  xy: 858, 1218
+  size: 100, 87
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+FertilizedCornCrops
+  rotate: false
+  xy: 858, 1218
+  size: 100, 87
+  orig: 100, 100
+  offset: 0, 0
+  index: 1
+CornCrops
+  rotate: false
+  xy: 962, 1697
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 4
+FertilizedCornCrops
+  rotate: false
+  xy: 962, 1697
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 4
+CornCrops
+  rotate: false
+  xy: 1859, 514
+  size: 99, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+FertilizedCornCrops
+  rotate: false
+  xy: 1859, 514
+  size: 99, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 2
+CornCrops
+  rotate: false
+  xy: 1871, 1211
+  size: 99, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+FertilizedCornCrops
+  rotate: false
+  xy: 1871, 1211
+  size: 99, 96
+  orig: 100, 100
+  offset: 0, 1
+  index: 3
+CornIcon
+  rotate: false
+  xy: 962, 1610
+  size: 100, 85
+  orig: 100, 100
+  offset: 0, 15
+  index: -1
+CornSeedlings
+  rotate: false
+  xy: 1145, 508
+  size: 100, 86
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+Plantation
+  rotate: false
+  xy: 1145, 508
+  size: 100, 86
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+CornTree
+  rotate: false
+  xy: 1598, 1006
+  size: 78, 99
+  orig: 100, 100
+  offset: 6, 1
+  index: -1
+Crate
+  rotate: false
+  xy: 1633, 402
+  size: 93, 94
+  orig: 100, 100
+  offset: 5, 3
+  index: -1
+DiamondStar
+  rotate: false
+  xy: 1710, 220
+  size: 80, 83
+  orig: 100, 100
+  offset: 11, 4
+  index: -1
+Ember
+  rotate: false
+  xy: 1403, 148
+  size: 96, 82
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Fertilizer
+  rotate: false
+  xy: 793, 7
+  size: 95, 71
+  orig: 100, 100
+  offset: 0, 11
+  index: -1
+FireGem
+  rotate: false
+  xy: 1064, 1610
+  size: 99, 81
+  orig: 100, 100
+  offset: 1, 1
+  index: -1
+FishNet
+  rotate: false
+  xy: 919, 446
+  size: 100, 98
+  orig: 100, 100
+  offset: 0, 2
+  index: -1
+Flint
+  rotate: false
+  xy: 1955, 625
+  size: 88, 94
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Fur
+  rotate: false
+  xy: 717, 363
+  size: 100, 85
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Gas
+  rotate: false
+  xy: 271, 677
+  size: 69, 96
+  orig: 100, 100
+  offset: 14, 0
+  index: -1
+Honey
+  rotate: false
+  xy: 756, 1306
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+IceGem
+  rotate: false
+  xy: 1302, 149
+  size: 99, 81
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+IronIngot
+  rotate: false
+  xy: 393, 198
+  size: 97, 94
+  orig: 100, 100
+  offset: 3, 3
+  index: -1
+IronOre
+  rotate: false
+  xy: 921, 349
+  size: 98, 95
+  orig: 100, 100
+  offset: 0, 5
+  index: -1
+LandMine
+  rotate: false
+  xy: 1101, 255
+  size: 100, 73
+  orig: 100, 100
+  offset: 0, 8
+  index: -1
+LeatherBag
+  rotate: false
+  xy: 1062, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Map
+  rotate: false
+  xy: 1625, 804
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+Meat
+  rotate: false
+  xy: 1153, 87
+  size: 89, 74
+  orig: 100, 100
+  offset: 6, 3
+  index: -1
+MedKit
+  rotate: false
+  xy: 890, 848
+  size: 97, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Medicine
+  rotate: false
+  xy: 291, 284
+  size: 100, 96
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+MonolithHand
+  rotate: false
+  xy: 1955, 1708
+  size: 91, 90
+  orig: 100, 100
+  offset: 9, 10
+  index: 2
+UndeadHand
+  rotate: false
+  xy: 1955, 1708
+  size: 91, 90
+  orig: 100, 100
+  offset: 9, 10
+  index: 2
+MonolithHand
+  rotate: false
+  xy: 1363, 2
+  size: 57, 75
+  orig: 100, 100
+  offset: 25, 10
+  index: 1
+UndeadHand
+  rotate: false
+  xy: 1363, 2
+  size: 57, 75
+  orig: 100, 100
+  offset: 25, 10
+  index: 1
+Pipe
+  rotate: false
+  xy: 996, 172
+  size: 100, 81
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PitTrap
+  rotate: false
+  xy: 391, 2
+  size: 66, 96
+  orig: 100, 100
+  offset: 21, 1
+  index: -1
+Plank
+  rotate: false
+  xy: 1098, 168
+  size: 100, 85
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PoisonArrow
+  rotate: false
+  xy: 1305, 232
+  size: 100, 73
+  orig: 100, 100
+  offset: 0, 6
+  index: -1
+PoisonPuddle
+  rotate: false
+  xy: 1610, 225
+  size: 98, 78
+  orig: 100, 100
+  offset: 0, 11
+  index: -1
+PowerGem
+  rotate: false
+  xy: 1655, 602
+  size: 99, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+RabbitTrap
+  rotate: false
+  xy: 1164, 1307
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+SewingTable
+  rotate: false
+  xy: 1227, 800
+  size: 95, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Sign
+  rotate: false
+  xy: 1673, 1309
+  size: 88, 99
+  orig: 100, 100
+  offset: 3, 0
+  index: -1
+Skull
+  rotate: false
+  xy: 1775, 1209
+  size: 94, 98
+  orig: 100, 100
+  offset: 6, 0
+  index: -1
+Stash
+  rotate: false
+  xy: 1451, 596
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Stick
+  rotate: false
+  xy: 1430, 1511
+  size: 100, 75
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Stone
+  rotate: false
+  xy: 1674, 1208
+  size: 99, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Straw
+  rotate: false
+  xy: 1675, 1107
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+Token
+  rotate: false
+  xy: 1780, 2
+  size: 49, 44
+  orig: 50, 50
+  offset: 0, 4
+  index: -1
+Torch
+  rotate: false
+  xy: 1763, 1309
+  size: 100, 91
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+WaterBottle
+  rotate: false
+  xy: 1865, 1403
+  size: 52, 97
+  orig: 100, 100
+  offset: 25, 0
+  index: -1
+WaterSplash
+  rotate: false
+  xy: 1727, 804
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 1
+  index: -1
+WoodTable
+  rotate: false
+  xy: 1559, 1409
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+WoodTableCraftIcon
+  rotate: false
+  xy: 1572, 1307
+  size: 99, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+Burning
+  rotate: false
+  xy: 1691, 2
+  size: 42, 41
+  orig: 48, 48
+  offset: 5, 2
+  index: -1
+OnFire
+  rotate: false
+  xy: 1691, 2
+  size: 42, 41
+  orig: 48, 48
+  offset: 5, 2
+  index: -1
+Explosion
+  rotate: false
+  xy: 1735, 2
+  size: 42, 41
+  orig: 48, 48
+  offset: 1, 2
+  index: -1
+FireHit
+  rotate: false
+  xy: 1735, 2
+  size: 42, 41
+  orig: 48, 48
+  offset: 1, 2
+  index: -1
+RedSmoke
+  rotate: false
+  xy: 1735, 2
+  size: 42, 41
+  orig: 48, 48
+  offset: 1, 2
+  index: -1
+Lightning
+  rotate: false
+  xy: 1829, 1756
+  size: 40, 50
+  orig: 50, 50
+  offset: 4, 0
+  index: 1
+Lightning
+  rotate: false
+  xy: 961, 1057
+  size: 24, 47
+  orig: 50, 50
+  offset: 13, 0
+  index: 2
+Rotation
+  rotate: false
+  xy: 1509, 227
+  size: 99, 77
+  orig: 100, 100
+  offset: 0, 7
+  index: -1
+Shrapnel
+  rotate: false
+  xy: 1831, 2
+  size: 44, 44
+  orig: 50, 50
+  offset: 3, 4
+  index: 0
+WaterSplash
+  rotate: false
+  xy: 1646, 2
+  size: 43, 43
+  orig: 48, 48
+  offset: 1, 1
+  index: -1
+Wood
+  rotate: false
+  xy: 1877, 2
+  size: 44, 44
+  orig: 50, 50
+  offset: 3, 4
+  index: 0
+HairLong_R
+  rotate: false
+  xy: 573, 2
+  size: 52, 49
+  orig: 200, 200
+  offset: 135, 19
+  index: -1
+HairPony_R
+  rotate: false
+  xy: 1986, 2000
+  size: 60, 46
+  orig: 200, 200
+  offset: 124, 19
+  index: -1
+HumanFemaleIcon
+  rotate: false
+  xy: 1973, 1122
+  size: 70, 96
+  orig: 100, 100
+  offset: 15, 2
+  index: -1
+Human_Head_N
+  rotate: false
+  xy: 271, 635
+  size: 35, 40
+  orig: 200, 200
+  offset: 77, 149
+  index: -1
+Human_Head_R
+  rotate: false
+  xy: 989, 854
+  size: 35, 46
+  orig: 200, 200
+  offset: 145, 22
+  index: -1
+Human_Head_S
+  rotate: false
+  xy: 1609, 20
+  size: 35, 44
+  orig: 200, 200
+  offset: 88, 138
+  index: -1
+Human_Legs_N
+  rotate: false
+  xy: 1792, 1808
+  size: 77, 119
+  orig: 200, 200
+  offset: 45, 0
+  index: 0
+Human_Legs_N
+  rotate: false
+  xy: 389, 1460
+  size: 70, 115
+  orig: 200, 200
+  offset: 50, 4
+  index: 1
+Human_Legs_S
+  rotate: false
+  xy: 1107, 1800
+  size: 107, 120
+  orig: 200, 200
+  offset: 61, 16
+  index: 2
+Human_Torso_N
+  rotate: false
+  xy: 566, 1342
+  size: 86, 89
+  orig: 200, 200
+  offset: 45, 74
+  index: 0
+Human_Torso_S
+  rotate: false
+  xy: 420, 1710
+  size: 120, 82
+  orig: 200, 200
+  offset: 48, 89
+  index: 1
+Human_Torso_S
+  rotate: false
+  xy: 566, 1433
+  size: 86, 95
+  orig: 200, 200
+  offset: 69, 76
+  index: 0
+LeatherBoots
+  rotate: false
+  xy: 492, 233
+  size: 95, 94
+  orig: 100, 100
+  offset: 5, 0
+  index: -1
+LeatherBoots_N
+  rotate: false
+  xy: 1972, 1464
+  size: 74, 80
+  orig: 200, 200
+  offset: 46, 8
+  index: 0
+LeatherBoots_S
+  rotate: false
+  xy: 201, 700
+  size: 68, 64
+  orig: 200, 200
+  offset: 81, 12
+  index: 1
+LeatherBoots_S
+  rotate: false
+  xy: 638, 579
+  size: 102, 61
+  orig: 200, 200
+  offset: 63, 32
+  index: 2
+LeatherBoots_S
+  rotate: false
+  xy: 1972, 1284
+  size: 74, 80
+  orig: 200, 200
+  offset: 80, 17
+  index: 0
+LeatherCap_S
+  rotate: false
+  xy: 627, 2
+  size: 47, 49
+  orig: 200, 200
+  offset: 84, 134
+  index: -1
+LeatherCoatIcon
+  rotate: false
+  xy: 981, 2
+  size: 84, 82
+  orig: 100, 100
+  offset: 8, 9
+  index: -1
+LeatherCoat_N
+  rotate: false
+  xy: 664, 1715
+  size: 104, 74
+  orig: 200, 200
+  offset: 37, 83
+  index: 1
+LeatherCoat_R
+  rotate: false
+  xy: 1475, 5
+  size: 80, 73
+  orig: 200, 200
+  offset: 78, 30
+  index: -1
+LeatherCoat_S
+  rotate: false
+  xy: 1203, 251
+  size: 100, 72
+  orig: 200, 200
+  offset: 65, 97
+  index: 1
+PantsIcon
+  rotate: false
+  xy: 1982, 1024
+  size: 55, 96
+  orig: 200, 200
+  offset: 94, 39
+  index: -1
+Pants_S
+  rotate: false
+  xy: 1982, 1024
+  size: 55, 96
+  orig: 200, 200
+  offset: 94, 39
+  index: 1
+Pants_N
+  rotate: false
+  xy: 910, 1617
+  size: 50, 96
+  orig: 200, 200
+  offset: 53, 22
+  index: 0
+Pants_N
+  rotate: false
+  xy: 1568, 1690
+  size: 55, 99
+  orig: 200, 200
+  offset: 51, 19
+  index: 1
+Pants_N
+  rotate: false
+  xy: 1698, 45
+  size: 80, 82
+  orig: 200, 200
+  offset: 37, 36
+  index: 2
+Pants_R
+  rotate: false
+  xy: 1861, 48
+  size: 79, 77
+  orig: 200, 200
+  offset: 40, 67
+  index: -1
+Pants_S
+  rotate: false
+  xy: 756, 1612
+  size: 50, 101
+  orig: 200, 200
+  offset: 97, 34
+  index: 0
+Pants_S
+  rotate: false
+  xy: 1874, 1625
+  size: 79, 88
+  orig: 200, 200
+  offset: 83, 47
+  index: 2
+Shorts_N
+  rotate: false
+  xy: 1557, 2
+  size: 50, 62
+  orig: 200, 200
+  offset: 55, 56
+  index: 0
+TShirt_R
+  rotate: false
+  xy: 200, 635
+  size: 69, 63
+  orig: 200, 200
+  offset: 90, 34
+  index: -1
+
+DefaultSprites3.png
+size: 2048, 256
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+FireSword_S
+  rotate: false
+  xy: 1096, 184
+  size: 61, 70
+  orig: 128, 128
+  offset: 0, 54
+  index: -1
+FlamethrowerIcon
+  rotate: false
+  xy: 456, 183
+  size: 76, 71
+  orig: 100, 100
+  offset: 16, 18
+  index: -1
+Hammer_S
+  rotate: false
+  xy: 1743, 201
+  size: 69, 53
+  orig: 128, 128
+  offset: 1, 39
+  index: -1
+IronHammer_S
+  rotate: false
+  xy: 1743, 201
+  size: 69, 53
+  orig: 128, 128
+  offset: 1, 39
+  index: -1
+IceBow_S
+  rotate: false
+  xy: 294, 184
+  size: 79, 70
+  orig: 128, 128
+  offset: 7, 49
+  index: -1
+IronPick_N
+  rotate: false
+  xy: 123, 97
+  size: 46, 68
+  orig: 128, 128
+  offset: 68, 35
+  index: -1
+StonePick_N
+  rotate: false
+  xy: 123, 97
+  size: 46, 68
+  orig: 128, 128
+  offset: 68, 35
+  index: -1
+Machete_N
+  rotate: false
+  xy: 1403, 164
+  size: 53, 90
+  orig: 128, 128
+  offset: 71, 38
+  index: -1
+Machete_S
+  rotate: false
+  xy: 1159, 184
+  size: 61, 70
+  orig: 128, 128
+  offset: 0, 54
+  index: -1
+MorningStar_S
+  rotate: false
+  xy: 216, 137
+  size: 58, 42
+  orig: 128, 128
+  offset: 4, 40
+  index: -1
+PowerBow_S
+  rotate: false
+  xy: 375, 184
+  size: 79, 70
+  orig: 128, 128
+  offset: 7, 49
+  index: -1
+StoneSpear_S
+  rotate: false
+  xy: 1029, 187
+  size: 65, 67
+  orig: 128, 128
+  offset: 0, 52
+  index: -1
+BambooCrop
+  rotate: false
+  xy: 216, 181
+  size: 76, 73
+  orig: 100, 100
+  offset: 0, 12
+  index: -1
+CircleSolid
+  rotate: false
+  xy: 1929, 139
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 1
+  index: -1
+EquipHead
+  rotate: false
+  xy: 148, 167
+  size: 66, 87
+  orig: 100, 100
+  offset: 17, 7
+  index: -1
+IconAmount
+  rotate: false
+  xy: 802, 148
+  size: 45, 39
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+IconBR
+  rotate: false
+  xy: 215, 31
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+IconCheckOn
+  rotate: false
+  xy: 1157, 142
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+IconES
+  rotate: false
+  xy: 1631, 148
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+IconHealth
+  rotate: false
+  xy: 894, 146
+  size: 43, 39
+  orig: 50, 50
+  offset: 1, 0
+  index: -1
+IconLoadingStarting
+  rotate: false
+  xy: 686, 181
+  size: 66, 73
+  orig: 100, 100
+  offset: 18, 15
+  index: -1
+IconMusicOn
+  rotate: false
+  xy: 1222, 183
+  size: 59, 71
+  orig: 100, 100
+  offset: 21, 19
+  index: -1
+IconSoundOff
+  rotate: false
+  xy: 1814, 196
+  size: 63, 58
+  orig: 100, 100
+  offset: 18, 21
+  index: -1
+IconSoundOn
+  rotate: false
+  xy: 1518, 135
+  size: 62, 58
+  orig: 100, 100
+  offset: 19, 21
+  index: -1
+IconStamina
+  rotate: false
+  xy: 1979, 137
+  size: 41, 50
+  orig: 50, 50
+  offset: 2, 0
+  index: -1
+IconStore
+  rotate: false
+  xy: 1663, 208
+  size: 78, 46
+  orig: 90, 50
+  offset: 6, 2
+  index: -1
+IconStrength
+  rotate: false
+  xy: 326, 132
+  size: 46, 50
+  orig: 50, 50
+  offset: 2, 0
+  index: -1
+IconUS
+  rotate: false
+  xy: 1683, 156
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+IconUserAuthorized
+  rotate: false
+  xy: 1283, 170
+  size: 58, 84
+  orig: 100, 100
+  offset: 21, 8
+  index: -1
+IconUserLocked
+  rotate: false
+  xy: 1343, 170
+  size: 58, 84
+  orig: 100, 100
+  offset: 21, 8
+  index: -1
+IconVibrateOff
+  rotate: false
+  xy: 895, 187
+  size: 65, 67
+  orig: 100, 100
+  offset: 17, 19
+  index: -1
+IconVibrateOn
+  rotate: false
+  xy: 962, 187
+  size: 65, 67
+  orig: 100, 100
+  offset: 17, 19
+  index: -1
+IconX
+  rotate: false
+  xy: 1787, 144
+  size: 49, 50
+  orig: 50, 52
+  offset: 1, 1
+  index: -1
+Fireball
+  rotate: false
+  xy: 171, 12
+  size: 42, 39
+  orig: 44, 44
+  offset: 1, 0
+  index: -1
+SuperFireBall
+  rotate: false
+  xy: 171, 12
+  size: 42, 39
+  orig: 44, 44
+  offset: 1, 0
+  index: -1
+TowerFireball
+  rotate: false
+  xy: 171, 12
+  size: 42, 39
+  orig: 44, 44
+  offset: 1, 0
+  index: -1
+HealingPotion
+  rotate: false
+  xy: 2, 67
+  size: 66, 91
+  orig: 100, 100
+  offset: 21, 0
+  index: -1
+Iceball
+  rotate: false
+  xy: 655, 135
+  size: 43, 44
+  orig: 44, 44
+  offset: 1, 0
+  index: -1
+MessageBottle
+  rotate: false
+  xy: 320, 83
+  size: 48, 47
+  orig: 50, 50
+  offset: 2, 0
+  index: -1
+MonolithHand
+  rotate: false
+  xy: 1458, 175
+  size: 58, 79
+  orig: 100, 100
+  offset: 27, 10
+  index: 0
+UndeadHand
+  rotate: false
+  xy: 1458, 175
+  size: 58, 79
+  orig: 100, 100
+  offset: 27, 10
+  index: 0
+SmallEgg
+  rotate: false
+  xy: 75, 170
+  size: 71, 84
+  orig: 100, 100
+  offset: 16, 8
+  index: -1
+TowerIceball
+  rotate: false
+  xy: 700, 135
+  size: 43, 44
+  orig: 44, 44
+  offset: 1, 0
+  index: -1
+BlueFire
+  rotate: false
+  xy: 1879, 139
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+BlueSmoke
+  rotate: false
+  xy: 1879, 139
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+GreenSmoke
+  rotate: false
+  xy: 1879, 139
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+IceHit
+  rotate: false
+  xy: 1879, 139
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+LevelUp
+  rotate: false
+  xy: 1879, 139
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+BreakFoliage
+  rotate: false
+  xy: 276, 132
+  size: 48, 47
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+BreakStone
+  rotate: false
+  xy: 171, 53
+  size: 42, 46
+  orig: 48, 48
+  offset: 1, 0
+  index: -1
+BreakWood
+  rotate: false
+  xy: 123, 47
+  size: 46, 48
+  orig: 48, 48
+  offset: 1, 0
+  index: -1
+HitWood
+  rotate: false
+  xy: 123, 47
+  size: 46, 48
+  orig: 48, 48
+  offset: 1, 0
+  index: -1
+Fog
+  rotate: false
+  xy: 849, 147
+  size: 43, 40
+  orig: 48, 48
+  offset: 0, 3
+  index: -1
+SandWalk
+  rotate: false
+  xy: 849, 147
+  size: 43, 40
+  orig: 48, 48
+  offset: 0, 3
+  index: -1
+Frozen
+  rotate: false
+  xy: 100, 2
+  size: 42, 43
+  orig: 50, 50
+  offset: 5, 4
+  index: 1
+GrassWalk
+  rotate: false
+  xy: 270, 83
+  size: 48, 47
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+Healing
+  rotate: false
+  xy: 1631, 108
+  size: 48, 38
+  orig: 48, 48
+  offset: 0, 10
+  index: -1
+Lightning
+  rotate: false
+  xy: 1735, 154
+  size: 50, 45
+  orig: 50, 50
+  offset: 0, 5
+  index: 3
+Lightning
+  rotate: false
+  xy: 566, 128
+  size: 43, 50
+  orig: 50, 50
+  offset: 3, 0
+  index: 0
+Poisoned
+  rotate: false
+  xy: 473, 135
+  size: 46, 46
+  orig: 48, 48
+  offset: 2, 2
+  index: -1
+RocksWalk
+  rotate: false
+  xy: 611, 134
+  size: 42, 46
+  orig: 48, 48
+  offset: 5, 0
+  index: -1
+SwampWalk
+  rotate: false
+  xy: 611, 134
+  size: 42, 46
+  orig: 48, 48
+  offset: 5, 0
+  index: -1
+Shrapnel
+  rotate: false
+  xy: 374, 134
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 0
+  index: 2
+Shrapnel
+  rotate: false
+  xy: 317, 35
+  size: 47, 46
+  orig: 50, 50
+  offset: 3, 0
+  index: 1
+Sleep
+  rotate: false
+  xy: 984, 141
+  size: 42, 44
+  orig: 48, 48
+  offset: 0, 4
+  index: -1
+Smoke
+  rotate: false
+  xy: 939, 145
+  size: 43, 40
+  orig: 48, 48
+  offset: 4, 3
+  index: -1
+Sparkles
+  rotate: false
+  xy: 1068, 144
+  size: 43, 38
+  orig: 48, 48
+  offset: 0, 3
+  index: -1
+WaterSwim
+  rotate: false
+  xy: 754, 148
+  size: 46, 39
+  orig: 48, 48
+  offset: 2, 9
+  index: -1
+Wood
+  rotate: false
+  xy: 267, 33
+  size: 48, 48
+  orig: 50, 50
+  offset: 1, 0
+  index: 2
+Wood
+  rotate: false
+  xy: 424, 135
+  size: 47, 46
+  orig: 50, 50
+  offset: 3, 0
+  index: 1
+HairLong_N
+  rotate: false
+  xy: 56, 8
+  size: 42, 57
+  orig: 200, 200
+  offset: 74, 138
+  index: -1
+HairLong_S
+  rotate: false
+  xy: 521, 133
+  size: 43, 45
+  orig: 200, 200
+  offset: 83, 141
+  index: -1
+HairPony_N
+  rotate: false
+  xy: 171, 101
+  size: 42, 64
+  orig: 200, 200
+  offset: 72, 127
+  index: -1
+HairPunk_N
+  rotate: false
+  xy: 2009, 211
+  size: 30, 43
+  orig: 200, 200
+  offset: 79, 150
+  index: -1
+HairShort_N
+  rotate: false
+  xy: 1028, 141
+  size: 38, 44
+  orig: 200, 200
+  offset: 75, 150
+  index: -1
+HairShort_R
+  rotate: false
+  xy: 1113, 144
+  size: 42, 38
+  orig: 200, 200
+  offset: 143, 20
+  index: -1
+HairShort_S
+  rotate: false
+  xy: 1838, 155
+  size: 39, 39
+  orig: 200, 200
+  offset: 86, 146
+  index: -1
+LeatherBoots_N
+  rotate: false
+  xy: 1518, 195
+  size: 69, 59
+  orig: 200, 200
+  offset: 50, 7
+  index: 1
+LeatherBoots_R
+  rotate: false
+  xy: 1458, 115
+  size: 58, 58
+  orig: 200, 200
+  offset: 22, 111
+  index: -1
+LeatherCapIcon
+  rotate: false
+  xy: 2, 160
+  size: 71, 94
+  orig: 100, 100
+  offset: 17, 3
+  index: -1
+LeatherCap_N
+  rotate: false
+  xy: 1582, 139
+  size: 47, 54
+  orig: 200, 200
+  offset: 69, 136
+  index: -1
+LeatherCap_R
+  rotate: false
+  xy: 215, 83
+  size: 53, 52
+  orig: 200, 200
+  offset: 132, 19
+  index: -1
+LeatherCoat_N
+  rotate: false
+  xy: 534, 180
+  size: 74, 74
+  orig: 200, 200
+  offset: 46, 83
+  index: 0
+LeatherCoat_S
+  rotate: false
+  xy: 610, 182
+  size: 74, 72
+  orig: 200, 200
+  offset: 80, 97
+  index: 0
+Shorts_N
+  rotate: false
+  xy: 2, 2
+  size: 52, 63
+  orig: 200, 200
+  offset: 55, 56
+  index: 1
+Shorts_R
+  rotate: false
+  xy: 1589, 200
+  size: 72, 54
+  orig: 200, 200
+  offset: 47, 68
+  index: -1
+Shorts_S
+  rotate: false
+  xy: 1518, 66
+  size: 59, 67
+  orig: 200, 200
+  offset: 86, 70
+  index: 2
+Shorts_S
+  rotate: false
+  xy: 70, 87
+  size: 51, 71
+  orig: 200, 200
+  offset: 93, 64
+  index: 1
+TShirtIcon
+  rotate: false
+  xy: 1879, 189
+  size: 63, 65
+  orig: 200, 200
+  offset: 87, 106
+  index: -1
+TShirt_S
+  rotate: false
+  xy: 1879, 189
+  size: 63, 65
+  orig: 200, 200
+  offset: 87, 106
+  index: 0
+TShirt_N
+  rotate: false
+  xy: 754, 189
+  size: 70, 65
+  orig: 200, 200
+  offset: 49, 93
+  index: 1
+TShirt_N
+  rotate: false
+  xy: 1944, 189
+  size: 63, 65
+  orig: 200, 200
+  offset: 50, 93
+  index: 0
+TShirt_S
+  rotate: false
+  xy: 826, 189
+  size: 67, 65
+  orig: 200, 200
+  offset: 85, 106
+  index: 1
+
+DefaultSprites4.png
+size: 1024, 64
+format: RGBA8888
+filter: Nearest, Nearest
+repeat: none
+TeamFG
+  rotate: false
+  xy: 2, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 0
+TeamFG
+  rotate: false
+  xy: 54, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 1
+TeamFG
+  rotate: false
+  xy: 106, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 2
+TeamFG
+  rotate: false
+  xy: 158, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 3
+TeamFG
+  rotate: false
+  xy: 210, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 4
+TeamFG
+  rotate: false
+  xy: 262, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 5
+TeamFG
+  rotate: false
+  xy: 314, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 6
+TeamFG
+  rotate: false
+  xy: 366, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 7
+TeamFG
+  rotate: false
+  xy: 418, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 8
+TeamFG
+  rotate: false
+  xy: 470, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 9
+TeamFG
+  rotate: false
+  xy: 522, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 10
+TeamFG
+  rotate: false
+  xy: 574, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 11
+TeamFG
+  rotate: false
+  xy: 626, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 12
+TeamFG
+  rotate: false
+  xy: 678, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 13
+TeamFG
+  rotate: false
+  xy: 730, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 14
+TeamFG
+  rotate: false
+  xy: 782, 2
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: 15

@@ -1,0 +1,14 @@
+<dna>
+	<sprite scale="0.5">ForestTree</sprite>
+	<fx>TreeSapling</fx>
+	<populationRatio>60</populationRatio>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<mobility>Land</mobility>
+	<group>Wood</group>
+	<split range="0">1 Stick</split>
+	<morph delay="25">ForestTree</morph>
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+	<collectible>false</collectible>
+</dna>

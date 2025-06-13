@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>WoodItem</fx>
+	<group>Wood Rock</group>
+	<maxHealth>50</maxHealth>
+	<expire>5</expire>
+
+	<modify>Rock</modify>
+	<modifyHealth>-20</modifyHealth>
+	<extract from="Rocks" chance="10">Stone Stone Stone Spider</extract>
+
+	<split range="0">1 Flint 1 Stick</split>
+	<recipe>0 WoodTable 1 Flint 1 Stick 1 Vine</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+</dna>

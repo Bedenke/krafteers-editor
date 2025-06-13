@@ -1,0 +1,14 @@
+<dna>
+	<terrainColor>#6aa46bFF</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<fx>Grass</fx>
+	<surface>Land</surface>
+	<height>0.2</height>
+	<bounds>70</bounds>
+	<generate>ForestTree ForestTreeSapling ForestTreeSeed VineTree VineTreeSapling Vine AppleSeed Straw Shrub CornTree AppleTree AppleTreeSapling VineTreeSeed BambooTree WaterSpring Rabbit BabyRabbit Hog BabyHog Bush Flower</generate>
+	<range>0</range>
+	<humidity>10</humidity>
+	<temperature>20</temperature>
+	<modifyStamina>-1</modifyStamina>
+	<spawn interval="10">Puma</spawn>
+</dna>

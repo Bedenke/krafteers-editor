@@ -1,0 +1,12 @@
+<dna>
+	<maxHealth>1</maxHealth>
+	<modify>Structure Player Target Enemy Carnivore Herbivore Wood Rock Metal</modify>
+	<modifyHealth>-5</modifyHealth>
+	<modifyTemperature>80</modifyTemperature>
+	<modifyRange>4</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<split range="0">1 ExplodedGround</split>
+	<countdown>0</countdown>
+	<counterMode>Modify</counterMode>
+	<selectable>false</selectable>
+</dna>

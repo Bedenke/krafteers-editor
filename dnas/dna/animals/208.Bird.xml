@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="0.7" />
+	<populationRatio>12</populationRatio>
+	<mobility>Land Sand Field</mobility>
+
+	<maxHealth>10</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>5</speed>
+	<range>4</range>
+	<fly>20</fly>
+	<height>2</height>
+
+	<group>Bird</group>
+	<chase>Vegetation Trap</chase>
+	<consume>Vegetable</consume>
+
+	<modifyHealth>-2</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<resistCold>100</resistCold>
+
+	<split range="0">1 DeadBird</split>
+	<editor category="Animals" />
+</dna>

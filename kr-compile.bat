@@ -1,0 +1,1 @@
+java -Xss128m -jar editor.jar textures maps dnas sounds

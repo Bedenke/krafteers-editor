@@ -1,0 +1,8 @@
+<dna>
+	<fx>Item</fx>
+	<sprite scale="0.5" />
+	<modify>Player</modify>
+	<modifyStamina>100</modifyStamina>
+	<actions>Pick Consume</actions>
+	<editor category="Items" />
+</dna>

@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="1.15">Undead</sprite>
+	<populationRatio>20</populationRatio>
+	<mobility>Land Sand Ground</mobility>
+	<maxHealth>300</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>3</speed>
+	<range>10</range>
+	<pathfindRange>20</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<group>Enemy</group>
+	<chase>Player Target Team</chase>
+	<modify>Player Structure Target Team</modify>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>1</modifyCounter>
+	<rate>2</rate>
+	<modifyHealth>-4</modifyHealth>
+	<createWith>Club StoneSpear LightedTorch</createWith>
+	<container>1</container>
+	<resistCold>100</resistCold>
+	<split range="0" dropItemsChance="10">1 DeadEnemySoldier 1 BloodSplatter</split>
+	<editor category="Enemies" />
+	<collectible>false</collectible>
+</dna>

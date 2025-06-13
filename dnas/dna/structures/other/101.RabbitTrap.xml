@@ -1,0 +1,14 @@
+<dna>
+	<sprite scale="0.7" />
+	<maxHealth>1</maxHealth>
+	<group>Trap</group>
+	<modify>Herbivore Bird</modify>
+	<modifyHealth>-50</modifyHealth>
+	<modifyRange>3</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<split range="0.4">1 Stone 1 Stick</split>
+	<recipe>1 Stone 1 Stick 1 Apple</recipe>
+	<actions>Drag</actions>
+	<editor category="Tools" />
+	<recipePriority>5</recipePriority>
+</dna>

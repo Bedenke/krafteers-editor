@@ -1,0 +1,21 @@
+<dna>
+	<sprite scale="0.5" frameRate="0.1"/>
+	<fx>MetalItem</fx>
+	<group>Metal</group>
+	<maxHealth>30</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<modify>Enemy Carnivore Herbivore Bird</modify>
+	<modifyHealth>-5</modifyHealth>
+	<recipePriority>5</recipePriority>
+	<split range="0">1 Stick</split>
+	<recipe>0 Shaman 1 Bow 1 FireGem</recipe>
+	<recipe>0 TeamFlag 1 Bow 1 FireGem</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<actionRange>8</actionRange>
+	<rate>1</rate>
+	<cast speed="25" spawn="true">TowerFireball</cast>
+	<editor category="Tools" />
+	<price>500</price>
+	<light range="2" r="1" g="0.4" b="0"/>
+</dna>

@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="2" tint="#f02432ff"/>
+	<level>30</level>
+	<visibility>Always</visibility>
+	<maxHealth>3000</maxHealth>
+	<maxStamina>32000</maxStamina>
+	<speed>2</speed>
+	<range>20</range>
+	<actionRange>1</actionRange>
+	<rate>4</rate>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase>Player Target</chase>
+	<group>Leader Enemy Wave</group>
+	<modify>Player Structure Target Wood Carnivore Herbivore</modify>
+	<modifyHealth>-20</modifyHealth>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>10</modifyCounter>
+	<split range="0">1 Explosion 1 DiamondStar</split>
+	<light range="2" r="1" g="0.1" b="0.1"/>
+	<resistHeat>100</resistHeat>
+	<resistCold>100</resistCold>
+	<resistInfection>100</resistInfection>
+	<editor category="Enemies" />
+</dna>

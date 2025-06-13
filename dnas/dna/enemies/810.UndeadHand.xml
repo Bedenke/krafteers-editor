@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.6" frameRate="0.2" />
+	<populationRatio>2</populationRatio>
+	<resistCold>100</resistCold>
+	<maxHealth>30</maxHealth>
+	<morph delay="5">Undead</morph>
+</dna>

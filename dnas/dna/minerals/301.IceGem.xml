@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>StoneItem</fx>
+	<actions>Pick</actions>
+	<stack>10</stack>
+	<light range="2" r="0.2" g="0.2" b="1"/>
+</dna>

@@ -1,0 +1,14 @@
+<dna>
+	<sprite>Explosion</sprite>
+	<fx>Explosion</fx>
+	<maxHealth>1</maxHealth>
+	<modify>Structure Enemy Carnivore Herbivore Wood Stone Metal</modify>
+	<modifyExclude>Player Team</modifyExclude>
+	<modifyHealth>-15</modifyHealth>
+	<modifyTemperature>100</modifyTemperature>
+	<modifyRange>4</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<countdown>0</countdown>
+	<counterMode>Modify</counterMode>
+	<selectable>false</selectable>
+</dna>

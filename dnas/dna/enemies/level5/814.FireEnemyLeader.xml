@@ -1,0 +1,27 @@
+<dna>
+	<sprite scale="1.8" />
+	<level>5</level>
+	<populationRatio>1</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>1000</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>4</speed>
+	<range>15</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase excludeDnas="PitTrap LandMine">Player Target</chase>
+	<group>Leader Enemy Wave</group>
+	<modify>Player Structure Target</modify>
+	<modifyHealth>-2</modifyHealth>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>3</modifyCounter>
+	<resistHeat>100</resistHeat>
+	<actionRange>6</actionRange>
+	<cast speed="20" spawn="true">Fireball</cast>
+	<rate>5</rate>
+	<drop chance="10">FireGem</drop>
+	<split range="0">1 DeadEnemyLeader 1 BloodSplatter 1 FireGem</split>
+	<light range="2" r="1" g="0.3" b="0"/>
+	<editor category="Enemies" />
+</dna>

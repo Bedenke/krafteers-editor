@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="1.3" />
+	<starve>true</starve>
+	<populationRatio>3</populationRatio>
+	<mobility>Land Water Sand</mobility>
+
+	<maxHealth>300</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>1</speed>
+	<range>5</range>
+	<actionRange>1</actionRange>
+
+	<group>Carnivore</group>
+	<chase excludeDnas="DeadAlligator">Carnivore Herbivore Flesh</chase>
+	<consume>Meat</consume>
+	<evade>Power</evade>
+	<modifyHealth>-10</modifyHealth>
+	<modifyStamina>-2</modifyStamina>
+
+	<spawn interval="30" range="1">AlligatorEgg</spawn>
+	<morph delay="60">DeadAlligator</morph>
+	<split range="0">1 DeadAlligator 1 BloodSplatter</split>
+
+	<editor category="Animals" />
+</dna>

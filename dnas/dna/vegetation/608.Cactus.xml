@@ -1,0 +1,18 @@
+<dna>
+	<sprite scale="1" />
+	<density>100</density>
+	<populationRatio>10</populationRatio>
+	<group>Vegetation</group>
+	<mobility>Land</mobility>
+	<maxHealth>50</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<modifyHealth>-2</modifyHealth>
+	<spawn interval="20" range="3">Cactus</spawn>
+	<generate interval="9">Water</generate>
+	<container>3</container>
+	<split range="0">1 Foliage</split>
+	<actions>View</actions>
+	<editor category="Vegetation" />
+	<sensor range="4" spawn="Kreep" chance="5" interval="10" activePeriod="0 4" include="Player" />
+	<finalWave>true</finalWave>
+</dna>

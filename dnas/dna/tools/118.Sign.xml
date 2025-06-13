@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.8" />
+	<fx>WoodStructure</fx>
+	<group>Wood Structure</group>
+	<maxHealth>230</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<split range="0.5">2 Stick</split>
+	<recipe>1 Plank 1 Vine 1 Stick 1 Charcoal</recipe>
+	<actions>Label Drag</actions>
+	<editor category="Tools" />
+	<recipePriority>5</recipePriority>
+</dna>

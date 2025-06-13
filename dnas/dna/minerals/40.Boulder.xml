@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="1.2" />
+	<populationRatio>12</populationRatio>
+	<density>100</density>
+	<mobility>Land</mobility>
+	<maxHealth>190</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<group>Rock</group>
+	<resistCold>100</resistCold>
+	<drop chance="50">Spider</drop>
+	<split range="1">6 Stone</split>
+	<spawn interval="10" range="2">Flint</spawn>
+	<sensor range="5" spawn="Kreep" chance="5" interval="10" activePeriod="0 4" include="Player" />
+	<editor category="Minerals" />
+	<finalWave>true</finalWave>
+</dna>

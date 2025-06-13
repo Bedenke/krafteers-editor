@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="1.15" />
+	<level>3</level>
+	<visibility>Always</visibility>
+	<maxHealth>120</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>3</speed>
+	<range>30</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase>Player Target</chase>
+	<group>Enemy Wave</group>
+	<modify>Player Structure Target</modify>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>1</modifyCounter>
+	<rate>2</rate>
+	<modifyHealth>-4</modifyHealth>
+	<createWith>Club StoneSpear LightedTorch</createWith>
+	<container>1</container>
+	<drop chance="10" range="0.5">Token</drop>
+	<split range="0" dropItemsChance="10">1 DeadEnemySoldier 1 BloodSplatter</split>
+	<editor category="Enemies" />
+</dna>

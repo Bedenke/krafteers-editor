@@ -1,0 +1,13 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">EnemyLeader</sprite>
+	<fx>EnemyLeader</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<modifyHealth>-10</modifyHealth>
+	<modifyRange>4</modifyRange>
+	<modifyExplode>false</modifyExplode>
+	<rate>2</rate>
+	<light range="2" r="0.1" g="0.5" b="0.6"/>
+	<price>500</price>
+	<recipePriority>9</recipePriority>
+</dna>

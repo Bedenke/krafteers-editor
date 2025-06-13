@@ -1,0 +1,12 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">IceEnemyLeader</sprite>
+	<fx>IceEnemyLeader</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<resistCold>100</resistCold>
+	<cast speed="20" spawn="true" range="10">TowerIceball</cast>
+	<rate>2</rate>
+	<light range="2" r="0.2" g="0.2" b="1"/>
+	<price>1000</price>
+	<recipePriority>14</recipePriority>
+</dna>

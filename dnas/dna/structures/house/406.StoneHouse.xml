@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="2" />
+	<level>7</level>
+	<density>100</density>
+	<maxHealth>200</maxHealth>
+	<group>Rock Structure Home</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<recipe>1 WoodTent 2 Stone</recipe>
+	<split range="1">4 Stone</split>
+	<modify>Carnivore</modify>
+	<modifyStamina>-4</modifyStamina>
+	<actions>Label Drag Enter</actions>
+	<forwardTime>360</forwardTime>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<price>25</price>
+</dna>

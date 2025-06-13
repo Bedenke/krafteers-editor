@@ -1,0 +1,12 @@
+<dna>
+	<terrainColor>#44DD55FF</terrainColor>
+	<terrainLevel>5</terrainLevel>
+	<fx>Grass</fx>
+	<surface>Field</surface>
+	<sacredArea>true</sacredArea>
+	<height>0.25</height>
+	<bounds>75</bounds>
+	<range>0</range>
+	<temperature>20</temperature>
+	<modifyStamina>-1</modifyStamina>
+</dna>

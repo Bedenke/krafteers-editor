@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.5" />
+	<maxHealth>10</maxHealth>
+	<modify>Structure Player Target Carnivore Herbivore Wood Stone</modify>
+	<modifyHealth>-5</modifyHealth>
+	<expire>1</expire>
+	<light range="1" r="0.2" g="0.1" b="1"/>
+</dna>

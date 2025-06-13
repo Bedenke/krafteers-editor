@@ -1,0 +1,35 @@
+<dna>
+	<sprite scale="1" tint="#DDCCCCFF" shadow="true">Demon</sprite>
+	<fx>FireEnemyLeader</fx>
+	<maxHealth>2000</maxHealth>
+	<maxStamina>32000</maxStamina>
+
+	<speed>4</speed>
+	<fly>10</fly>
+	<range>20</range>
+	<actionRange>1</actionRange>
+
+	<pathfindRange>20</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<chase>Player</chase>
+	<group>Enemy</group>
+	
+	<rate>1</rate>
+	<modify>Player Structure Target Wood Carnivore Herbivore</modify>
+	<modifyHealth>-2</modifyHealth>
+	<modifyTemperatue>80</modifyTemperatue>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>1</modifyCounter>
+
+	<drop range="1">BloodSplatter</drop>
+	<drop range="1">BloodSplatter</drop>
+	<drop range="1">BloodSplatter</drop>
+	<drop range="1">FireGem</drop>
+	<drop range="1">HealingPotion</drop>
+	<split range="0">1 TeamExplosion</split>
+	<light range="1" r="0.5" g="0.5" b="0.1"/>
+
+	<resistHeat>100</resistHeat>
+	<!-- <resistCold>100</resistCold>
+	<resistInfection>100</resistInfection> -->
+</dna>

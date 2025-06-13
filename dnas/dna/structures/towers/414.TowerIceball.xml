@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5">Iceball</sprite>
+	<maxHealth>20</maxHealth>
+	<modify>Enemy Carnivore Herbivore Bird</modify>
+	<modifyHealth>-10</modifyHealth>
+	<modifyTemperature>-50</modifyTemperature>
+	<expire>1</expire>
+	<light range="2" r="0.2" g="0.2" b="1"/>
+	<selectable>false</selectable>
+</dna>

@@ -1,0 +1,20 @@
+<dna>
+	<sprite scale="0.3">Crab</sprite>
+	<populationRatio>8</populationRatio>
+	<mobility>Sand</mobility>
+
+	<maxHealth>10</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>2</speed>
+	<range>2</range>
+
+	<group>Fish</group>
+	<evade>Carnivore</evade>
+	<consume>Flesh Vegetable</consume>
+	<modifyHealth>-1</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+
+	<morph delay="5">Crab</morph>
+	<collectible>false</collectible>
+</dna>

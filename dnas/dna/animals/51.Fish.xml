@@ -1,0 +1,22 @@
+<dna>
+	<sprite scale="0.5" />
+	<starve>true</starve>
+	<populationRatio>35</populationRatio>
+	<mobility>Water Sea</mobility>
+
+	<maxHealth>15</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>5</speed>
+	<range>7</range>
+
+	<group>Fish</group>
+	<chase>Vegetation Flesh Trap</chase>
+	<consume>Vegetable Meat</consume>
+	<modifyHealth>-1</modifyHealth>
+	<resistCold>100</resistCold>
+
+	<split range="0">1 DeadFish</split>
+	<editor category="Animals" />
+
+</dna>

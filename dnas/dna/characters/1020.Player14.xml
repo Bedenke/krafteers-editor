@@ -1,0 +1,12 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">FireEnemyLeader</sprite>
+	<fx>FireEnemyLeader</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<resistHeat>100</resistHeat>
+	<cast speed="20" spawn="true" range="10">TowerFireball</cast>
+	<rate>2</rate>
+	<light range="2" r="1" g="0.3" b="0"/>
+	<price>1000</price>
+	<recipePriority>13</recipePriority>
+</dna>

@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.5" />
+	<maxHealth>20</maxHealth>
+	<modify>Player Target Carnivore Herbivore Structure</modify>
+	<modifyHealth>-3</modifyHealth>
+	<modifyTemperature>-50</modifyTemperature>
+	<modifyRange>2</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<expire>1</expire>
+	<selectable>false</selectable>
+	<light range="2" r="0.2" g="0.2" b="1"/>
+</dna>

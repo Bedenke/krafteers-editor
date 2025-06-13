@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5">Arrow</sprite>
+	<maxHealth>20</maxHealth>
+	<group>Wood Structure</group>
+	<modify>Enemy</modify>
+	<expire>1</expire>
+	<modifyHealth>-20</modifyHealth>
+	<selectable>false</selectable>
+	<collectible>false</collectible>
+</dna>

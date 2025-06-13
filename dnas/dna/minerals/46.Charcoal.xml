@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.8" />
+	<group>Wood</group>
+	<maxHealth>30</maxHealth>
+	<actions>Pick</actions>
+	<recipe>0 Campfire 1 Bones</recipe>
+	<editor category="Minerals" />
+</dna>

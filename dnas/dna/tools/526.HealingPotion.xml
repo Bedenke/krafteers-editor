@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>Item</fx>
+	<group>Food</group>
+	<maxHealth>3</maxHealth>
+	<modify>Player Team</modify>
+	<modifyHealth>100</modifyHealth>
+	<modifyStamina>-5</modifyStamina>
+	<recipe>0 Shaman 1 Bones 1 Water 1 Foliage</recipe>
+	<recipe>0 TeamFlag 1 Bones 1 Water 1 Foliage</recipe>
+	<actions>Pick Consume Apply</actions>
+	<price>20</price>
+	<editor category="Tools" />
+	<stack>5</stack>
+</dna>

@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>WoodStructure</fx>
+	<surface>Ground</surface>
+
+	<group>Wood</group>
+	<maxHealth>40</maxHealth>
+	<split range="0.2">1 WoodLog</split>
+	<modifyStamina>-2</modifyStamina>
+	<editor category="Vegetation" />
+
+</dna>

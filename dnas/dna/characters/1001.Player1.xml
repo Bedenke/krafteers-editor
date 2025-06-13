@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="1.2" />
+	<fx>HumanMale</fx>
+	<healHealth>1</healHealth>
+	<healInfection>1</healInfection>
+	<maxHealth>1000</maxHealth>
+	<maxStamina>500</maxStamina>
+	<speed>4</speed>
+	<range>10</range>
+	<modifyHealth>-5</modifyHealth>
+	<actionRange>1</actionRange>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Closest</pathfindMode>
+	<group>Team Target</group>
+	<consume>Food Meat Vegetable Mineral</consume>
+	<follow>Home</follow>
+	<chase>Enemy</chase>
+	<modify>Enemy Carnivore Herbivore</modify>
+	<counterMode>Rank</counterMode>
+	<split range="0">1 BloodSplatter</split>
+	<actions>Link Guard Label</actions>
+	<createWith>Machete</createWith>
+	<savable>true</savable>
+	<editor category="Characters" />
+</dna>

@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="1.2" layer="Ground"/>
+	<skus>None</skus>
+	<maxHealth>70</maxHealth>
+	<surface>Occupied</surface>
+	<group>Wood Vegetation</group>
+	<morph delay="268">Plantation</morph>
+	<split range="0">1 Corn 1 CornSeedlings</split>
+	<generate interval="30">Corn</generate>
+	<container>1</container>
+	<recipe>1 Plantation 1 Corn 1 Water</recipe>
+	<recipe>1 CornSeedlings 1 Corn 1 Water</recipe>
+	<actions>View Craft Drag</actions>
+	<editor category="Vegetation" />
+	<price>25</price>
+</dna>

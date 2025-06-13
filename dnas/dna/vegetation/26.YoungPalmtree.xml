@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="1" />
+	<populationRatio>18</populationRatio>
+	<mobility>Sand Rocks</mobility>
+	
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Wood</group>
+	<split range="0">1 Stick</split>
+	<morph delay="33">Palmtree</morph>
+	<editor category="Vegetation" />
+	<collectible>false</collectible>
+</dna>

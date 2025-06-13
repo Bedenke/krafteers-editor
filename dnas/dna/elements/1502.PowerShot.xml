@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.5">PowerBall</sprite>
+	<fx>PowerBall</fx>
+	<maxHealth>10</maxHealth>
+	<modify>Enemy Carnivore Herbivore Bird</modify>
+	<modifyHealth>-20</modifyHealth>
+	<expire>1</expire>
+	<light range="1" r="0.2" g="0.1" b="1"/>
+	<selectable>false</selectable>
+</dna>

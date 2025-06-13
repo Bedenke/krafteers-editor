@@ -1,0 +1,6 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1" offsetZ="0">Player1</sprite>
+	<modifyHealth>-10</modifyHealth>
+	<price>100</price>
+	<recipePriority>2</recipePriority>
+</dna>

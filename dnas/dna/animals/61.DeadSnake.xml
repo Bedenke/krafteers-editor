@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.7">Snake</sprite>
+	<density>5</density>
+	<maxHealth>2</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Flesh</group>
+	<expire>20</expire>
+	<split range="0">1 Meat</split>
+	<collectible>false</collectible>
+</dna>

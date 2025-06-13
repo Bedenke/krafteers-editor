@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="0.5"/>
+	<fx>WoodItem</fx>
+	<group>Wood</group>
+	<maxHealth>30</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<modify>Enemy Carnivore Herbivore Bird</modify>
+	<modifyHealth>-5</modifyHealth>
+	<recipePriority>5</recipePriority>
+	<split range="0">1 Stick</split>
+	<recipe>0 WoodTable 1 Stick 1 Vine</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<actionRange>8</actionRange>
+	<rate>1</rate>
+	<cast speed="30">Arrow PoisonArrow</cast>
+	<editor category="Tools" />
+	<price>25</price>
+</dna>

@@ -1,0 +1,24 @@
+<dna>
+	<sprite scale="1.15" />
+	<level>4</level>
+	<visibility>Always</visibility>
+	<maxHealth>120</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>3</speed>
+	<range>20</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase excludeDnas="PitTrap LandMine">Player Target</chase>
+	<group>Enemy Wave</group>
+	<modify>Player Structure Target</modify>
+	<modifyBack>false</modifyBack>
+	<modifyHealth>-4</modifyHealth>
+	<modifyCounter>1</modifyCounter>
+	<rate>4</rate>
+	<createWith>EnemyBow</createWith>
+	<drop chance="10" range="0.5">Token</drop>
+	<split range="0" dropItemsChance="0">1 DeadEnemySoldier 1 BloodSplatter</split>
+	<light range="2" r="0.8" g="0.2" b="0.2"/>
+	<editor category="Enemies" />
+</dna>

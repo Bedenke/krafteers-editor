@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>Item</fx>
+	<group>Food</group>
+	<maxHealth>3</maxHealth>
+	<modify>Player Team</modify>
+	<modifyInfection>-100</modifyInfection>
+	<modifyStamina>-5</modifyStamina>
+	<recipe>0 Shaman 1 DeadSpider 1 Water 1 Apple</recipe>
+	<recipe>0 TeamFlag 1 DeadSpider 1 Water 1 Apple</recipe>
+	<actions>Pick Consume Apply</actions>
+	<price>25</price>
+	<editor category="Tools" />
+	<stack>5</stack>
+</dna>

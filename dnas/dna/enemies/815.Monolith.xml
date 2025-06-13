@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="2" />
+	<visibility>Always</visibility>
+	<group>Portal Home</group>
+	<density>100</density>
+	<maxHealth>10000</maxHealth>
+	<switch>ActiveMonolith</switch>
+	<editor category="Structures" />
+	<gameState>Normal</gameState>
+	<actions>Wave</actions>
+	<split range="0">1 MonolithRuins</split>
+</dna>

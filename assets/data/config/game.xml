@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game>
+
+	<levels>
+		<level id="BattleIsland" mode="Battle" />
+		<level id="MainIsland" mode="Story" />
+		<level id="Survival" mode="Survival" />
+		<level id="Coast" />
+	</levels>
+
+	<menu map="Coast" cameraX="2" cameraY="1" humidity="0" world="MainIsland">
+		<player dna="PlayerMale PlayerFemale" x="15" y="32" h="1.8" rotation="90" />
+		<player1 dna="PlayerMale" x="17" y="33" h="1.8" rotation="180" />
+		<player2 dna="PlayerMale" x="14" y="35" h="1.8" rotation="0" />
+		<player3 dna="PlayerMale" x="16" y="36" h="1.8" rotation="270" />
+		<add dna="Campfire" x="16" y="33" />
+
+		<add dna="PlaneWreckage" x="13" y="27" />
+		<story dna="Monolith" x="18" y="38" h="2" map="MainIsland" />
+		<add dna="LightedTorch" x="20" y="38" />
+		<add dna="LeafShelter" x="22" y="33" />
+		<add dna="Anvil" x="24" y="34" />
+		<add dna="Furnace" x="24" y="33" />
+
+		<add dna="Portal1" x="22" y="38" h="2" />
+		<add dna="Skull" x="23" y="39" />
+		<add dna="Bones" x="20" y="40" />
+
+		<onlineHosts dna="Raft" x="10" y="33" h="1.5" />
+		<add dna="LightedTorch" x="13.5" y="34" />
+
+		<add dna="AppleTree" x="20" y="32" />
+		<add dna="AppleTree" x="18" y="30" />
+		<add dna="Palmtree" x="15" y="30" />
+		<add dna="Palmtree" x="15" y="39" />
+		<add dna="Crab" x="12" y="30" />
+		<add dna="Boulder" x="24" y="40" />
+		<add dna="Boulder" x="19" y="42" />
+	</menu>
+
+	<achievements>
+		<achievement id="FirstCraft" on="Craft" googleId="CgkIxYWAkpEEEAIQAQ" />
+		<achievement id="FirstTower" on="Craft" googleId="CgkIxYWAkpEEEAIQAw" dnas="ArrowTower" />
+		<achievement id="FirstWave" on="WaveComplete" googleId="CgkIxYWAkpEEEAIQAg" />
+		<achievement id="FirstAnvil" on="Craft" googleId="CgkIxYWAkpEEEAIQDg" dnas="Anvil" />
+		<achievement id="10Crafts" on="Craft" googleId="CgkIxYWAkpEEEAIQBA" steps="10" />
+		<achievement id="10PowerGems" on="Pick" googleId="CgkIxYWAkpEEEAIQCw" steps="10" dnas="PowerGem" />
+		<achievement id="10FireGems" on="Pick" googleId="CgkIxYWAkpEEEAIQDA" steps="10" dnas="FireGem" />
+		<achievement id="FireTower" on="Craft" googleId="CgkIxYWAkpEEEAIQBw" dnas="FireTower" />
+		<achievement id="FireSword" on="Craft" googleId="CgkIxYWAkpEEEAIQBg" dnas="FireSword" />
+		<achievement id="10IceGems" on="Pick" googleId="CgkIxYWAkpEEEAIQDQ" steps="10" dnas="IceGem" />
+		<achievement id="IceTower" on="Craft" googleId="CgkIxYWAkpEEEAIQCA" dnas="IceTower" />
+		<achievement id="10Waves" on="WaveComplete" googleId="CgkIxYWAkpEEEAIQBQ" steps="10" />
+		<achievement id="100Crafts" on="Craft" googleId="CgkIxYWAkpEEEAIQDw" steps="100" />
+		<achievement id="PortalDemolisher" on="Craft" googleId="CgkIxYWAkpEEEAIQCQ" dnas="MorningStar" />
+		<achievement id="1000Crafts" on="Craft" googleId="CgkIxYWAkpEEEAIQEA" steps="1000" />
+		<achievement id="Savior" on="GameOverWin" googleId="CgkIxYWAkpEEEAIQCg" />
+	</achievements>
+
+	<environment>
+		<fx on="Day">
+			<emit music="Day" loop="false" />
+			<emit rate="15 30" sounds="Day"/>
+		</fx>
+		<fx on="Night">
+			<emit music="Night" loop="false" />
+			<emit rate="15 30" sounds="Night" />
+			<emit rate="30 60" sounds="NightHaul" />
+		</fx>
+		<fx on="Wave">
+			<emit music="Wave" loop="true" />
+			<emit rate="15 30" sounds="Wave" />
+		</fx>
+		<fx on="Final" terrainType="hell">
+			<emit music="Final" loop="true" musicVolume="0.5" />
+			<emit music="Wind" loop="true" musicVolume="0.1" />
+			<emit rate="15 30" sounds="Wave" />
+			<emit particles="Blizzard" rate="0" />
+			<emit rate="8 25" sounds="Thunder" flash="0.4 0.7" />
+		</fx>
+		<fx on="Rain">
+			<emit music="Rain" loop="true" musicVolume="0.15" />
+			<emit rate="0" particles="RainDrop" />
+			<emit rate="0" particles="LightRain" />
+			<emit rate="0" particles="RainDrop" />
+		</fx>
+		<fx on="Storm">
+			<emit music="Rain" loop="true" musicVolume="0.3" />
+			<emit music="Wind" loop="true" musicVolume="0.5" />
+			<emit rate="0" particles="RainDrop" />
+			<emit rate="0" particles="HeavyRain" />
+			<emit rate="10 30" sounds="Thunder" flash="0.4 0.7" />
+		</fx>
+		<fx on="Snow">
+			<emit particles="Snow" rate="0" />
+		</fx>
+		<fx on="Blizzard">
+			<emit music="Wind" loop="true" musicVolume="0.5" />
+			<emit particles="Snow" rate="0" />
+			<emit particles="Blizzard" rate="0" />
+			<emit rate="10 50" sounds="Thunder" flash="0.4 0.7" />
+		</fx>
+	</environment>
+
+	<particles>
+		<particle id="RainDrop" sprite="WaterSplash" amount="1" time="0.4 0.6" fadeInTime="0.01" startSize="0.05" endSize="0.2" endColor="1 1 1 0" />
+		<particle id="LightRain" sprite="Sparkles" amount="1 3" time="2" delay="0 1" size="0.07 0.1" offsetX="-2 2" offsetY="-2 2" offsetZ="1 2" velX="-1 0" velY="-1 0" velZ="-6 -8" gravity="9" />
+		<particle id="HeavyRain" sprite="Sparkles" amount="3 5" time="2" delay="0 1" size="0.07 0.09" offsetX="-2 2" offsetY="-2 2" offsetZ="1 2" velX="-4 0" velY="-4 0" velZ="-7 -10" gravity="9" />
+		<particle id="Snow" sprite="Fog" amount="1" time="2" interpolation="pow4" fadeInTime="0.2" delay="0 0.5" size="0.1 0.2" offsetX="-2 2" offsetY="-2 2" offsetZ="1 2" velX="-0.5 0" velY="-0.5 0" velZ="-1 -0.5" />
+		<particle id="Blizzard" sprite="Fog" amount="1 2" time="2" interpolation="pow4" fadeInTime="0.2" delay="0 0.5" size="0.1 0.2" offsetX="-2 2" offsetY="-2 2" offsetZ="1 2" velX="-2 0" velY="-2 0" velZ="-2 -0.5" />
+
+		<particle id="Bleed" sprite="Shrapnel" interpolation="pow4" amount="5 10" time="0.5 1" delay="0 0.1" size="0.1 0.15" startColor="0.5 0 0 1" endColor="0.5 0 0 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="0 0.1" velX="-2 2" velY="-2 2" velZ="1 5" gravity="9" />
+		<particle id="Smoke" amount="1" time="2 3" fadeInTime="0.5 1" size="0.5 1.5" startSize="0.5" endSize="1" endColor="1 1 1 0" offsetX="-0.2 0.2" offsetY="-0.2 0.2" offsetZ="0 0.1" velX="-0.1 0" velY="-0.1 0" velZ="0.08 0.15" />
+		<particle id="OnFire" amount="1 3" time="0.7 1" fadeInTime="0.2 0.4" size="0.7 1.5" startSize="0.5" endSize="0.8" endColor="1 1 1 0" offsetX="-0.2 0.2" offsetY="-0.2 0.2" offsetZ="0 0.1" velX="-0.05 0" velY="-0.05 0" velZ="0.08 0.15" light="2" />
+		<particle id="Frozen" amount="3 4" interpolation="pow4" time="15" delay="0 5" fadeInTime="1" size="0.4 0.8" startColor="1 1 1 0.75" endColor="1 1 1 0" offsetX="-0.2 0.2" offsetY="-0.2 0.2" offsetZ="-0.25 0.25" />
+		<particle id="Burning" amount="1" time="2" fadeInTime="1" startSize="0.5" endSize="1" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velX="-0.05 0" velY="-0.05 0" velZ="0.08 0.15" />
+		<particle id="Poisoned" amount="2" time="2" fadeInTime="2" startSize="0.5" endSize="1" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velZ="0.01 0.02" />
+
+		<particle id="Help" amount="1" time="5" interpolation="pow4" fadeInTime="0.3" size="0.5" endColor="1 1 1 0" velZ="0.001" />
+
+		<particle id="Explosion" interpolation="pow4" amount="1" time="0.7" size="1.5 2" endSize="3" startColor="1 0.5 0 1" endColor="1 0.6 0 0" offsetX="-0.01 0.01" offsetY="-0.01 0.01" offsetZ="-0.01 0.01" velZ="0 0.01" light="6" />
+		<particle id="ExplosionShrapnel" sprite="Shrapnel" amount="15 20" delay="0 0.2" time="2" size="0.05 0.4" startColor="0.5 0.5 0.5 1" endColor="0.5 0.5 0.5 0" offsetX="-0.5 0.5" offsetY="-0.5 0.5" offsetZ="0 0.1" velX="-4 4" velY="-4 4" velZ="2 8" gravity="9" />
+		<particle id="GreenShrapnel" sprite="Shrapnel" amount="15 20" delay="0 0.2" time="1.4 2" size="0.05 0.4" startColor="0 0.2 0 1" endColor="0 0.3 0 0" offsetX="-0.4 0.4" offsetY="-0.4 0.4" offsetZ="0 0.2" velX="-4 4" velY="-4 4" velZ="2 8" gravity="9" />
+		<particle id="RedShrapnel" sprite="Shrapnel" amount="15 20" delay="0 0.2" time="1.4 2" size="0.05 0.4" startColor="0.2 0 0 1" endColor="0.3 0 0 0" offsetX="-0.4 0.4" offsetY="-0.4 0.4" offsetZ="0 0.2" velX="-4 4" velY="-4 4" velZ="2 8" gravity="9" />
+		<particle id="BlueShrapnel" sprite="Shrapnel" amount="15 20" delay="0 0.2" time="1.5 2" size="0.05 0.4" startColor="0 0 0.2 1" endColor="0 0 0.3 0" offsetX="-0.4 0.4" offsetY="-0.4 0.4" offsetZ="0 0.2" velX="-4 4" velY="-4 4" velZ="2 8" gravity="9" />
+
+		<particle id="BlueFire" amount="4 6" time="1" delay="0 0.3" fadeInTime="0.1 0.2" size="0.5 1.5" startSize="0.5" endSize="0.6" startColor="0 0.8 1 0.5" endColor="0 0.8 1 0" offsetX="-0.2 0.2" offsetY="-0.2 0.2" offsetZ="0 0.1" velX="-0.1 0" velY="-0.1 0" velZ="0.08 0.15" light="2"/>
+		<particle id="BlueSmoke" amount="3 4" time="1 2" delay="0 0.1" fadeInTime="0.3 0.5" startSize="0.5" endSize="1" startColor="0 0.8 1 0.3" endColor="0 0.8 1 0" offsetX="-0.2 0.2" offsetY="-0.2 0.2" offsetZ="0 0.1" velX="-0.1 0" velY="-0.1 0" velZ="0.08 0.15" light="2"/>
+		<particle id="GreenSmoke" amount="4 6" time="1 2" delay="0 0.3" startSize="0.2" endSize="0.9" startColor="0 0.3 0 0.3" endColor="0 0.5 0 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="0 0.1" velX="-0.01 0.01" velY="-0.01 0.01" velZ="0.08 0.15" light="2"/>
+		<particle id="RedSmoke" amount="4 6" time="2 3" delay="0 1" fadeInTime="0.1 0.2" startSize="0.5" endSize="2.5" startColor="1 0.1 0 0.1" endColor="1 0 0 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velX="-0.01 0.01" velY="-0.01 0.01" velZ="0.08 0.15" light="2"/>
+
+		<particle id="WaterSplash" amount="4 6" time="0.5 1" startSize="0.1" endSize="0.2" startColor="1 1 1 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velX="-2 2" velY="-2 2" velZ="2 4" gravity="9" />
+
+		<particle id="Sparkles" sprite="Sparkles" amount="5 10" delay="0 0.1" time="0.5 0.7" size="0.05 0.2" startColor="1 1 1 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="0 0.3" velX="-1 1" velY="-1 1" velZ="1 3" gravity="9" emitColor="true"/>
+		<particle id="LevelUp" amount="10" delay="0 3" time="5" startSize="0.2" endSize="0.9" startColor="0 0.8 1 1" endColor="0 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="0 0.1" velZ="0.1 0.5" emitColor="true"/>
+
+		<particle id="Electric" sprite="Lightning" amount="2 3" time="0.6 1" delay="0 0.3" size="0.3 1" endSize="1.2" startColor="1 1 1 1" endColor="1 1 1 0.2" offsetX="-0.1 0.1" offsetY="-0.1 0.1" light="2" />
+		<particle id="ElectricShock" sprite="Lightning" amount="3 5" time="0.8" delay="0 0.4" size="0.6 1.1" endSize="1.2" startColor="1 1 1 1" endColor="1 1 1 0.2" offsetX="-0.3 0.3" offsetY="-0.3 0.3" light="2" />
+		<particle id="SmokeHit" sprite="Smoke" amount="3 4" time="0.5 1" delay="0 0.2" fadeInTime="0.1 0.2" startSize="0.5" endSize="2" startColor="0.7 0.7 0.7 1" endColor="0.7 0.7 0.7 0" offsetX="-0.2 0.2" offsetY="-0.2 0.2" offsetZ="0 0.1" velX="-0.1 0" velY="-0.1 0" velZ="0.08 0.15" />
+
+		<particle id="HitWood" sprite="Wood" interpolation="pow4" amount="4 8" time="0.8 1.2" delay="0 0.2" size="0.1 0.2" endColor="1 1 1 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" velX="-2 2" velY="-2 2" velZ="2 4" gravity="9" />
+		<particle id="HitLeaves" sprite="Shrapnel" interpolation="pow4" amount="5 10" time="1 1.5" delay="0 0.2" size="0.1 0.3" startColor="0 0.25 0 1" endColor="0 0.25 0 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" offsetZ="0.5" velX="-2.5 2.5" velY="-2.5 2.5" velZ="3 5" gravity="9" />
+		<particle id="BreakWood" sprite="Wood" interpolation="pow4" amount="10 20" time="0.8 1.5" delay="0 0.2" size="0.2 0.3" endColor="1 1 1 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" velX="-1 1" velY="-1 1" velZ="3 5" gravity="9" />
+
+		<particle id="HitStone" sprite="Shrapnel" interpolation="pow4" amount="3 6" time="0.5 1" delay="0 0.2" size="0.1 0.2" startColor="0.5 0.5 0.5 1" endColor="0.5 0.5 0.5 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" velX="-2 2" velY="-2 2" velZ="2 4" gravity="9" />
+		<particle id="BreakStone" sprite="Shrapnel" interpolation="pow4" amount="10 20" time="0.8 1.5" delay="0 0.2" size="0.2 0.3" startColor="0.5 0.5 0.5 1" endColor="0.5 0.5 0.5 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" velX="-1 1" velY="-1 1" velZ="3 5" gravity="9" />
+
+		<particle id="HitMetal" sprite="Shrapnel" interpolation="pow4" amount="3 6" time="0.5 1" delay="0 0.2" size="0.1 0.2" startColor="0.85 0.5 0.5 1" endColor="0.85 0.5 0.5 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" velX="-2 2" velY="-2 2" velZ="2 4" gravity="9" />
+		<particle id="BreakMetal" sprite="Shrapnel" interpolation="pow4" amount="10 20" time="0.8 1.5" delay="0 0.2" size="0.2 0.3" startColor="0.85 0.5 0.5 1" endColor="0.85 0.5 0.5 0" offsetX="-0.3 0.3" offsetY="-0.3 0.3" velX="-1 1" velY="-1 1" velZ="3 5" gravity="9" />
+
+		<particle id="BreakFoliage" sprite="Shrapnel" amount="5 8" delay="0 0.2" time="0.4 1" size="0.05 0.2" startColor="0 0.2 0 1" endColor="0 0.3 0 0" offsetX="-0.4 0.4" offsetY="-0.4 0.4" offsetZ="0 0.2" velX="-3 3" velY="-3 3" velZ="2 6" gravity="9" />
+		<particle id="Rotation" amount="1" time="1" startSize="1" endSize="1.2" startColor="1 1 1 0.8" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velZ="0.5 1" />
+		<particle id="Healing" amount="1" time="1" startSize="0.5" endSize="0.6" startColor="1 1 1 0.8" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velZ="0.5 1" emitColor="true"/>
+
+		<particle id="GrassWalk" amount="1" time="0.5" startSize="0.1" endSize="0.4" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="-0.5 -0.4" velZ="0 0.1" />
+		<particle id="RocksWalk" amount="3" time="0.3" startSize="0.1" endSize="0.3" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="-0.5 -0.4" velZ="0 0.1" />
+		<particle id="SandWalk" amount="1" time="0.4" startSize="0.2" endSize="0.7" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="-0.5 -0.4" velZ="0 0.1" />
+		<particle id="SwampWalk" amount="2" time="0.3" startSize="0.2" endSize="0.4" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" offsetZ="-0.5 -0.4" velZ="0 0.1" />
+		<particle id="WaterSwim" amount="1" time="4" startSize="0.2" endSize="1" startColor="1 1 1 0.5" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" />
+		<particle id="Fog" amount="1" time="10" fadeInTime="2" startSize="4" endSize="10" startColor="1 1 1 0.4" endColor="1 1 1 0" offsetX="-1 1" offsetY="-1 1" />
+
+		<particle id="PoisonExplosion" sprite="Explosion" interpolation="pow4" amount="1" time="0.7" size="1.5 2" endSize="3" startColor="0 1 0 1" endColor="0 1 0.5 0" offsetX="-0.01 0.01" offsetY="-0.01 0.01" offsetZ="-0.01 0.01" velZ="0 0.01" light="6" />
+		<particle id="PoisonShrapnel" sprite="Shrapnel" amount="15 20" delay="0 0.2" time="2" size="0.05 0.4" startColor="0.2 1 0.2 1" endColor="0.2 1 0.2 0" offsetX="-0.5 0.5" offsetY="-0.5 0.5" offsetZ="0 0.1" velX="-3 3" velY="-3 3" velZ="2 7" gravity="8" />
+		<particle id="PoisonHit" amount="1 3" delay="0 0.5" time="1 2" fadeInTime="2" startSize="0.5" endSize="1" startColor="0.5 0.5 0.5 1" endColor="1 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velZ="0 0.1" emitColor="true" />
+
+		<particle id="IceHit" amount="1 3" delay="0 0.4" time="1 1.5" fadeInTime="0.5" startSize="0.5" endSize="1" startColor="0.4 0.8 1 1" endColor="0.4 1 1 0" offsetX="-0.1 0.1" offsetY="-0.1 0.1" velX="-0.1 0.1" velY="-0.1 0.1" velZ="0.1 0.3" />
+
+		<particle id="Sleep" amount="1" time="4" startSize="0.5" endSize="1" startColor="1 1 1 1" endColor="1 1 1 0" velZ="0.5" />
+
+	</particles>
+
+	<skins>
+
+		<skinTone color="FFDBACFF" />
+		<skinTone color="F1C27DFF" />
+		<skinTone color="E0AC69FF" />
+		<skinTone color="C68642FF" />
+		<skinTone color="8D5524FF" />
+
+		<hairColor color="E1D016FF" />
+		<hairColor color="D68D00FF" />
+		<hairColor color="B10C08FF" />
+		<hairColor color="720C08FF" />
+		<hairColor color="341f0aFF" />
+		<hairColor color="222222FF" />
+		<hairColor color="ddddddFF" />
+		<hairColor color="3389FFFF" />
+		<hairColor color="F40AFFFF" />
+		<hairColor color="006E79FF" />
+		<hairColor color="7EFF01FF" />
+		<hairColor color="CC01FFFF" />
+
+		<hairStyle sprite="HairShort" />
+		<hairStyle sprite="HairLong" />
+		<hairStyle sprite="HairPunk" />
+		<hairStyle sprite="HairPony" />
+
+		<faceStyle sprite="Face_Lips" />
+		<faceStyle sprite="Face_Mustache" />
+		<faceStyle sprite="Face_LongBeard" />
+		<faceStyle sprite="Face_Beard" />
+
+		<eyeStyle sprite="Eyebrows" />
+		<eyeStyle sprite="Sunglasses" />
+		<eyeStyle sprite="Eyeglasses" />
+		<eyeStyle sprite="EyePatch" />
+
+		<torso poses="TShirt" color="d7d67cFF" />
+		<torso poses="TShirt" color="FF8F06FF" />
+		<torso poses="TShirt" color="244CD9FF" />
+		<torso poses="TShirt" color="8a6030FF" />
+		<torso poses="TShirt" color="341f0aFF" />
+		<torso poses="TShirt" color="222222FF" />
+		<torso poses="TShirt" color="ddddddFF" />
+		<torso poses="TShirt" color="9ec1e4FF" />
+		<torso poses="TShirt" color="e78ec7FF" />
+		<torso poses="TShirt" color="a1f263FF" />
+		<torso poses="TShirt" color="f46666FF" />
+		<torso poses="TShirt" color="bd69b9FF" />
+
+		<legs poses="Pants" color="d7d67cFF" />
+		<legs poses="Pants" color="c6a969FF" />
+		<legs poses="Pants" color="a47a3fFF" />
+		<legs poses="Pants" color="8a6030FF" />
+		<legs poses="Pants" color="341f0aFF" />
+		<legs poses="Pants" color="222222FF" />
+		<legs poses="Pants" color="ddddddFF" />
+		<legs poses="Pants" color="9ec1e4FF" />
+		<legs poses="Pants" color="e78ec7FF" />
+		<legs poses="Pants" color="a1f263FF" />
+		<legs poses="Pants" color="f46666FF" />
+		<legs poses="Pants" color="bd69b9FF" />
+
+		<legs poses="Shorts" color="d7d67cFF" />
+		<legs poses="Shorts" color="c6a969FF" />
+		<legs poses="Shorts" color="a47a3fFF" />
+		<legs poses="Shorts" color="8a6030FF" />
+		<legs poses="Shorts" color="341f0aFF" />
+		<legs poses="Shorts" color="222222FF" />
+		<legs poses="Shorts" color="ddddddFF" />
+		<legs poses="Shorts" color="9ec1e4FF" />
+		<legs poses="Shorts" color="e78ec7FF" />
+		<legs poses="Shorts" color="a1f263FF" />
+		<legs poses="Shorts" color="f46666FF" />
+		<legs poses="Shorts" color="bd69b9FF" />
+
+	</skins>
+
+	<fx id="Grass">
+		<footsteps sounds="FootstepsGrass" particles="GrassWalk"/>
+	</fx>
+	<fx id="Lake">
+		<footsteps sounds="Swimming" particles="WaterSwim" />
+	</fx>
+	<fx id="Ocean">
+		<footsteps sounds="Swimming" particles="WaterSwim" />
+	</fx>
+	<fx id="Rocks">
+		<footsteps sounds="FootstepsStone" particles="RocksWalk"/>
+	</fx>
+	<fx id="Sand">
+		<footsteps sounds="FootstepsSand" particles="SandWalk"/>
+	</fx>
+	<fx id="Swamp">
+		<footsteps sounds="FootstepsSwamp" particles="RocksWalk"/>
+	</fx>
+
+	<fx id="Burning">
+		<emit rate="1" sounds="Fire" particles="Smoke" height="0.5" attach="true" />
+		<emit rate="0.5" particles="Burning" height="0.5" attach="true" />
+	</fx>
+
+	<fx id="Freezing">
+		<emit rate="8" particles="Frozen" attach="true" />
+	</fx>
+
+	<fx id="Infecting">
+		<emit rate="0.5" particles="PoisonHit" attach="true" />
+	</fx>
+
+	<fx id="Injured">
+		<emit rate="10" particles="Help" height="0.4" />
+	</fx>
+
+	<fx id="Item">
+		<react on="Drop" sounds="Drop" bounce="0.3 0.6"/>
+	</fx>
+
+	<fx id="StoneItem">
+		<react on="Craft" sounds="StoneSwitch" />
+		<react on="Swing" sounds="Swing" />
+		<react on="Drop" sounds="Drop" bounce="0.3 0.6"/>
+	</fx>
+
+	<fx id="MetalItem">
+		<react on="Craft" sounds="AnvilCraft" />
+		<react on="Swing" sounds="Swing" />
+		<react on="Drop" sounds="Drop" bounce="0.3 0.6"/>
+	</fx>
+
+	<fx id="WoodItem">
+		<react on="Hit" particles="HitWood" wobble="0.5 1" />
+		<react on="Drag" sounds="Rotate" />
+		<react on="Drop" sounds="Drop" bounce="0.3 0.6"/>
+		<react on="Craft" sounds="WoodCrafting" />
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="HumanMale">
+		<react on="Attack" sounds="Punch" />
+		<react on="Consume" sounds="Gulp" particles="Healing"/>
+		<react on="Dead" vibrate="0.1" sounds="PlayerDead" particles="Bleed"/>
+		<react on="Denied" sounds="Denied" />
+		<react on="Equip" sounds="Equip" />
+		<react on="Hit" vibrate="0.01" sounds="MaleHit" particles="Bleed"/>
+		<react on="Pick" sounds="Pick" />
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Purchase" sounds="LevelUp" vibrate="0.1" shake="1" particles="LevelUp" />
+		<react on="Ranked" sounds="LevelUp" vibrate="0.5" particles="LevelUp" />
+		<react on="WaveComplete" sounds="Achievement" vibrate="0.5" shake="1"/>
+		<react on="GameOverWin" sounds="LevelUp" vibrate="0.5" shake="2" particles="LevelUp" />
+		<react on="Swing" sounds="Swing" />
+		<react on="Link" sounds="Equip" />
+	</fx>
+
+	<fx id="HumanFemale">
+		<react on="Attack" sounds="Punch" />
+		<react on="Consume" sounds="Gulp" particles="Healing"/>
+		<react on="Dead" vibrate="0.1" sounds="PlayerDead" particles="Bleed" />
+		<react on="Denied" sounds="Denied" />
+		<react on="Equip" sounds="Equip" />
+		<react on="Hit" vibrate="0.01" sounds="FemaleHit" particles="Bleed" />
+		<react on="Pick" sounds="Pick" />
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Purchase" sounds="LevelUp" vibrate="0.1" shake="1" particles="LevelUp" />
+		<react on="Ranked" sounds="LevelUp" vibrate="0.5" particles="LevelUp" />
+		<react on="WaveComplete" sounds="Achievement" vibrate="0.5" shake="1"/>
+		<react on="GameOverWin" sounds="LevelUp" vibrate="0.5" shake="2" particles="LevelUp" />
+		<react on="Swing" sounds="Swing" />
+		<react on="Link" sounds="Equip" />
+	</fx>
+
+	<fx id="HumanHealer">
+		<react on="Consume" sounds="Gulp" particles="Healing"/>
+		<react on="Dead" vibrate="0.1" sounds="PlayerDead" particles="Bleed"/>
+		<react on="Denied" sounds="Denied" />
+		<react on="Equip" sounds="Equip" />
+		<react on="Hit" vibrate="0.01" sounds="MaleHit" particles="Bleed"/>
+		<react on="Pick" sounds="Pick" />
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Purchase" sounds="LevelUp" vibrate="0.1" shake="1" particles="LevelUp" />
+		<react on="Ranked" sounds="LevelUp" vibrate="0.5" particles="LevelUp" />
+		<react on="WaveComplete" sounds="Achievement" vibrate="0.5" shake="1"/>
+		<react on="GameOverWin" sounds="LevelUp" vibrate="0.5" shake="2" particles="LevelUp" />
+		<react on="Swing" sounds="Swing" />
+		<react on="Link" sounds="Equip" />
+	</fx>
+
+	<fx id="EnemyLeader">
+		<emit rate="3" particles="Electric" sounds="Electric" volume="0.25"/>
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" />
+		<react on="Dead" sounds="DeadEnemyLeader" particles="BlueFire BlueSmoke BlueShrapnel ElectricShock"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemyLeaderHit" particles="BlueFire Sparkles" wobble="0.25 0.5"/>
+		<cause on="Attack" rate="0.1" duration="0.1" particles="SmokeHit ElectricShock" sounds="ElectricHit" attach="true" wobble="0.1 0.2"/>
+	</fx>
+
+	<fx id="FireEnemyLeader">
+		<emit rate="1" particles="Smoke Burning" />
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Fireball" particles="OnFire" />
+		<react on="Dead" sounds="DeadEnemyLeader" particles="Sparkles"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemyLeaderHit" particles="OnFire" wobble="0.25 0.5"/>
+	</fx>
+
+	<fx id="IceEnemyLeader">
+		<emit rate="3" particles="IceHit" attach="true"/>
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Iceball" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemyLeader" particles="Sparkles"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemyLeaderHit" particles="BlueFire"/>
+	</fx>
+
+	<fx id="Spectre">
+		<emit rate="8" sounds="Spectre" />
+		<react on="Attack" sounds="Fireball" particles="Smoke" />
+		<react on="Dead" sounds="DeadSpecter" particles="BlueFire" />
+		<react on="Hit" sounds="SpecterHit" />
+	</fx>
+
+
+	<fx id="Demon">
+		<emit rate="1" particles="Smoke" />
+		<emit rate="10" sounds="EvilLaugh" />
+		<react on="Attack" vibrate="0.5" shake="1" sounds="Explosion" particles="Explosion RedShrapnel RedSmoke"/>
+		<react on="Dead" sounds="EvilLaugh" particles="BreakStone"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="FireGolemHit" particles="BreakStone" wobble="0.3 0.5"/>
+		<cause on="Attack" rate="0.1" duration="0.1" particles="SmokeHit ElectricShock OnFire" sounds="Fireball" attach="true" wobble="0.1 0.2"/>
+	</fx>
+
+	<fx id="FireGolem">
+		<emit rate="1" particles="Smoke" />
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Fireball" particles="Smoke" />
+		<react on="Dead" sounds="DeadFireGolem" particles="BreakStone"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="FireGolemHit" particles="BreakStone" wobble="0.3 0.5"/>
+	</fx>
+
+	<fx id="Blob">
+		<emit rate="1" particles="Poisoned" />
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" particles="PoisonHit" />
+		<react on="Dead" sounds="DeadFireGolem" />
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="FireGolemHit" particles="PoisonHit" wobble="0.5 0.7"/>
+	</fx>
+
+	<fx id="Kreep">
+		<react on="Attack" sounds="Fireball" particles="RedSmoke" />
+		<react on="Respawn" vibrate="0.5" shake="1" sounds="Explosion" particles="Explosion RedShrapnel RedSmoke"/>
+		<react on="Dead" sounds="DeadSpecter" particles="RedSmoke RedShrapnel" />
+		<react on="Hit" sounds="SpecterHit" wobble="0.3 0.5"/>
+	</fx>
+
+	<fx id="KreepBomb">
+		<react on="Attack" vibrate="0.5" shake="1" sounds="Explosion" particles="Explosion RedShrapnel RedSmoke"/>
+		<react on="Dead" sounds="DeadSpecter" particles="RedSmoke RedShrapnel" />
+	</fx>
+
+	<fx id="Explosion">
+		<react on="Dead" vibrate="0.1" shake="1" sounds="Explosion" particles="Explosion ExplosionShrapnel Smoke OnFire"/>
+	</fx>
+
+	<fx id="PoisonExplosion">
+		<react on="Dead" vibrate="0.1" shake="1" sounds="Explosion" particles="PoisonExplosion PoisonShrapnel Smoke PoisonHit"/>
+	</fx>
+
+	<fx id="DeadEnemyLeader"/>
+
+	<fx id="Undead">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemySoldier" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemySoldierHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>"
+
+	<fx id="PlacedUndead">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemySoldier" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemySoldierHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>"
+
+
+	<fx id="PlacedArcher">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="ArrowHit" />
+		<react on="Dead" sounds="DeadEnemySoldier" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemySoldierHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>
+
+
+	<fx id="EnemySoldier">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemySoldier" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemySoldierHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>"
+
+	<fx id="EnemySoldierEquipped">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemySoldier" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemySoldierHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>
+
+	<fx id="EnemyArcher">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="ArrowHit" />
+		<react on="Dead" sounds="DeadEnemySoldier" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemySoldierHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>
+
+
+	<fx id="DeadEnemySoldier" />
+
+	<fx id="EnemyHeavy">
+		<emit rate="10" sounds="Undead" />
+		<react on="Attack" sounds="Punch" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemyHeavy" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemyHeavyHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>
+
+	<fx id="DeadEnemyHeavy" />
+
+	<fx id="EnemyHealer">
+		<react on="Attack" sounds="Punch" particles="Smoke" />
+		<react on="Dead" sounds="DeadEnemyHealer" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemyHealerHit" particles="Bleed" wobble="0.3 0.5"/>
+	</fx>
+
+	<fx id="DeadEnemyHealer" />
+
+	<fx id="UndeadHand">
+		<react on="Dead" particles="Bleed"/>
+		<react on="Hit" particles="Bleed"/>
+		<emit rate="1" sounds="UnburriedHand" particles="HitStone"/>
+	</fx>
+
+	<fx id="MonolithHand">
+		<react on="Dead" particles="Bleed"/>
+		<react on="Hit" particles="Bleed"/>
+		<emit rate="1" sounds="UnburriedHand" particles="HitStone"/>
+	</fx>
+
+	<fx id="EnemyBoss">
+		<emit rate="0.4" particles="RedSmoke" />
+		<react on="Attack" sounds="Explosion" particles="Explosion Smoke" vibrate="0.03" shake="0.5" />
+		<react on="Dead" sounds="DeadEnemyHeavy" particles="Bleed"/>
+		<react on="Heal" sounds="Heal" particles="Healing"/>
+		<react on="Hit" sounds="EnemyHeavyHit" particles="Bleed" wobble="0.3 0.5"/>
+		<cause on="Attack" rate="0.25" duration="2" particles="OnFire"/>
+	</fx>
+
+	<fx id="LeafShelter">
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Drag" sounds="Rotate" />
+		<react on="Enter" particles="Sleep" />
+	</fx>
+
+	<fx id="WoodTent">
+		<react on="Craft" sounds="WoodCrafting" />
+		<react on="Dead" particles="BreakWood" />
+		<react on="Hit" particles="HitWood" />
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Drag" sounds="Rotate" />
+		<react on="Enter" particles="Sleep" />
+	</fx>
+
+	<fx id="StoneHouse">
+		<react on="Craft" sounds="StoneCrafting" />
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Hit" particles="HitStone"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Drag" sounds="Rotate" />
+		<react on="Enter" particles="Sleep" />
+	</fx>
+
+	<fx id="Portal">
+		<emit rate="1" particleRate="10" sounds="ActivePortal" particles="Fog" />
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Hit" particles="OnFire HitStone"/>
+	</fx>
+
+	<fx id="ActivePortal">
+		<emit rate="1" particleRate="10" sounds="ActivePortal" particles="Fog" />
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Hit" particles="OnFire"/>
+		<react on="Craft" vibrate="1" shake="4" sounds="MonolithActived" particles="BlueFire" />
+	</fx>
+
+	<fx id="Monolith">
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Hit" particles="BreakStone"/>
+	</fx>
+
+	<fx id="ActiveMonolith">
+		<react on="WaveStart" vibrate="1" shake="4" sounds="MonolithActived" particles="BlueFire" />
+		<emit rate="0.5" particles="BlueSmoke" />
+	</fx>
+
+	<fx id="ArrowTower">
+		<react on="Attack" sounds="ArrowHit" particles="Sparkles" />
+	</fx>
+
+	<fx id="PoisonTower">
+		<emit rate="2" particles="Poisoned"/>
+	</fx>
+
+	<fx id="FireTower">
+		<react on="Attack" sounds="Fireball" particles="Sparkles" />
+	</fx>
+
+	<fx id="IceTower">
+		<react on="Attack" sounds="Iceball" particles="Sparkles" />
+	</fx>
+
+	<fx id="DiamondStar">
+		<emit rate="0.4" particles="BlueSmoke" />
+	</fx>
+
+	<fx id="LandMine">
+		<react on="Craft" sounds="Craft" />
+		<react on="Attack" vibrate="0.05" shake="0.3" sounds="Explosion" particles="Explosion Smoke"/>
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="PitTrap">
+		<react on="Craft" sounds="Craft" />
+		<react on="Dead" particles="BreakFoliage"/>
+		<react on="Hit" particles="BreakFoliage"/>
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="Wolf">
+		<react on="Attack" sounds="WolfAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="TamedWolf">
+		<react on="Attack" sounds="WolfAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+		<react on="Consume" sounds="Gulp" particles="Healing"/>
+	</fx>
+
+	<fx id="BabyWolf">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="DeadWolf">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Alligator">
+		<react on="Attack" sounds="AlligatorAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="AlligatorEgg">
+	</fx>
+
+	<fx id="BabyAlligator">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="DeadAlligator">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Hog">
+		<react on="Attack" sounds="HogAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="TamedHog">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+		<react on="Consume" sounds="Gulp" particles="Healing"/>
+	</fx>
+
+	<fx id="BabyHog">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="DeadHog">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Crab">
+		<react on="Dead" particles="Bleed"/>
+		<react on="Hit" particles="Bleed"/>
+	</fx>
+
+	<fx id="BabyCrab">
+		<react on="Dead" particles="Bleed"/>
+		<react on="Hit" particles="Bleed"/>
+	</fx>
+
+	<fx id="DeadCrab">
+		<react on="Dead" particles="Bleed"/>
+		<react on="Hit" particles="Bleed"/>
+	</fx>
+
+	<fx id="Snake">
+		<react on="Attack" sounds="SnakeAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+		<cause on="Attack Hit" rate="0.4" duration="5" particles="PoisonHit"/>
+	</fx>
+
+	<fx id="BabySnake">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+		<cause on="Attack Hit" rate="0.4" duration="5" particles="PoisonHit"/>
+	</fx>
+
+	<fx id="DeadSnake">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Spider">
+		<react on="Attack" sounds="SpiderAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+		<cause on="Attack Hit" rate="0.4" duration="5" particles="PoisonHit"/>
+	</fx>
+
+	<fx id="DeadSpider" x="850" y="300" size="50" scale="0.5" layer="5" iconX="950" iconY="450" pickPriority="50">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Puma">
+		<react on="Attack" sounds="PumaAttack" />
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="BabyPuma">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="DeadPuma">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Fish">
+		<react on="Dead" sounds="FishHit" particle="WaterSplash" />
+		<react on="Hit" sounds="FishHit" particle="WaterSplash" />
+	</fx>
+
+	<fx id="DeadFish">
+		<react on="Dead" sounds="FishHit" particle="WaterSplash" />
+		<react on="Hit" sounds="FishHit" particle="WaterSplash" />
+	</fx>
+
+	<fx id="Shark">
+		<react on="Attack" sounds="FishHit" particle="WaterSplash" />
+		<react on="Dead" sounds="FishHit" particle="WaterSplash" />
+		<react on="Hit" sounds="FishHit" particle="WaterSplash" />
+	</fx>
+
+	<fx id="BabyShark">
+		<react on="Dead" sounds="FishHit" particle="WaterSplash"/>
+		<react on="Hit" sounds="FishHit" particle="WaterSplash"/>
+	</fx>
+
+	<fx id="DeadShark">
+		<react on="Dead" sounds="FishHit" particle="WaterSplash"/>
+		<react on="Hit" sounds="FishHit" particle="WaterSplash"/>
+	</fx>
+
+	<fx id="Rabbit">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="BabyRabbit">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="DeadRabbit">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="BeeSwarm">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="Bird">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="DeadBird">
+		<react on="Dead" particles="Bleed" />
+		<react on="Hit" particles="Bleed" />
+	</fx>
+
+	<fx id="StoneAxe">
+		<react on="Attack" sounds="WoodHit" />
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="StonePick">
+		<react on="Attack" sounds="StoneHit" />
+		<react on="Extract" sounds="StoneHit" />
+		<react on="Failed" sounds="Swing" particles="Smoke"/>
+	</fx>
+
+	<fx id="StoneSpear">
+		<react on="Attack" sounds="Punch" />
+	</fx>
+
+	<fx id="Club">
+		<react on="Attack" sounds="Punch"/>
+		<react on="Craft" sounds="Craft"/>
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="Hammer">
+		<react on="Craft" sounds="Craft"/>
+		<react on="Attack" sounds="AnvilCraft Hammering" />
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="IronHammer">
+		<react on="Craft" sounds="Craft"/>
+		<react on="Attack" sounds="AnvilCraft Hammering" />
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="Map">
+		<react on="Craft" sounds="Craft"/>
+	</fx>
+
+	<fx id="LeatherBag">
+		<react on="Craft" sounds="Craft"/>
+	</fx>
+
+	<fx id="FishNet">
+		<react on="Craft" sounds="Craft"/>
+	</fx>
+
+
+	<fx id="IronAxe">
+		<react on="Attack" sounds="WoodHit" />
+		<react on="Craft" sounds="AnvilCraft" />
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="IronPick">
+		<react on="Attack" sounds="StoneHit" />
+		<react on="Craft" sounds="AnvilCraft" />
+		<react on="Extract" sounds="StoneHit" />
+		<react on="Failed" sounds="Swing" particles="Smoke"/>
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="Machete">
+		<react on="Attack" sounds="Machete" />
+	</fx>
+
+	<fx id="FireSword">
+		<emit particles="Smoke" rate="0.5" height="0.2" scale="0.4"/>
+		<react on="Attack" sounds="Machete" />
+		<cause on="Attack" rate="0.25" duration="3" particles="OnFire"/>
+	</fx>
+
+	<fx id="Flamethrower">
+		<emit particles="Smoke" rate="0.5" height="0.2" scale="0.4"/>
+		<cause on="Attack" rate="0.25" duration="3" particles="OnFire"/>
+	</fx>
+
+	<fx id="RabbitTrap">
+		<react on="Craf" sounds="StoneCrafting" />
+		<react on="Dead" particles="BreakStone"/>
+		<react on="Hit" particles="BreakStone"/>
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="PalmLeaf">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="CookedFish">
+		<react on="Craft" sounds="EmberHit" />
+	</fx>
+
+	<fx id="Decoration" />
+
+	<fx id="Bones">
+		<react on="Dead" sound="Punch" />
+		<react on="Hit" sound="Punch" />
+	</fx>
+
+	<fx id="WoodTable">
+		<react on="Craft" sounds="WoodCrafting" />
+		<react on="Dead" particles="BreakWood" />
+		<react on="Hit" particles="HitWood" />
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="Torch">
+		<react on="Craft" sounds="Craft"/>
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="Bow">
+		<react on="Attack" sounds="ArrowHit" />
+		<react on="Craft" sounds="Craft"/>
+	</fx>
+
+	<fx id="Arrow">
+		<react on="Attack" sounds="Punch" />
+		<react on="Craft" sounds="Craft"/>
+	</fx>
+
+	<fx id="PoisonArrow">
+		<emit rate="0.5" particles="Poisoned"/>
+		<react on="Attack" sounds="Punch" />
+		<react on="Craft" sounds="Craft"/>
+		<cause on="Attack" rate="0.5" duration="10" particles="PoisonHit"/>
+	</fx>
+
+	<fx id="Fireball">
+		<emit rate="0.2" particles="Smoke"/>
+		<cause on="Attack" rate="0.25" duration="4" particles="OnFire"/>
+	</fx>
+
+	<fx id="Iceball">
+		<emit rate="0.5" particles="Smoke"/>
+		<cause on="Attack" rate="0.3" duration="8" particles="IceHit"/>
+	</fx>
+
+	<fx id="TowerArrow">
+		<react on="Attack" sounds="Punch" />
+	</fx>
+
+	<fx id="TowerPoisonArrow">
+		<emit rate="0.5" particles="Poisoned"/>
+		<react on="Attack" sounds="Punch" />
+		<cause on="Attack" rate="0.5" duration="10" particles="PoisonHit"/>
+	</fx>
+
+	<fx id="TowerFireball">
+		<emit rate="0.05" particles="OnFire"/>
+		<cause on="Attack" rate="0.25" duration="2" particles="OnFire"/>
+	</fx>
+
+	<fx id="TowerIceball">
+		<emit rate="0.05" particles="Smoke"/>
+		<cause on="Attack" rate="0.3" duration="5" particles="IceHit"/>
+	</fx>
+
+	<fx id="PowerBall">
+		<emit rate="0.05" particles="Smoke"/>
+		<cause on="Attack" rate="0.1" duration="0.1" particles="SmokeHit ElectricShock" sounds="ElectricHit" attach="true" wobble="0.1 0.2"/>
+	</fx>
+
+	<fx id="SuperFireBall">
+		<emit rate="0.05" particles="OnFire"/>
+		<cause on="Attack" rate="0.2" duration="2.5" particles="OnFire"/>
+	</fx>
+
+	<fx id="LightedTorch">
+		<react on="Craft" sounds="Craft"/>
+		<react on="Swing" sounds="Swing" />
+	</fx>
+
+	<fx id="MorningStar">
+		<react on="Attack" sounds="StoneHit" />
+		<react on="Craft" sounds="Craft"/>
+		<react on="Swing" sounds="Swing" />
+		<cause on="Attack" rate="0.1" duration="0.1" particles="OnFire SmokeHit ElectricShock" sounds="ElectricHit" attach="true" wobble="0.1 0.2"/>
+	</fx>
+
+	<fx id="Water">
+		<react on="Drop" sounds="WaterSplash" particles="WaterSplash"/>
+	</fx>
+
+	<fx id="WaterSplash" />
+
+	<fx id="BambooCup">
+		<react on="Extract" sounds="Water" />
+		<react on="Failed" sounds="Rotate" particles="Smoke"/>
+	</fx>
+
+	<fx id="Straw">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="Bamboo">
+	</fx>
+
+	<fx id="BambooCrop">
+		<react on="Craft" sounds="Plant" particles="BreakFoliage" />
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="BambooPlant">
+		<react on="Craft" sounds="Water" particles="BreakFoliage" />
+		<react on="Dead" sounds="FoliageHit" particle="BreakWood"/>
+		<react on="Hit" particle="HitWood" />
+	</fx>
+
+	<fx id="Campfire">
+		<emit rate="1" sounds="Fire" particles="Smoke" />
+		<react on="Hit" particles="OnFire"/>
+		<react on="Craft" sounds="Campfire" particles="OnFire"/>
+		<react on="Crafted" particles="Smoke" sounds="EmberHit" />
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="Smoking">
+		<react on="Hit" sounds="EmberHit" particles="Sparkles"/>
+		<emit rate="1" particles="Smoke"/>
+	</fx>
+
+	<fx id="Charcoal">
+		<react on="Craft" sounds="EmberHit" particles="Smoke"/>
+		<react on="Hit" particles="Smoke"/>
+	</fx>
+
+	<fx id="CookedMeat">
+		<react on="Craft" sounds="EmberHit" />
+	</fx>
+
+	<fx id="Seed" />
+
+	<fx id="Cactus">
+		<react on="Dead" particles="BreakFoliage"/>
+		<react on="Hit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="BambooTree">
+		<react on="Dead" sounds="FoliageHit" particles="BreakWood"/>
+		<react on="Hit" particles="HitWood"/>
+	</fx>
+
+	<fx id="WaterSpring">
+		<react on="Dead" sounds="DeadStone" />
+		<react on="Hit" sounds="StoneHit" />
+		<emit rate="1" sounds="WaterSpring"/>
+	</fx>
+
+	<fx id="Boulder">
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Hit" particles="BreakStone" wobble="0.5 0.7"/>
+	</fx>
+
+	<fx id="Shrub">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="Coral">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+
+	<fx id="Bush">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="Flower">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="Tree">
+		<react on="Dead" sounds="DeadTree" particles="BreakWood"/>
+		<react on="Hit" particles="HitWood HitLeaves" wobble="0.5 1" />
+	</fx>
+
+	<fx id="DeadTree">
+		<react on="Dead" sounds="DeadTree" particles="BreakWood"/>
+		<react on="Hit" particles="HitWood"/>
+	</fx>
+
+	<fx id="YoungPalmtree">
+		<react on="Dead" particles="BreakFoliage"/>
+		<react on="Hit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="TreeSapling">
+		<react on="Hit" particles="HitWood" wobble="0.5 1" />
+		<react on="Dead" particles="HitWood" />
+	</fx>
+
+	<fx id="Fern">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="WoodStructure">
+		<react on="Craft" sounds="WoodCrafting" />
+		<react on="Dead" sounds="DeadTree" particles="BreakWood"/>
+		<react on="Hit" particles="HitWood" wobble="0.5 1" />
+		<react on="View" sounds="Chest"/>
+		<react on="Drag" sounds="Rotate" />
+		<react on="Rotate" sounds="Rotate" />
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+	</fx>
+
+	<fx id="StoneStructure">
+		<react on="Craft" sounds="StoneSwitch" />
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" sounds="StoneHit" particles="HitStone" wobble="0.5 1" />
+		<react on="Rotate" sounds="Rotate" particles="Rotation"/>
+		<react on="Drag" sounds="StoneSwitch" />
+		<react on="Switch" sounds="StoneSwitch" />
+	</fx>
+
+	<fx id="IronStructure">
+		<react on="Craft" sounds="AnvilCraft" />
+		<react on="Dead" sounds="BreakMetal" particles="BreakMetal"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" sounds="MetalHit" particles="HitMetal Sparkles" wobble="0.5 1" />
+		<react on="Rotate" sounds="Rotate" particles="Rotation"/>
+		<react on="Drag" sounds="Rotate" />
+		<react on="Switch" sounds="Rotate" />
+	</fx>
+
+	<fx id="Furnace">
+		<react on="Craft" sounds="StoneSwitch" particles="OnFire"/>
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" particles="BreakStone"/>
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="Deck">
+		<react on="Craft" sounds="WoodCrafting" />
+		<react on="Dead" particles="BreakWood"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" particles="HitWood"/>
+	</fx>
+
+	<fx id="IronMine">
+		<react on="Dead" sounds="DeadStone" particles="BreakStone"/>
+		<react on="Hit" particles="BreakStone"/>
+	</fx>
+
+	<fx id="Foliage">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+
+	<fx id="Bucket">
+		<react on="Craft" sounds="Bucket" />
+		<react on="Extract" sounds="Water" />
+		<react on="Failed" sounds="Rotate" particles="Smoke"/>
+	</fx>
+
+	<fx id="ClosedDoor">
+		<react on="Switch" sounds="OpenDoor" />
+	</fx>
+
+	<fx id="OpenDoor">
+		<react on="Switch" sounds="ClosedDoor" />
+	</fx>
+
+	<fx id="CornBread">
+		<react on="Craft" sounds="EmberHit" />
+	</fx>
+
+	<fx id="CornTree">
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+	<fx id="Plantation">
+		<react on="Craft" sounds="Plant" particles="BreakFoliage" />
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="CornSeedlings">
+		<react on="Craft" sounds="Plant" particles="BreakFoliage" />
+	</fx>
+
+	<fx id="CornCrops">
+		<react on="Craft" sounds="Water" particles="BreakFoliage" />
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="FertilizedCornCrops">
+		<react on="Craft" sounds="Water" particles="BreakFoliage" />
+		<react on="Dead" sounds="FoliageHit" particles="BreakFoliage"/>
+		<react on="Hit" sounds="FoliageHit" particles="BreakFoliage"/>
+	</fx>
+
+
+	<fx id="Gravel">
+		<react on="Craft" sounds="StoneCrafting" />
+		<react on="Dead" particles="BreakStone" />
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" particles="HitStone" />
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="WoodFloor">
+		<footsteps sounds="FootstepsWood" />
+		<react on="Craft" sounds="WoodCrafting" />
+		<react on="Dead" particles="BreakWood"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" particles="BreakWood" />
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="StonePaving">
+		<footsteps sounds="FootstepsStone" />
+		<react on="Craft" sounds="StoneCrafting" />
+		<react on="Dead" particles="BreakStone"/>
+		<react on="Heal" sounds="Hammering" particles="Healing"/>
+		<react on="Hit" particles="BreakStone"/>
+		<react on="Drag" sounds="Rotate" />
+	</fx>
+
+	<fx id="Token">
+		<react on="Consume" particles="Sparkles" />
+		<emit rate="5" particles="Sparkles" />
+	</fx>
+
+	<fx id="SOSTower">
+		<emit rate="18" sounds="SOS" />
+	</fx>
+
+</game>

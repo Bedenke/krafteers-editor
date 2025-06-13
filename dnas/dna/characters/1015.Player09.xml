@@ -1,0 +1,15 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">Blob</sprite>
+	<fx>Blob</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<resistInfection>100</resistInfection>
+	<modifyInfection>5</modifyInfection>
+	<modifyHealth>-10</modifyHealth>
+	<modifyRange>3</modifyRange>
+	<modifyExplode>false</modifyExplode>
+	<rate>2</rate>
+	<light range="3" r="0.2" g="1" b="0.2"/>
+	<price>500</price>
+	<recipePriority>10</recipePriority>
+</dna>

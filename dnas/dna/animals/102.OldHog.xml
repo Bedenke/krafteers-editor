@@ -1,0 +1,18 @@
+<dna>
+	<sprite scale="1.1" tint="#777777FF">TamedHog</sprite>
+	<starve>true</starve>
+	<mobility>Ground Field Land Sand</mobility>
+	<maxHealth>50</maxHealth>
+	<maxStamina>50</maxStamina>
+	<speed>2</speed>
+	<range>5</range>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<group>Herbivore</group>
+	<consume>Vegetable Mineral</consume>
+	<modifyStamina>-1</modifyStamina>
+	<morph delay="60">DeadHog</morph>
+	<split range="0">1 DeadHog 1 BloodSplatter</split>
+	<actions>Label</actions>
+	<editor category="Animals" />
+</dna>

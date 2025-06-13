@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="1" />
+	<populationRatio>5</populationRatio>
+	<group>Vegetation</group>
+	<mobility>Land Sand</mobility>
+	<maxHealth>6</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<spawn interval="28" range="2">Bush</spawn>
+	<split range="0.2">1 Foliage</split>
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+</dna>

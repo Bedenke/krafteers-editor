@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="0.5">Arrow</sprite>
+	<fx>Arrow WoodItem</fx>
+	<maxHealth>20</maxHealth>
+	<modify>Player Target Structure</modify>
+	<modifyHealth>-2</modifyHealth>
+	<actionRange>1</actionRange>
+	<expire>1</expire>
+</dna>

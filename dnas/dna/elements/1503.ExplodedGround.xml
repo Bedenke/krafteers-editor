@@ -1,0 +1,6 @@
+<dna>
+    <sprite scale="2" layer="Ground">AssetShadow</sprite>
+    <fx>Burning</fx>
+    <morph delay="1"></morph>
+    <selectable>false</selectable>
+</dna>

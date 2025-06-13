@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.6" />
+	<group>Wood</group>
+	<populationRatio>20</populationRatio>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<expire>45</expire>
+	<stack>8</stack>
+	<split range="0">1 BambooCup</split>
+	<actions>Pick</actions>
+	<editor category="Items" />
+</dna>

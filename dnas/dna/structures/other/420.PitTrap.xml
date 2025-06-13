@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.8" />
+ 	<mobility>Land Sand Field Ground</mobility>	
+	<maxHealth>500</maxHealth>
+	<group>Target Structure</group>
+	<modify>Enemy</modify>
+	<modifyHealth>-30</modifyHealth>
+	<recipe>1 StoneSpear 1 Foliage</recipe>
+	<recipePriority>4</recipePriority>
+	<split range="0">1 Flint</split>
+	<actionRange>1.5</actionRange>
+	<actions>Drag</actions>
+	<chase>Enemy</chase>
+	<editor category="Tools" />
+</dna>

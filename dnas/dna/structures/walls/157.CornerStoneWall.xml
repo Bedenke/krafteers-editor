@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="1.15" />
+	<fx>StoneStructure</fx>
+	<density>100</density>
+	<maxHealth>150</maxHealth>
+	<modifyStamina>-3</modifyStamina>
+	<group>Rock Structure</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<switch>StoneWall</switch>
+	<recipe>1 CornerWoodWall 1 Stone</recipe>
+	<resistCold>100</resistCold>
+	<resistHeat>50</resistHeat>
+	<split range="1">1 Stone</split>
+	<drop chance="50">Stick</drop>
+	<actions>Drag Switch Craft</actions>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<collectible>false</collectible>
+</dna>

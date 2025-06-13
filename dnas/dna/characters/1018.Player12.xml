@@ -1,0 +1,16 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.1" offsetZ="0">Spectre</sprite>
+	<fx>Spectre</fx>
+	<maxHealth>500</maxHealth>
+	<maxStamina>500</maxStamina>
+	<modifyHealth>-10</modifyHealth>
+	<resistCold>100</resistCold>
+	<resistInfection>100</resistInfection>
+	<resistHeat>100</resistHeat>
+	<speed>4</speed>
+	<fly>10</fly>
+	<light range="2" r="0" g="0.3" b="0.3"/>
+	<price>10000</price>
+	<recipePriority>15</recipePriority>
+	<deprecated>true</deprecated>
+</dna>

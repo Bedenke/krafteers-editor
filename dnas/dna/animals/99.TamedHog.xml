@@ -1,0 +1,26 @@
+<dna>
+	<sprite scale="1.1" tint="#FFCCCCFF"/>
+	<starve>true</starve>
+	<visibility>Always</visibility>
+	<mobility>Ground Field Land Sand</mobility>
+	<maxHealth>500</maxHealth>
+	<heal>1</heal>
+	<maxStamina>100</maxStamina>
+	<speed>5</speed>
+	<range>5</range>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<group>Herbivore</group>
+	<chase>Bird</chase>
+	<consume>Vegetable Mineral</consume>
+	<modifyHealth>-10</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<morph delay="120">OldHog</morph>
+	<split range="0">1 DeadHog 1 BloodSplatter</split>
+	<spawn interval="4" range="0">Fertilizer</spawn>
+	<spawn interval="20" range="1">BabyHog</spawn>
+	<recipe>1 BabyHog 2 Apple 2 Corn 1 Water</recipe>
+	<actions>Mount Label</actions>
+	<editor category="Animals" />
+	<price>200</price>
+</dna>

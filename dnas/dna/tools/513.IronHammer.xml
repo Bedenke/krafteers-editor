@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="0.5" />
+	<group>Metal</group>
+	<maxHealth>250</maxHealth>
+
+	<modify>Structure</modify>
+	<modifyHealth>6</modifyHealth>
+
+	<drop chance="30">IronOre</drop>
+	<split range="0">1 Stick</split>
+	<recipe>0 Anvil 2 IronIngot 1 Stick</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<editor category="Tools" />
+	<price>75</price>
+</dna>

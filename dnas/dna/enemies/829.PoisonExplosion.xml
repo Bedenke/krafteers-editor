@@ -1,0 +1,13 @@
+<dna>
+	<sprite>PoisonPuddle</sprite>
+	<maxHealth>1</maxHealth>
+	<modify>Player Team Carnivore Herbivore</modify>
+	<modifyHealth>-1</modifyHealth>
+	<modifyInfection>15</modifyInfection>
+	<modifyRange>3</modifyRange>
+	<modifyExplode>true</modifyExplode>
+	<split range="3">2 PoisonPuddle</split>
+	<countdown>0</countdown>
+	<counterMode>Modify</counterMode>
+	<selectable>false</selectable>
+</dna>

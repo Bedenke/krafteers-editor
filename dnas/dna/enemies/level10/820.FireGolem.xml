@@ -1,0 +1,32 @@
+<dna>
+	<sprite scale="1.3" />
+	<level>10</level>
+	<populationRatio>5</populationRatio>
+	<visibility>Always</visibility>
+	<maxHealth>200</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>2</speed>
+	<range>30</range>
+	<pathfindRange>200</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<targeting>Smart</targeting>
+	<chase>Player Home Target Structure</chase>
+
+	<group>Enemy Wave</group>
+	<modify>Player Structure Target</modify>
+	<modifyHealth>-3</modifyHealth>
+	<modifyTemperature>2</modifyTemperature>
+	<modifyBack>false</modifyBack>
+	<modifyCounter>2</modifyCounter>
+	<actionRange>1</actionRange>
+	<rate>8</rate>
+	<resistHeat>100</resistHeat>
+
+	<drop chance="10" range="0.5">Token</drop>
+	<drop chance="2">FireGem</drop>
+	<drop chance="10">Charcoal</drop>
+	<drop chance="20">IronIngot</drop>
+	<split range="0">1 Explosion</split>
+	<light range="2" r="1" g="0.8" b="0"/>
+	<editor category="Enemies" />
+</dna>

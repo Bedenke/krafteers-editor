@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="0.5" frameRate="0.1"/>
+	<group>Metal</group>
+	<maxHealth>30000</maxHealth>
+	<modify>Structure Player Target Enemy Carnivore Herbivore Wood Rock Portal Fish</modify>
+	<cast speed="15" range="8" spawn="true">SuperFireBall</cast>
+	<light range="7" r="0.7" g="0" b="0.7"/>
+	<split range="0">1 Stick</split>
+	<recipe>0 Shaman 1 IronIngot 1 PowerGem 1 FireGem 1 IceGem 1 DiamondStar</recipe>
+	<recipe>0 MonolithRuins 1 IronIngot 1 PowerGem 1 FireGem 1 IceGem 1 DiamondStar</recipe>
+	<equip>Hand</equip>
+	<actions>Pick</actions>
+	<price>0</price>
+	<editor category="Tools" />
+</dna>

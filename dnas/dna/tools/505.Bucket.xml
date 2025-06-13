@@ -1,0 +1,11 @@
+<dna>
+	<sprite scale="0.5" drawAsEquip="false" />
+	<group>Metal</group>
+	<maxHealth>40</maxHealth>
+	<recipe>0 Anvil 1 IronIngot 1 Vine</recipe>
+	<equip>Hand</equip>
+	<actions>Pick View</actions>
+	<extract from="Lake">Water</extract>
+	<container stash="true" dnas="Water">3</container>
+	<editor category="Tools" />
+</dna>

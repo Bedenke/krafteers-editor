@@ -1,0 +1,10 @@
+<dna>
+	<terrainColor>#162c4eff</terrainColor>
+	<terrainLevel>1</terrainLevel>
+	<surface>Sea</surface>
+	<density>100</density>
+	<height>-1</height>
+	<range>0</range>
+	<bounds>0</bounds>
+	<temperature>0</temperature>
+</dna>

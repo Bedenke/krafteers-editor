@@ -1,0 +1,21 @@
+<dna>
+	<sprite scale="2" />
+	<visibility>Always</visibility>
+	<fx>IronStructure</fx>
+	<density>100</density>
+	<group>Target Structure Metal</group>
+	<maxHealth>2500</maxHealth>
+	<split range="0">1 Flag</split>
+	<modifyStamina>-3</modifyStamina>
+	<light range="2" r="1" g="0.4" b="0"/>
+	<snap>true</snap>
+	<price>25</price>
+	<recipe price="25">1 Flag</recipe>
+	<shieldRange>30</shieldRange>
+	<teamRequired>true</teamRequired>
+	<countdown>86400</countdown>
+	<counterMode>Morph</counterMode>
+	<morph>Flag</morph>
+	<resetPrice>25</resetPrice>
+	<actions>Craft Reset</actions>
+</dna>

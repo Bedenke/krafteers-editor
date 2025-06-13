@@ -1,0 +1,14 @@
+<dna>
+	<sprite scale="0.5" />
+	<maxHealth>1</maxHealth>
+
+	<group>Meat</group>
+	<modifyStamina>100</modifyStamina>
+
+	<expire>40</expire>
+	<stack>5</stack>
+
+	<actions>Pick Consume</actions>
+	<recipe>1 DeadFish 0 Campfire</recipe>
+	<editor category="Items" />
+</dna>

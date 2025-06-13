@@ -1,0 +1,17 @@
+<dna>
+	<sprite scale="0.6" />
+	<density>100</density>
+	<fx>WoodStructure</fx>
+	<group>Wood Structure</group>
+	<maxHealth>230</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<split range="0.5">2 Stick</split>
+	<recipe>1 WoodLog 1 Vine</recipe>
+
+	<container stash="true">28</container>
+
+	<actions>View Label Drag</actions>
+	<editor category="Tools" />
+	<snap>true</snap>
+	<recipePriority>4</recipePriority>
+</dna>

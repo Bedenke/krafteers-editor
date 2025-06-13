@@ -1,0 +1,7 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1" offsetZ="0">Krafteer</sprite>
+	<maxHealth>300</maxHealth>
+	<maxStamina>300</maxStamina>
+	<price>200</price>
+	<recipePriority>6</recipePriority>
+</dna>

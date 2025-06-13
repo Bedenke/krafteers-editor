@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.7">Bird</sprite>
+	<maxHealth>15</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Flesh</group>
+	<expire>20</expire>
+	<drop chance="50">Bones</drop>
+	<split range="0">1 Meat</split>
+	<collectible>false</collectible>
+</dna>

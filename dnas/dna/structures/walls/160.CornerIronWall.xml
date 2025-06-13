@@ -1,0 +1,20 @@
+<dna>
+	<sprite scale="1.15" />
+	<fx>IronStructure</fx>
+	<density>100</density>
+	<maxHealth>250</maxHealth>
+	<modifyStamina>-3</modifyStamina>
+	<group>Metal Structure</group>
+	<mobility>Land Sand Field Ground</mobility>
+	<switch>IronWall</switch>
+	<recipe>1 CornerStoneWall 1 IronIngot</recipe>
+	<resistCold>100</resistCold>
+	<resistHeat>75</resistHeat>
+	<split range="1">1 IronOre</split>
+	<drop chance="50">Stone</drop>
+	<drop chance="50">Stick</drop>
+	<actions>Drag Switch</actions>
+	<editor category="Structures" />
+	<snap>true</snap>
+	<collectible>false</collectible>
+</dna>

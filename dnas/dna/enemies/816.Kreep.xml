@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="1.1" />
+	<maxHealth>100</maxHealth>
+	<maxStamina>1000</maxStamina>
+	<speed>6</speed>
+	<range>30</range>
+	<chase>Player</chase>
+
+	<group>Enemy</group>
+	<modify>Player</modify>
+	<modifyBack>false</modifyBack>
+
+	<countdown>10</countdown>
+	<counterMode>Morph</counterMode>
+	
+	<modifyHealth>-4</modifyHealth>
+
+	<actionRange>1</actionRange>
+	<rate>1</rate>
+
+	<morph delay="5">KreepBomb</morph>
+	<split>1 BloodSplatter</split>
+	<light range="2" r="1" g="0.2" b="0.2"/>
+	<editor category="Enemies" />
+</dna>

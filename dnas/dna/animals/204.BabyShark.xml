@@ -1,0 +1,23 @@
+<dna>
+	<sprite scale="0.5">Shark</sprite>
+	<starve>true</starve>
+	<populationRatio>20</populationRatio>
+	<mobility>Sea</mobility>
+
+	<maxHealth>30</maxHealth>
+	<maxStamina>100</maxStamina>
+
+	<speed>8</speed>
+	<range>10</range>
+
+	<group>Fish</group>
+	<chase excludeDnas="DeadShark">Flesh</chase>
+	<consume>Meat</consume>
+
+	<modifyHealth>-5</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+
+	<morph delay="10">Shark</morph>
+	<split range="0">1 Bones 1 BloodSplatter</split>
+	<collectible>false</collectible>
+</dna>

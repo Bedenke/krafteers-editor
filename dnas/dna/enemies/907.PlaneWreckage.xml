@@ -1,0 +1,9 @@
+<dna>
+	<fx>Smoking</fx>
+	<sprite scale="3.5"/>
+	<bounds>2</bounds>
+	<density>100</density>
+	<container>5</container>
+	<actions>View</actions>
+	<editor category="Items" />
+</dna>

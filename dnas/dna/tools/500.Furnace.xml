@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="0.8" />
+	<density>100</density>
+
+	<group>Structure Rock</group>
+	<maxHealth>340</maxHealth>
+
+	<modifyStamina>-3</modifyStamina>
+	<resistCold>100</resistCold>
+
+	<split range="1">4 Stone 1 Charcoal</split>
+	<recipe>1 Charcoal 4 Stone 2 WoodLog</recipe>
+	<recipePriority>4</recipePriority>
+	<actions>Craft Drag</actions>
+	<light range="2" r="1" g="0.2" b="0.1"/>
+	<editor category="Tools" />
+	<snap>true</snap>
+	<price>50</price>
+</dna>

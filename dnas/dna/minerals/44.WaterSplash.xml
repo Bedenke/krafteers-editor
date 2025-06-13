@@ -1,0 +1,8 @@
+<dna>
+	<sprite scale="0.7" />
+	<expire>3</expire>
+	<group>Mineral</group>
+	<modify>Carnivore Herbivore</modify>
+	<modifyStamina>5</modifyStamina>
+	<maxHealth>1</maxHealth>
+</dna>

@@ -1,0 +1,15 @@
+<dna>
+	<sprite scale="1" />
+	<maxHealth>20</maxHealth>
+	<surface>Occupied</surface>
+	
+	<group>Wood</group>
+
+	<modify>Carnivore Herbivore</modify>
+	<modifyStamina>-2</modifyStamina>
+	<split range="0">1 Bamboo 1 BambooCrop</split>
+
+	<recipe>1 BambooCrop 1 Water 1 Fertilizer</recipe>
+	<snap>true</snap>
+	<editor category="Vegetation" />
+</dna>

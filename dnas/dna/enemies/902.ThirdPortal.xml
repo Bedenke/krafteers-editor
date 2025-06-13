@@ -1,0 +1,9 @@
+<dna>
+	<fx>ActivePortal</fx>
+	<sprite frameRate="0.08" scale="1.8" layer="Ground">ActivePortal</sprite>
+	<visibility>Always</visibility>
+	<light range="4" r="0.2" g="0.8" b="0.8"/>
+	<recipe>1 Portal3 1 IceGem</recipe>
+	<waveSpawner>true</waveSpawner>
+	<price>0</price>
+</dna>

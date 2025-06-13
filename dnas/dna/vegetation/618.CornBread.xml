@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="0.5" />
+	<maxHealth>3</maxHealth>
+	<group>Vegetable Food</group>
+	<expire>120</expire>
+
+	<modify>Herbivore Carnivore Player Team</modify>
+	<modifyHealth>15</modifyHealth>
+	<modifyStamina>100</modifyStamina>
+	<recipe>0 Furnace 2 Corn 1 Water</recipe>
+	<stack>3</stack>
+
+	<actions>Pick Consume Apply</actions>
+	<price>25</price>
+	<editor category="Items" />
+</dna>

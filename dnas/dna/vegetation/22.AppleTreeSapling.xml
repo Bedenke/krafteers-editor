@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="0.5">AppleTree</sprite>
+	<fx>TreeSapling</fx>
+	<populationRatio>18</populationRatio>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Wood</group>
+	<split range="0">1 Stick</split>
+	<morph delay="15">AppleTree</morph>
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+	<collectible>false</collectible>
+</dna>

@@ -1,0 +1,10 @@
+<dna>
+	<sprite scale="0.7">Fireball</sprite>
+	<maxHealth>10</maxHealth>
+	<modify>Structure Player Target Enemy Carnivore Herbivore Wood Rock Fish</modify>
+	<modifyHealth>-1000</modifyHealth>
+	<expire>1</expire>
+	<light range="1" r="0.1" g="0.5" b="0.6"/>
+	<split range="0">1 TeamExplosion</split>
+	<selectable>false</selectable>
+</dna>

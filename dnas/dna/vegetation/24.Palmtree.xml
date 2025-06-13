@@ -1,0 +1,20 @@
+<dna>
+	<sprite scale="1.8" />
+	<fx>Tree</fx>
+	<density>100</density>
+	<populationRatio>14</populationRatio>
+	<group>Wood</group>
+	<maxHealth>100</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<spawn interval="91" range="1">YoungPalmtree Coconut YoungPalmtree</spawn>
+	<generate interval="4">Coconut</generate>
+	<container>1</container>
+	<morph delay="256">DeadPalmTree</morph>
+	<drop chance="75">WoodLog</drop>
+	<drop>WoodLog</drop>
+	<drop>PalmLeaf</drop>
+	<split range="0">1 PalmTreeStump</split>
+	<actions>View</actions>
+	<editor category="Vegetation" />
+	<finalWave>true</finalWave>
+</dna>

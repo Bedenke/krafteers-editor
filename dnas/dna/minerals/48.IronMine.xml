@@ -1,0 +1,14 @@
+<dna>Ø
+	<sprite scale="1.5" />
+	<populationRatio>5</populationRatio>
+	<density>100</density>
+	<maxHealth>190</maxHealth>
+	<modifyStamina>-3</modifyStamina>
+	<group>Rock</group>
+	<spawn interval="5" range="1">Spider IronOre</spawn>
+	<drop chance="60">Spider</drop>
+	<split range="1">2 Stone 4 IronOre</split>
+	<editor category="Minerals" />
+	<sensor range="5" spawn="Kreep" chance="5" interval="10" activePeriod="0 4" include="Player" />
+	<finalWave>true</finalWave>
+</dna>

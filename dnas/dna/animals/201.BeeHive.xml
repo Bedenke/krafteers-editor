@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="1.8" />
+	<fx>DeadTree</fx>
+	<populationRatio>12</populationRatio>
+	<maxHealth>60</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<group>Wood</group>
+	<spawn interval="5" range="1">BeeSwarm</spawn>
+	<split range="0">1 WoodLog 1 Honey 1 BeeSwarm 1 TreeStump</split>
+	<morph delay="200">Stick Straw DeadTree</morph>
+	<editor category="Vegetation" />
+</dna>

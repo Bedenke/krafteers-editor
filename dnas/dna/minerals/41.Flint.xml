@@ -1,0 +1,9 @@
+<dna>
+	<sprite scale="0.5" layer="Ground"/>
+	<fx>StoneItem</fx>
+	<populationRatio>15</populationRatio>
+	<actions>Pick</actions>
+	<stack>10</stack>
+	<resistCold>100</resistCold>
+	<editor category="Minerals" />
+</dna>

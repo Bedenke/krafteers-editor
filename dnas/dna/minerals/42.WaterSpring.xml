@@ -1,0 +1,16 @@
+<dna>
+	<sprite scale="1.3" />
+	<populationRatio>3</populationRatio>
+	<density>100</density>
+	<mobility>Land</mobility>
+
+	<group>Rock</group>
+	<maxHealth>290</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<generate interval="1">Water</generate>
+	<container>1</container>
+	<split range="0">3 Stone 2 WaterSplash</split>
+
+	<actions>View Craft</actions>
+	<editor category="Minerals" />
+</dna>

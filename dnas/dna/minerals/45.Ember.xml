@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.7" />
+	<fx>Smoking</fx>
+	<group>Wood</group>
+	<maxHealth>40</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<stack>3</stack>
+	<actions>Pick Craft</actions>
+	<expire>30</expire>
+	<light range="1" r="1" g="0" b="0.1"/>
+	<editor category="Minerals" />
+</dna>

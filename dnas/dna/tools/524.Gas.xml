@@ -1,0 +1,6 @@
+<dna>
+	<fx>Item</fx>
+	<sprite scale="0.7" />
+	<actions>Pick</actions>
+	<editor category="Items" />
+</dna>

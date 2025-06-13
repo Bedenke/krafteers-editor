@@ -1,0 +1,12 @@
+<dna>
+	<sprite scale="0.5" />
+	<fx>Item</fx>
+	<populationRatio>50</populationRatio>
+	<maxHealth>3</maxHealth>
+	<group>Vegetable</group>
+	<morph delay="80">CornTree</morph>
+	<modifyStamina>4</modifyStamina>
+	<actions>Pick</actions>
+	<stack>5</stack>
+	<editor category="Items" />
+</dna>

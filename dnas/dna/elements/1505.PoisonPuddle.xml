@@ -1,0 +1,7 @@
+<dna>
+	<sprite scale="0.5" layer="Ground"/>
+    <fx>Infecting</fx>
+	<morph delay="2"></morph>
+    <selectable>false</selectable>
+    <light range="1" r="0.2" g="1" b="0.2"/>
+</dna>

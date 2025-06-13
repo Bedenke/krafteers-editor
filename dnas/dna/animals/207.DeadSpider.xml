@@ -1,0 +1,6 @@
+<dna>
+	<sprite scale="0.5">Spider</sprite>
+	<expire>10</expire>
+	<actions>Pick</actions>
+	<stack>5</stack>
+</dna>

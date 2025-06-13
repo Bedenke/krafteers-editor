@@ -1,0 +1,25 @@
+<dna>
+	<sprite scale="0.85" />
+	<starve>true</starve>
+	<mobility>Ground Field Land Sand</mobility>
+	<visibility>Always</visibility>
+	<maxHealth>400</maxHealth>
+	<heal>1</heal>
+	<maxStamina>200</maxStamina>
+	<speed>6</speed>
+	<range>6</range>
+	<pathfindRange>40</pathfindRange>
+	<pathfindMode>Best</pathfindMode>
+	<recipe>1 BabyWolf 2 Bones 1 Meat 1 Water</recipe>
+	<group>Team Target</group>
+	<chase exclude="Target Player">Enemy Carnivore Bird</chase>
+	<consume>Meat Mineral</consume>
+	<modify>Enemy Carnivore Bird</modify>
+	<modifyHealth>-8</modifyHealth>
+	<modifyStamina>-1</modifyStamina>
+	<resistCold>100</resistCold>
+	<split range="0">1 DeadWolf 1 BloodSplatter</split>
+	<actions>Label Link Guard</actions>
+	<editor category="Characters" />
+	<price>200</price>
+</dna>

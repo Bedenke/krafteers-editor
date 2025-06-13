@@ -1,0 +1,6 @@
+<dna>
+	<sprite>EnemyHealer</sprite>
+	<expire>1</expire>
+	<selectable>false</selectable>
+	<collectible>false</collectible>
+</dna>

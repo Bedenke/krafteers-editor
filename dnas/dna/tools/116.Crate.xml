@@ -1,0 +1,19 @@
+<dna>
+	<sprite scale="0.8" />
+	<populationRatio>0.5</populationRatio>
+	<fx>WoodStructure</fx>
+	<density>100</density>
+	<group>Wood</group>
+	<maxHealth>10</maxHealth>
+	<modifyStamina>-1</modifyStamina>
+	<drop chance="30">Gas</drop>
+	<drop chance="30">Pipe</drop>
+	<drop chance="20">MedKit</drop>
+	<drop chance="50">Medicine</drop>
+	<drop chance="10">Medicine</drop>
+	<drop chance="80">WaterBottle</drop>
+	<drop chance="100">Token</drop>
+	<drop chance="90">Token</drop>
+	<drop chance="80">Token</drop>
+	<drop chance="70">Token</drop>
+</dna>

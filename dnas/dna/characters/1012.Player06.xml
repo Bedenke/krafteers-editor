@@ -1,0 +1,10 @@
+<dna extends="./1005.PlayerMale.xml">
+	<sprite scale="1.2" offsetZ="0" tint="#92b6f0ff" >Shaman</sprite>
+	<fx>HumanHealer</fx>
+	<maxHealth>300</maxHealth>
+	<maxStamina>300</maxStamina>
+	<modify>Team Player</modify>
+	<modifyHealth>6</modifyHealth>
+	<price>300</price>
+	<recipePriority>7</recipePriority>
+</dna>

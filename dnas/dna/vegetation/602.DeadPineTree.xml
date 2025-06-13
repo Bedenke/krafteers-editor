@@ -1,0 +1,13 @@
+<dna>
+	<sprite scale="1.8" />
+	<fx>DeadTree</fx>
+	<populationRatio>10</populationRatio>
+	<density>100</density>
+	<maxHealth>40</maxHealth>
+	<modifyStamina>-2</modifyStamina>
+	<morph delay="125">Straw Pine</morph>
+	<spawn interval="60" range="1">BabyWolf</spawn>
+	<group>Wood</group>
+	<split range="0">1 WoodLog 1 Straw 1 TreeStump</split>
+	<editor category="Vegetation" />
+</dna>
