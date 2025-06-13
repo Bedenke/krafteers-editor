@@ -2,7 +2,43 @@
 
 Welcome to the Krafteers documentation. This index provides an overview of the available documentation and links to specific topics.
 
+## Quick start
+
+To run the game in editor mode.
+
+```
+# Running on Windows
+
+> kr-launch.bat
+
+# Or run the jar file directly:
+
+> cd assets
+> java -jar ../editor.jar launch
+```
+
+```
+# Running on macOS
+
+> kr-launch.sh
+
+# Or run the jar file directly:
+
+> cd ./assets
+> java -XstartOnFirstThread -jar ../editor.jar launch
+```
+
+As you can see the [**JAVA RUNTIME IS REQUIRED**](https://www.java.com/en/download/manual.jsp)!
+
 ## Core Systems
+
+### [→ Editor System](Editor.md)
+The editor documentation includes:
+- Compiler arguments and usage
+- Hot reload system functionality
+- Asset monitoring and management
+- Development workflow
+- Best practices for using the editor
 
 ### [→ Map System](Maps.md)
 The map system documentation covers:
@@ -21,14 +57,6 @@ The DNA system documentation details:
 - Inheritance system
 - Best practices for entity creation
 - Complete reference of available properties
-
-### [→ Editor System](Editor.md)
-The editor documentation includes:
-- Compiler arguments and usage
-- Hot reload system functionality
-- Asset monitoring and management
-- Development workflow
-- Best practices for using the editor
 
 ## Getting Started
 
