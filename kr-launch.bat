@@ -1,2 +1,2 @@
 cd assets
-java -jar editor.jar launch
+java -jar ..\editor.jar launch net-stats

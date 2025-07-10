@@ -1,2 +1,2 @@
 cd ./assets
-java -XstartOnFirstThread -jar ../editor.jar launch
+java -XstartOnFirstThread -jar ../editor.jar launch net-stats
