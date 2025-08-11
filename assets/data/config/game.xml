@@ -16,13 +16,13 @@
 		<add dna="Campfire" x="16" y="33" />
 
 		<add dna="PlaneWreckage" x="13" y="27" />
-		<story dna="Monolith" x="18" y="38" h="2" map="MainIsland" />
+		<story dna="Monolith" x="16" y="40" h="2" map="MainIsland" />
 		<add dna="LightedTorch" x="20" y="38" />
-		<add dna="LeafShelter" x="22" y="33" />
+		<sandbox dna="LeafShelter" x="22" y="33" h="-1.5" />
 		<add dna="Anvil" x="24" y="34" />
 		<add dna="Furnace" x="24" y="33" />
 
-		<add dna="Portal1" x="22" y="38" h="2" />
+		<add dna="Portal1" x="21" y="39" h="2" />
 		<add dna="Skull" x="23" y="39" />
 		<add dna="Bones" x="20" y="40" />
 

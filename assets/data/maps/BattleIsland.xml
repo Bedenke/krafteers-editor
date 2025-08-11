@@ -75,12 +75,12 @@
     <add dna="Gravel" x="38" y="33" />
     <add dna="Gravel" x="39" y="33" />
 
-    <add dna="FirstPortal" x="24" y="17" />
-    <add dna="SecondPortal" x="18" y="34" />
-    <add dna="ThirdPortal" x="49" y="20" />
-    <add dna="LastPortal" x="50" y="34" />
+    <add dna="Portal2" x="24" y="17" />
+    <add dna="Portal2" x="18" y="34" />
+    <add dna="Portal2" x="49" y="20" />
+    <add dna="Portal2" x="50" y="34" />
     <add dna="Portal2" x="43" y="45" />
-    <add dna="Portal3" x="29" y="45" />
+    <add dna="Portal2" x="29" y="45" />
 
     <add dna="WoodTable" x="34" y="31"/>
     <add dna="Anvil" x="35" y="30"/>
